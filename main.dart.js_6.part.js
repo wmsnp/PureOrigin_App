@@ -1,1885 +1,3764 @@
-((a,b,c)=>{a[b]=a[b]||{}
-a[b][c]=a[b][c]||[]
-a[b][c].push({p:"main.dart.js_6",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,F,E,B={aE6:function aE6(){},aE7:function aE7(){},aE8:function aE8(){},
-bOj(d,e,f,g,h){var x,w=J.ae(g),v=J.av(w.i(g,"data"),"type"),u=J.av(w.i(g,"data"),"created_at")
-if(u==null)u=0
-x=$.bss().i(0,v)
-if(x==null)return D.bca
-return x.a7n(d,e,f,u,h)},
-a1T:function a1T(){},
-abW:function abW(){},
-F_:function F_(d,e,f){this.c=d
-this.d=e
-this.a=f},
-aoW:function aoW(){var _=this
-_.d=null
-_.e=!0
-_.c=_.a=_.f=null},
-bd7:function bd7(d,e){this.a=d
-this.b=e},
-bd6:function bd6(d){this.a=d},
-bd8:function bd8(d){this.a=d},
-bd9:function bd9(d,e){this.a=d
-this.b=e},
-bwQ(d){var x,w="nutrients",v=A.A(y.N,y.i),u=J.ae(d)
-if(u.i(d,w)!=null)J.dL(y.f.a(u.i(d,w)),new B.aQm(v))
-x=u.i(d,"name")
-if(x==null)x=""
-u=A.Ix(u.i(d,"amount"))
-return new B.lp(x,u==null?0:u,v)},
-CP:function CP(d,e,f,g){var _=this
-_.c=d
-_.d=e
-_.e=f
-_.a=g},
-a1U:function a1U(){this.d=$
-this.c=this.a=null},
-aBd:function aBd(){},
-aBc:function aBc(){},
-aB3:function aB3(d,e){this.a=d
-this.b=e},
-aB6:function aB6(d,e){this.a=d
-this.b=e},
-aB4:function aB4(d){this.a=d},
-aB5:function aB5(d){this.a=d},
-aB7:function aB7(d,e){this.a=d
-this.b=e},
-aBa:function aBa(d){this.a=d},
-aB9:function aB9(){},
-aBb:function aBb(d){this.a=d},
-aB8:function aB8(d,e){this.a=d
-this.b=e},
-lp:function lp(d,e,f){this.a=d
-this.b=e
-this.c=f},
-aQm:function aQm(d){this.a=d},
-aiL:function aiL(){},
-FK:function FK(d,e,f){this.c=d
-this.d=e
-this.a=f},
-abX:function abX(){this.d=$
-this.c=this.a=null},
-aXt:function aXt(d,e){this.a=d
-this.b=e},
-ara:function ara(){},
-bO9(d){var x,w=J.ae(d),v=A.be(w.i(d,"id")),u=A.be(w.i(d,"text")),t=A.be(w.i(d,"type")),s=y.aL.a(w.i(d,"options"))
-if(s==null)s=null
-else{s=J.cJ(s,new B.aRZ(),y.N)
-s=A.Q(s,!0,s.$ti.h("aq.E"))}if(s==null)s=A.a([],y.S)
-x=A.iW(w.i(d,"required"))
-return A.bxy(w.i(d,"answer"),v,s,x!==!1,u,t)},
-bOa(d){var x,w,v=A.be(d.i(0,"questionnaire")),u=A.d2(d.i(0,"title"))
-if(u==null)u=""
-x=A.d2(d.i(0,"description"))
-if(x==null)x=""
-w=J.cJ(y.j.a(d.i(0,"questions")),new B.aS_(),y.L)
-return new A.rr(v,u,x,A.Q(w,!0,w.$ti.h("aq.E")))},
-bqF(d){return J.q8(d,new B.bko(),y.N,y.z)},
-aRZ:function aRZ(){},
-aS_:function aS_(){},
-bko:function bko(){},
-bkn:function bkn(){},
-rv:function rv(){},
-b0g:function b0g(d,e,f){this.a=d
-this.b=e
-this.c=f},
-bWx(d){var x=A.a0(d),w=x.p1.as,v=w==null?null:w.r
-if(v==null)v=14
-w=A.dq(d,C.dg)
-w=w==null?null:w.gey()
-if(w==null)w=C.a7
-return A.bn1(new A.ab(24,0,24,0),new A.ab(12,0,12,0),new A.ab(6,0,6,0),v*w.a/14)},
-a2h:function a2h(d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
-_.c=d
-_.d=e
-_.e=f
-_.f=g
-_.r=h
-_.w=i
-_.x=j
-_.y=k
-_.z=l
-_.Q=m
-_.at=n
-_.ax=o
-_.a=p},
-aj9:function aj9(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4){var _=this
-_.fy=d
-_.go=$
-_.a=e
-_.b=f
-_.c=g
-_.d=h
-_.e=i
-_.f=j
-_.r=k
-_.w=l
-_.x=m
-_.y=n
-_.z=o
-_.Q=p
-_.as=q
-_.at=r
-_.ax=s
-_.ay=t
-_.ch=u
-_.CW=v
-_.cx=w
-_.cy=x
-_.db=a0
-_.dx=a1
-_.dy=a2
-_.fr=a3
-_.fx=a4},
-b7V:function b7V(d){this.a=d},
-b7X:function b7X(d){this.a=d},
-b8_:function b8_(d){this.a=d},
-b7W:function b7W(){},
-b7Y:function b7Y(d){this.a=d},
-b7Z:function b7Z(){},
-Mx:function Mx(d,e,f){this.c=d
-this.e=e
-this.a=f},
-TX:function TX(d){var _=this
-_.d=d
-_.c=_.a=_.e=null},
-My:function My(d,e,f,g){var _=this
-_.f=_.e=null
-_.r=!0
-_.w=d
-_.a=e
-_.b=f
-_.c=g},
-bon(d,e,f,g,h){return new B.N3(d,h,g,f,e,null)},
-bSA(d,e){var x=d.b
-x.toString
-y.x.a(x).a=e},
-yP:function yP(d,e){this.a=d
-this.b=e},
-N3:function N3(d,e,f,g,h,i){var _=this
-_.c=d
-_.d=e
-_.e=f
-_.cy=g
-_.db=h
-_.a=i},
-aLl:function aLl(d){this.a=d},
-amz:function amz(d,e,f,g){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g},
-oc:function oc(d,e){this.a=d
-this.b=e},
-amX:function amX(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s){var _=this
-_.d=d
-_.e=e
-_.f=f
-_.r=g
-_.w=h
-_.x=i
-_.y=j
-_.z=k
-_.Q=l
-_.as=m
-_.at=n
-_.ax=o
-_.ay=p
-_.ch=q
-_.CW=r
-_.a=s},
-V7:function V7(d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
-_.A=d
-_.D=e
-_.I=f
-_.V=g
-_.S=h
-_.aB=i
-_.af=j
-_.aQ=k
-_.bM=l
-_.B=m
-_.bC=n
-_.fn$=o
-_.fx=p
-_.b=_.id=null
-_.c=0
-_.y=_.d=null
-_.z=!0
-_.Q=null
-_.as=!1
-_.at=null
-_.ay=$
-_.ch=q
-_.CW=!1
-_.cx=$
-_.cy=!0
-_.db=!1
-_.dx=null
-_.dy=!0
-_.fr=null},
-bdz:function bdz(d,e){this.a=d
-this.b=e},
-bdy:function bdy(d){this.a=d},
-baT:function baT(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0){var _=this
-_.dx=d
-_.fx=_.fr=_.dy=$
-_.a=e
-_.b=f
-_.c=g
-_.d=h
-_.e=i
-_.f=j
-_.r=k
-_.w=l
-_.x=m
-_.y=n
-_.z=o
-_.Q=p
-_.as=q
-_.at=r
-_.ax=s
-_.ay=t
-_.ch=u
-_.CW=v
-_.cx=w
-_.cy=x
-_.db=a0},
-auo:function auo(){},
-bDf(d,e,f,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=null,g=h
-switch(A.a0(a0).w.a){case 2:case 4:break
-case 0:case 1:case 3:case 5:x=A.en(a0,C.bt,y.y)
-x.toString
-g=x.gbi()
-break}x=J.ae(a3)
-w=x.gq(a3)
-v=J.ht(w,y.U)
-for(u=y.A,t=0;t<w;++t)v[t]=new A.bC(h,u)
-s=A.hw(a0,!1)
-r=A.en(a0,C.bt,y.y)
-r.toString
-r=r.gb_()
-q=s.c
-q.toString
-q=A.Mw(a0,q)
-x=A.b2(x.gq(a3),h,!1,y.K)
-p=A.a([],y.d)
-o=$.am
-n=A.pg(C.dp)
-m=A.a([],y.G)
-l=$.aH()
-k=$.am
-j=b4.h("aa<0?>")
-i=b4.h("b8<0?>")
-return s.mA(new B.UF(a6,a7,a3,v,x,a2,a1,b2,b0,g,b1,a4,e,q,f,d,a5,r,h,C.we,p,A.aN(y.g),new A.bC(h,b4.h("bC<mM<0>>")),new A.bC(h,u),new A.v6(),h,0,new A.b8(new A.aa(o,b4.h("aa<0?>")),b4.h("b8<0?>")),n,m,a8,C.lr,new A.c7(h,l,y.B),new A.b8(new A.aa(k,j),i),new A.b8(new A.aa(k,j),i),b4.h("UF<0>")))},
-bA6(d){var x=null
-return new B.bcv(d,x,x,x,3,x,x,x,x,x,x,x,x,x)},
-vg:function vg(){},
-anf:function anf(d,e,f){this.e=d
-this.c=e
-this.a=f},
-apH:function apH(d,e,f,g){var _=this
-_.C=d
-_.B$=e
-_.fx=f
-_.b=_.id=null
-_.c=0
-_.y=_.d=null
-_.z=!0
-_.Q=null
-_.as=!1
-_.at=null
-_.ay=$
-_.ch=g
-_.CW=!1
-_.cx=$
-_.cy=!0
-_.db=!1
-_.dx=null
-_.dy=!0
-_.fr=null},
-vh:function vh(d,e,f,g){var _=this
-_.d=d
-_.Q=e
-_.a=f
-_.$ti=g},
-EK:function EK(d){this.c=this.a=null
-this.$ti=d},
-HT:function HT(d,e,f,g,h,i,j){var _=this
-_.c=d
-_.d=e
-_.e=f
-_.f=g
-_.r=h
-_.a=i
-_.$ti=j},
-UG:function UG(d,e){var _=this
-_.d=d
-_.c=_.a=null
-_.$ti=e},
-bcA:function bcA(d,e){this.a=d
-this.b=e},
-bcB:function bcB(d,e,f,g,h,i){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i},
-bcx:function bcx(d,e,f,g,h,i){var _=this
-_.b=d
-_.c=e
-_.d=f
-_.e=g
-_.f=h
-_.r=i},
-UF:function UF(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4){var _=this
-_.iU=d
-_.ix=e
-_.eP=f
-_.dh=g
-_.fb=h
-_.hA=i
-_.fc=j
-_.fm=k
-_.nc=l
-_.ot=m
-_.nd=n
-_.ne=o
-_.eq=p
-_.ou=q
-_.ov=r
-_.rF=s
-_.y8=t
-_.pV=null
-_.dn=u
-_.k3=v
-_.k4=w
-_.ok=null
-_.p1=!1
-_.p3=_.p2=null
-_.p4=x
-_.R8=a0
-_.RG=a1
-_.rx=a2
-_.ry=a3
-_.to=$
-_.x1=null
-_.x2=$
-_.kL$=a4
-_.rJ$=a5
-_.at=a6
-_.ax=null
-_.ay=!1
-_.CW=_.ch=null
-_.cx=a7
-_.cy=!0
-_.dy=_.dx=_.db=null
-_.r=a8
-_.a=a9
-_.b=null
-_.c=b0
-_.d=b1
-_.e=b2
-_.f=b3
-_.$ti=b4},
-bcz:function bcz(d,e){this.a=d
-this.b=e},
-bcy:function bcy(d,e,f,g){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g},
-EI:function EI(d,e,f,g,h){var _=this
-_.c=d
-_.f=e
-_.ch=f
-_.a=g
-_.$ti=h},
-EJ:function EJ(d){this.c=this.a=null
-this.$ti=d},
-aRO:function aRO(d){this.a=d},
-aj6:function aj6(d,e){this.a=d
-this.b=e},
-bcv:function bcv(d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
-_.at=d
-_.ch=_.ay=_.ax=$
-_.a=e
-_.b=f
-_.c=g
-_.d=h
-_.e=i
-_.f=j
-_.r=k
-_.w=l
-_.x=m
-_.y=n
-_.z=o
-_.Q=p
-_.as=q},
-bcw:function bcw(d){this.a=d},
-p0:function p0(d,e,f){this.cW$=d
-this.a7$=e
-this.a=f},
-Pb:function Pb(d,e,f,g,h,i){var _=this
-_.A=d
-_.cK$=e
-_.X$=f
-_.d_$=g
-_.fx=h
-_.b=_.id=null
-_.c=0
-_.y=_.d=null
-_.z=!0
-_.Q=null
-_.as=!1
-_.at=null
-_.ay=$
-_.ch=i
-_.CW=!1
-_.cx=$
-_.cy=!0
-_.db=!1
-_.dx=null
-_.dy=!0
-_.fr=null},
-aTk:function aTk(d){this.a=d},
-aTl:function aTl(d){this.a=d},
-aTg:function aTg(d){this.a=d},
-aTh:function aTh(d){this.a=d},
-aTi:function aTi(d){this.a=d},
-aTj:function aTj(d){this.a=d},
-aTe:function aTe(d){this.a=d},
-aTf:function aTf(d){this.a=d},
-apE:function apE(){},
-apF:function apF(){},
-P6:function P6(d,e,f,g,h,i,j){var _=this
-_.cT=d
-_.e0=e
-_.C=null
-_.T=f
-_.am=g
-_.B$=h
-_.fx=i
-_.b=_.id=null
-_.c=0
-_.y=_.d=null
-_.z=!0
-_.Q=null
-_.as=!1
-_.at=null
-_.ay=$
-_.ch=j
-_.CW=!1
-_.cx=$
-_.cy=!0
-_.db=!1
-_.dx=null
-_.dy=!0
-_.fr=null},
-a3Z:function a3Z(d,e,f){this.e=d
-this.c=e
-this.a=f},
-a5H:function a5H(d,e){this.c=d
-this.a=e},
-xf:function xf(d,e){this.a=d
-this.b=e},
-bzo(d){var x,w,v,u={}
-u.a=d
-x=y.t
-w=d.ju(x)
-v=!0
-while(!0){if(!(v&&w!=null))break
-v=x.a(d.Cm(w)).f
-w.lQ(new B.b1r(u))
-w=u.a.ju(x)}return v},
-b1r:function b1r(d){this.a=d},
-cF:function cF(){},
-Ov(d){var x
-d.ak(y.M)
-x=A.a0(d)
-return x.d1},
-C0(d,e,f,g,h,i,j,k,l,m){return new A.oy(k,i,j,l,d,e,m,g,h,f)},
-bxF(d,e){return new A.F1(d.a-e.a,d.b-e.b,e.c-d.c,e.d-d.d)},
-a5J(d,e,f,g,h,i,j,k){var x,w=null
-if(i==null){x=e==null&&j===C.ad
-x=x?C.ke:w}else x=i
-return new A.DT(new A.FM(f,g,!0,!0,!0,A.br9(),w),h,j,!1,e,w,x,w,k,w,0,d,g,C.a6,C.jH,w,C.Q,C.b6,w)},
-bPO(d,e){return new A.eR(new A.aj(0,e,0,1/0),d,null)}},D
-J=c[1]
-A=c[0]
-C=c[2]
-F=c[8]
-E=c[12]
-B=a.updateHolder(c[7],B)
-D=c[10]
-B.a1T.prototype={
-a7n(d,e,f,g,h){return new A.aP(null,A.bw(e,null,y.w).w.a.b*0.6,new B.CP(g,f,h,d),null)},
-$iaSy:1}
-B.abW.prototype={
-a7n(d,e,f,g,h){return new A.aP(null,A.bw(e,null,y.w).w.a.b*0.6,new B.FK(g,f,d),null)},
-$iaSy:1}
-B.F_.prototype={
-a6(){return new B.aoW()},
-tf(d){return this.d.$0()}}
-B.aoW.prototype={
-aA(){this.aK()
-this.GT()},
-GT(){var x=0,w=A.y(y.H),v=1,u=[],t=this,s,r,q,p,o,n
-var $async$GT=A.u(function(d,e){if(d===1){u.push(e)
-x=v}while(true)switch(x){case 0:v=3
-s=$.brt().i(0,J.av(t.a.c,"event"))
-x=s!=null?6:8
-break
-case 6:q=t.c
-q.toString
-x=9
-return A.n(s.$2(q,t.a.c),$async$GT)
-case 9:p=e
-x=7
-break
-case 8:p=null
-case 7:r=p
-t.f=new A.bC(null,y.c)
-t.a3(new B.bd7(t,r))
-v=1
-x=5
-break
-case 3:v=2
-n=u.pop()
-t.a3(new B.bd8(t))
-x=5
-break
-case 2:x=1
-break
-case 5:return A.w(null,w)
-case 1:return A.v(u.at(-1),w)}})
-return A.x($async$GT,w)},
-H(d){var x,w,v=null
-$.b1()
-x=$.bP
-if(x==null)x=$.bP=C.am
-w=x.f2(0,v,y.b)
-if(this.e)x=C.qH
-else{x=this.d
-if(x==null)x=D.bci}return A.btM(v,v,F.byt(B.bPO(A.Ae(A.hW(A.a([x,D.b1A,new B.a3Z(0.85,A.xT(D.bcr,new B.bd9(this,w)),v)],y.p),C.x,C.p,C.a5),16,v,v),500),D.aa3),v,v,v,v,v,v)}}
-B.CP.prototype={
-a6(){return new B.a1U()},
-aPQ(){return this.e.$0()}}
-B.a1U.prototype={
-aA(){this.aK()
-var x=J.av(this.a.d,"data")
-x=x==null?null:J.av(x,"items")
-if(x==null)x=[]
-this.d=J.tQ(J.cJ(x,new B.aBd(),y.O))},
-WU(){var x,w,v=this.a,u=v.c,t=y.z
-v=A.lh(J.av(v.d,"data"),t,t)
-x=this.d
-x===$&&A.b()
-w=A.a4(x).h("a5<1,at<h,@>>")
-v.m(0,"items",A.Q(new A.a5(x,new B.aBc(),w),!0,w.h("aq.E")))
-return A.a3(["type","diet","created_at",u,"data",v],y.N,t)},
-aoY(){var x,w,v,u=A.A(y.N,y.i),t=this.d
-t===$&&A.b()
-x=t.length
-w=0
-for(;w<t.length;t.length===x||(0,A.P)(t),++w){v=t[w]
-v.c.az(0,new B.aB3(u,v))}return u},
-Gf(d){return this.ari(d)},
-ari(d){var x=0,w=A.y(y.H),v=this,u,t
-var $async$Gf=A.u(function(e,f){if(e===1)return A.v(f,w)
-while(true)switch(x){case 0:u=C.c.k(d.b)
-t=new A.iP(new A.dx(u,C.eA,C.bU),$.aH())
-u=v.c
-u.toString
-x=2
-return A.n(A.bDe(new B.aB6(d,t),u,y.cB),$async$Gf)
-case 2:if(f===!0)v.a3(new B.aB7(d,t))
-return A.w(null,w)}})
-return A.x($async$Gf,w)},
-H(d){var x,w,v,u,t,s,r,q=this,p=null,o=J.av(q.a.d,"data"),n=o==null?p:J.av(o,"meal_type")
-if(n==null)n="\u665a\u9910"
-x=q.aoY()
-o=A.bu(n,p,p,p,p,p,p,p,A.a0(d).p1.r,p,p,p,p,p)
-w=y.p
-o=A.awF(A.a([new B.EI(new B.aB9(),new B.aBa(q),A.dO(C.Cw,p,p,p),p,y.u)],w),C.H,!0,o)
-v=x.i(0,"\u70ed\u91cf")
-v=v==null?p:C.c.aI(v,0)
-u=y.n
-v=A.hW(A.a([A.bu((v==null?"0":v)+" kcal",p,p,p,p,p,p,p,E.lU,p,p,p,p,p),A.bu("\u70ed\u91cf",p,p,p,p,p,p,p,p,p,p,p,p,p)],u),C.x,C.p,C.D)
-t=x.i(0,"\u78b3\u6c34")
-t=t==null?p:C.c.aI(t,1)
-t=A.hW(A.a([A.bu((t==null?"0":t)+" mg",p,p,p,p,p,p,p,E.lU,p,p,p,p,p),A.bu("\u78b3\u6c34",p,p,p,p,p,p,p,p,p,p,p,p,p)],u),C.x,C.p,C.D)
-s=x.i(0,"\u86cb\u767d\u8d28")
-s=s==null?p:C.c.aI(s,1)
-s=A.hW(A.a([A.bu((s==null?"0":s)+" mg",p,p,p,p,p,p,p,E.lU,p,p,p,p,p),A.bu("\u86cb\u767d\u8d28",p,p,p,p,p,p,p,p,p,p,p,p,p)],u),C.x,C.p,C.D)
-r=x.i(0,"\u8102\u80aa")
-r=r==null?p:C.c.aI(r,1)
-v=A.mA(A.a([v,t,s,A.hW(A.a([A.bu((r==null?"0":r)+" mg",p,p,p,p,p,p,p,E.lU,p,p,p,p,p),A.bu("\u8102\u80aa",p,p,p,p,p,p,p,p,p,p,p,p,p)],u),C.x,C.p,C.D)],w),C.x,C.tZ,C.D,p)
-u=q.d
-u===$&&A.b()
-return A.PI(o,C.H,A.hW(A.a([D.U4,v,D.U4,A.ei(B.a5J(p,p,new B.aBb(q),u.length,D.BI,p,C.ad,!1),1,p)],w),C.x,C.p,C.D),p)}}
-B.lp.prototype={
-UI(d){var x=this.c.i(0,d)
-if(x==null)x=0
-return x/100*this.b},
-bk(){return A.a3(["name",this.a,"amount",this.b,"nutrients",this.c],y.N,y.z)}}
-B.aiL.prototype={}
-B.FK.prototype={
-a6(){return new B.abX()}}
-B.abX.prototype={
-aA(){var x,w,v,u,t,s,r,q="all_sleep_time"
-this.aK()
-x=this.a.d
-w=J.ae(x)
-v=w.i(x,"time_spec")
-u=J.ae(v)
-t=A.aAI(u.i(v,"start"))
-s=u.i(v,"end")==null?null:A.aAI(u.i(v,"end"))
-v=A.be(u.i(v,"granularity"))
-r=A.p_(w.i(x,"data"),y.N,y.z)
-if(r.i(0,q)==null){x=s==null?null:C.e.c3(s.iP(t).a,6e7)
-r.m(0,q,x==null?0:x)}this.d=new B.aXt(new B.b0g(t,s,v),r)},
-WU(){var x=this.a.c,w=this.d
-w===$&&A.b()
-return A.a3(["type","sleep","created_at",x,"data",w.bk()],y.N,y.z)},
-H(d){var x=null,w=this.d
-w===$&&A.b()
-return A.bu(w.a.a.k(0)+" - "+A.k(this.d.a.b)+" : "+A.k(this.d.b.i(0,"all_sleep_time"))+" minutes",x,x,x,x,x,x,x,x,x,x,x,x,x)}}
-B.aXt.prototype={
-bk(){var x=A.p_(this.b,y.N,y.z)
-x.m(0,"time_spec",this.a.bk())
-return x}}
-B.ara.prototype={}
-B.rv.prototype={$ia_:1}
-B.b0g.prototype={
-bk(){var x=this.a.z_(),w=this.b
-w=w==null?null:w.z_()
-return A.a3(["start",x,"end",w,"granularity",this.c],y.N,y.z)}}
-B.a2h.prototype={
-Cj(d){var x=null
-A.a0(d)
-A.a0(d)
-return new B.aj9(d,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,C.Y,!0,C.a3,x,x,x)},
-VJ(d){var x
-d.ak(y.F)
-x=A.a0(d)
-return x.cC.a}}
-B.aj9.prototype={
-glc(){var x,w=this,v=w.go
-if(v===$){x=A.a0(w.fy)
-w.go!==$&&A.aw()
-v=w.go=x.ax}return v},
-ghL(){return new A.ci(A.a0(this.fy).p1.as,y.J)},
-gcO(d){return new A.c_(new B.b7V(this),y.m)},
-geC(){return new A.c_(new B.b7X(this),y.m)},
-gd4(){return new A.c_(new B.b8_(this),y.m)},
-gcQ(d){var x=this.glc().x1
-if(x==null)x=C.w
-return new A.ci(x,y.R)},
-gdd(){return C.de},
-ghX(d){return new A.c_(new B.b7W(),y.Y)},
-geg(d){return new A.ci(B.bWx(this.fy),y.a)},
-gkf(){return C.a8U},
-ghY(){return C.a8T},
-geQ(){return new A.c_(new B.b7Y(this),y.V)},
-gke(){return C.jW},
-gcY(d){return C.jX},
-gkg(){return new A.c_(new B.b7Z(),y.o)},
-gf5(){return A.a0(this.fy).Q},
-gkm(){return A.a0(this.fy).f},
-ghP(){return A.a0(this.fy).y}}
-B.Mx.prototype={
-gaxv(){var x,w,v,u,t=this.e,s=t==null?null:t.geg(t)
-$label0$0:{x=null
-w=s==null
-v=w
-if(v){t=C.a9
-break $label0$0}v=s instanceof A.dN
-if(v){u=s==null?y.W.a(s):s
-t=u
-break $label0$0}null.toString
-t=null.E(0,t.geg(t))
-break $label0$0}return t},
-a6(){return new B.TX(new A.bC(null,y.A))}}
-B.TX.prototype={
-avF(){this.e=null},
-h_(){var x=this.e
-if(x!=null)x.n()
-this.tL()},
-aol(d){var x,w,v,u=this,t=u.e,s=u.a
-if(t==null){t=s.e
-s=B.bzo(d)
-x=A.Bn(d,null)
-w=A.aLF(d,y.Z)
-w.toString
-v=$.ad.al$.x.i(0,u.d).gai()
-v.toString
-v=new B.My(x,w,y.q.a(v),u.gavE())
-v.sbc(t)
-v.sab7(s)
-w.Ic(v)
-u.e=v}else{t.sbc(s.e)
-t=u.e
-t.toString
-t.sab7(B.bzo(d))
-t=u.e
-t.toString
-t.sro(A.Bn(d,null))}t=u.a.c
-return t},
-H(d){var x=this,w=x.a.gaxv()
-x.a.toString
-return new A.aK(w,new A.fu(x.gaok(),null),x.d)}}
-B.My.prototype={
-sbc(d){var x,w=this
-if(J.i(d,w.f))return
-w.f=d
-x=w.e
-if(x!=null)x.n()
-x=w.f
-w.e=x==null?null:x.ur(w.gatW())
-w.a.av()},
-sab7(d){if(d===this.r)return
-this.r=d
-this.a.av()},
-sro(d){if(d.j(0,this.w))return
-this.w=d
-this.a.av()},
-atX(){this.a.av()},
-n(){var x=this.e
-if(x!=null)x.n()
-this.pe()},
-DL(d,e){var x,w,v=this
-if(v.e==null||!v.r)return
-x=A.a7N(e)
-w=v.w.Sk(v.b.gt(0))
-if(x==null){d.ez(0)
-d.ag(0,e.a)
-v.e.kV(d,C.i,w)
-d.dO(0)}else v.e.kV(d,x,w)}}
-B.yP.prototype={
-J(){return"ListTileTitleAlignment."+this.b},
-Rb(d,e,f,g){var x,w,v=this
-$label0$0:{if(D.CS===v){x=D.CT.Rb(d,e,f,g)
-break $label0$0}w=D.aC5===v
-if(w&&e>72){x=16
-break $label0$0}if(w){x=(e-d)/2
-if(g)x=Math.min(x,16)
-break $label0$0}if(D.aC6===v){x=f.aQ
-break $label0$0}if(D.CT===v){x=(e-d)/2
-break $label0$0}if(D.aC7===v){x=e-d-f.aQ
-break $label0$0}x=null}return x}}
-B.N3.prototype={
-Pe(d,e){return!1},
-H(a5){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=A.a0(a5),a0=A.bwc(a5),a1=new B.baT(a5,e,C.lq,e,e,e,e,e,e,e,D.ayc,e,e,e,8,24,e,e,e,e,e,e),a2=y.C,a3=new B.aLl(A.aN(a2)),a4=a3.$3(e,e,e)
-if(a4==null){a4=a0.e
-a4=a3.$3(a4,a0.d,a4)}if(a4==null){a4=d.S
-x=a4.e
-x=a3.$3(x,a4.d,x)
-w=x}else w=a4
-if(w==null)w=a3.$4(a1.geQ(),a1.gwa(),a1.geQ(),d.ay)
-a4=a3.$3(e,e,e)
-if(a4==null){a4=a0.f
-a4=a3.$3(a4,a0.d,a4)}if(a4==null){a4=d.S
-x=a4.f
-x=a3.$3(x,a4.d,x)
-v=x}else v=a4
-if(v==null){a4=a1.f
-v=a3.$4(a4,a1.gwa(),a4,d.ay)}a3=A.Dt(e,e,e,e,e,e,w,e,e,e,e,e,e,e)
-u=a0.x
-u=(u==null?a1.gDg():u).aT(v)
-u.toString
-t=A.J_(f.c,C.ai,C.Y,u)
-s=a0.r
-if(s==null)s=a1.gj_()
-f.Pe(d,a0)
-s=s.uo(v,e)
-r=A.J_(f.d,C.ai,C.Y,s)
-a4=f.e
-if(a4!=null){q=a0.w
-if(q==null)q=a1.gwo()
-f.Pe(d,a0)
-q=q.uo(v,e)
-p=A.J_(a4,C.ai,C.Y,q)}else{q=e
-p=q}o=a5.ak(y.I).w
-a4=a0.y
-a4=a4==null?e:a4.a4(o)
-n=a4
-if(n==null)n=a1.y.a4(o)
-a2=A.aN(a2)
-a4=A.cG(e,a2,y.h)
-if(a4==null)m=e
-else m=a4
-if(m==null)m=A.w8(a2)
-a2=a0.b
-a4=a2==null?C.xf:a2
-x=a0.z
-l=x==null?d.S.z:x
-x=l==null?a1.gEe():l
-f.Pe(d,a0)
-k=s.Q
-if(k==null){k=a1.gj_().Q
-k.toString}j=q==null?e:q.Q
-if(j==null){j=a1.gwo().Q
-j.toString}i=a0.as
-if(i==null)i=16
-h=a0.at
-if(h==null){h=a1.at
-h.toString}g=a0.ax
-if(g==null){g=a1.ax
-g.toString}a3=A.zK(!1,A.ux(A.Mh(new B.amX(t,r,p,e,!1,!1,d.Q,o,k,j,i,h,g,a0.ay,D.CS,e),new A.nm(a3)),new A.bE(e,e,e,e,e,w,e,e,e)),e,!0,n,!0,!1)
-return A.a51(!1,e,!0,new A.bQ(A.c3(e,e,e,e,e,!0,e,e,e,e,!0,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,!1,e,e,e,e,e,e,e,e),!1,!1,!1,!1,new B.Mx(a3,new A.po(x,e,e,e,a4),e),e),a2,!0,e,e,e,e,m,e,e,e,f.db,f.cy,e,e,e,e,e)}}
-B.amz.prototype={
-a4(d){var x=this,w=x.a
-if(w instanceof A.Bi)return A.cG(w,d,y.d1)
-if(d.u(0,C.r))return x.d
-if(d.u(0,C.J))return x.c
-return x.b}}
-B.oc.prototype={
-J(){return"_ListTileSlot."+this.b}}
-B.amX.prototype={
-gXz(){return D.aJh},
-a7A(d){var x,w=this
-switch(d.a){case 0:x=w.d
-break
-case 1:x=w.e
-break
-case 2:x=w.f
-break
-case 3:x=w.r
-break
-default:x=null}return x},
-aM(d){var x=this,w=new B.V7(!1,x.y,!1,x.z,x.Q,x.as,x.at,x.ax,x.ay,x.ch,x.CW,A.A(y.l,y.q),new A.aR(),A.ar(y.v))
-w.aL()
-return w},
-aS(d,e){var x=this
-e.saOy(!1)
-e.saOp(!1)
-e.sf5(x.y)
-e.sc1(x.z)
-e.saSS(x.Q)
-e.saho(x.as)
-e.saNI(x.at)
-e.saPq(x.ay)
-e.saPs(x.ch)
-e.saPt(x.ax)
-e.saSR(x.CW)}}
-B.V7.prototype={
-gdB(d){var x,w=this.fn$,v=w.i(0,D.df),u=A.a([],y.Q)
-if(w.i(0,D.ff)!=null){x=w.i(0,D.ff)
-x.toString
-u.push(x)}if(v!=null)u.push(v)
-if(w.i(0,D.fg)!=null){x=w.i(0,D.fg)
-x.toString
-u.push(x)}if(w.i(0,D.iv)!=null){w=w.i(0,D.iv)
-w.toString
-u.push(w)}return u},
-saOp(d){return},
-sf5(d){if(this.D.j(0,d))return
-this.D=d
-this.U()},
-saOy(d){return},
-sc1(d){if(this.V===d)return
-this.V=d
-this.U()},
-saSS(d){if(this.S===d)return
-this.S=d
-this.U()},
-saho(d){if(this.aB===d)return
-this.aB=d
-this.U()},
-gGg(){return this.af+this.D.a*2},
-saNI(d){if(this.af===d)return
-this.af=d
-this.U()},
-saPt(d){if(this.aQ===d)return
-this.aQ=d
-this.U()},
-saPq(d){if(this.bM===d)return
-this.bM=d
-this.U()},
-saPs(d){if(this.B==d)return
-this.B=d
-this.U()},
-saSR(d){if(this.bC===d)return
-this.bC=d
-this.U()},
-gj3(){return!1},
-bt(d){var x,w,v,u=this.fn$
-if(u.i(0,D.ff)!=null){x=u.i(0,D.ff)
-w=Math.max(x.aq(C.aP,d,x.gc0()),this.bM)+this.gGg()}else w=0
-x=u.i(0,D.df)
-x.toString
-x=x.aq(C.aP,d,x.gc0())
-v=u.i(0,D.fg)
-v=v==null?0:v.aq(C.aP,d,v.gc0())
-v=Math.max(x,v)
-u=u.i(0,D.iv)
-u=u==null?0:u.aq(C.aq,d,u.gbL())
-return w+v+u},
-bs(d){var x,w,v,u=this.fn$
-if(u.i(0,D.ff)!=null){x=u.i(0,D.ff)
-w=Math.max(x.aq(C.aq,d,x.gbL()),this.bM)+this.gGg()}else w=0
-x=u.i(0,D.df)
-x.toString
-x=x.aq(C.aq,d,x.gbL())
-v=u.i(0,D.fg)
-v=v==null?0:v.aq(C.aq,d,v.gbL())
-v=Math.max(x,v)
-u=u.i(0,D.iv)
-u=u==null?0:u.aq(C.aq,d,u.gbL())
-return w+v+u},
-gGb(){var x,w,v,u=null,t=this.D,s=new A.r(t.a,t.b).au(0,4),r=this.fn$.i(0,D.fg)!=null
-$label0$0:{x=!0
-t=!0
-if(t){w=r
-v=w}else{v=u
-w=!1}if(w){t=72
-break $label0$0}if(x){w=!1===(t?v:r)
-t=w}else t=!1
-if(t){t=56
-break $label0$0}t=u}return s.b+t},
-bm(d){var x,w,v=this.B
-if(v==null)v=this.gGb()
-x=this.fn$
-w=x.i(0,D.df)
-w.toString
-w=w.aq(C.aQ,d,w.gbY())
-x=x.i(0,D.fg)
-x=x==null?null:x.aq(C.aQ,d,x.gbY())
-return Math.max(v,w+(x==null?0:x))},
-bl(d){return this.aq(C.aQ,d,this.gbY())},
-eK(d){var x=this.fn$,w=x.i(0,D.df)
-w.toString
-w=w.b
-w.toString
-y.x.a(w)
-x=x.i(0,D.df)
-x.toString
-return A.Zf(x.l0(d),w.a.b)},
-a_8(b1,b2,b3,b4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6=this,a7=b3.b,a8=new A.aj(0,a7,0,b3.d),a9=a6.D,b0=a8.op(new A.aj(0,1/0,0,56+new A.r(a9.a,a9.b).au(0,4).b))
-a9=a6.fn$
-x=a9.i(0,D.ff)
-w=a9.i(0,D.iv)
-v=x==null
-u=v?null:b2.$2(x,b0)
-t=w==null
-s=t?null:b2.$2(w,b0)
-r=u==null
-q=r?0:Math.max(a6.bM,u.a)+a6.gGg()
-p=s==null
-o=p?0:Math.max(s.a+a6.gGg(),32)
-n=a8.Ed(a7-q-o)
-m=a9.i(0,D.fg)
-l=a9.i(0,D.df)
-l.toString
-k=b2.$2(l,n).b
-switch(a6.V.a){case 1:l=!0
-break
-case 0:l=!1
-break
-default:l=null}if(m==null){m=a6.B
-if(m==null)m=a6.gGb()
-j=Math.max(m,k+2*a6.aQ)
-i=(j-k)/2}else{h=b2.$2(m,n).b
-g=a9.i(0,D.df)
-g.toString
-f=b1.$3(g,n,a6.S)
-if(f==null)f=k
-e=b1.$3(m,n,a6.aB)
-if(e==null)e=h
-d=32-f
-a0=52+a6.D.b*2-e
-a1=Math.max(d+k-a0,0)/2
-a2=d-a1
-a3=a0+a1
-g=a6.aQ
-if(!(a2<g)){a4=a6.B
-if(a4==null)a4=a6.gGb()
-a5=a3+h+g>a4}else a5=!0
-if(b4!=null){g=l?q:o
-b4.$2(m,new A.r(g,a5?a6.aQ+k:a3))}if(a5)j=2*a6.aQ+k+h
-else{m=a6.B
-j=m==null?a6.gGb():m}i=a5?a6.aQ:a2}if(b4!=null){a9=a9.i(0,D.df)
-a9.toString
-b4.$2(a9,new A.r(l?q:o,i))
-if(!v&&!r){a9=l?0:a7-u.a
-b4.$2(x,new A.r(a9,a6.bC.Rb(u.b,j,a6,!0)))}if(!t&&!p){a9=l?a7-s.a:0
-b4.$2(w,new A.r(a9,a6.bC.Rb(s.b,j,a6,!1)))}}return new A.apb(n,new A.N(a7,j),i)},
-a_7(d,e,f){return this.a_8(d,e,f,null)},
-eA(d,e){var x=this.a_7(A.kW(),A.iZ(),d),w=this.fn$.i(0,D.df)
-w.toString
-return A.Zf(w.hN(x.a,e),x.c)},
-cp(d){return d.bf(this.a_7(A.kW(),A.iZ(),d).b)},
-bN(){var x=this,w=y.k,v=x.a_8(A.bli(),A.q2(),w.a(A.z.prototype.gP.call(x)),B.c_w())
-x.id=w.a(A.z.prototype.gP.call(x)).bf(v.b)},
-aH(d,e){var x,w=new B.bdz(d,e),v=this.fn$
-w.$1(v.i(0,D.ff))
-x=v.i(0,D.df)
-x.toString
-w.$1(x)
-w.$1(v.i(0,D.fg))
-w.$1(v.i(0,D.iv))},
-iA(d){return!0},
-df(d,e){var x,w,v,u,t,s
-for(x=this.gdB(0),w=x.length,v=y.x,u=0;u<x.length;x.length===w||(0,A.P)(x),++u){t=x[u]
-s=t.b
-s.toString
-if(d.lo(new B.bdy(t),v.a(s).a,e))return!0}return!1}}
-B.baT.prototype={
-ga2l(){var x,w=this,v=w.dy
-if(v===$){x=A.a0(w.dx)
-w.dy!==$&&A.aw()
-w.dy=x
-v=x}return v},
-gAP(){var x,w=this,v=w.fr
-if(v===$){x=w.ga2l()
-w.fr!==$&&A.aw()
-v=w.fr=x.ax}return v},
-gPi(){var x,w=this,v=w.fx
-if(v===$){x=w.ga2l()
-w.fx!==$&&A.aw()
-v=w.fx=x.p1}return v},
-gEe(){return C.H},
-gj_(){var x=this.gPi().y
-x.toString
-return x.aT(this.gAP().k3)},
-gwo(){var x,w,v=this.gPi().z
-v.toString
-x=this.gAP()
-w=x.rx
-return v.aT(w==null?x.k3:w)},
-gDg(){var x,w,v=this.gPi().ax
-v.toString
-x=this.gAP()
-w=x.rx
-return v.aT(w==null?x.k3:w)},
-gwa(){return this.gAP().b},
-geQ(){var x=this.gAP(),w=x.rx
-return w==null?x.k3:w}}
-B.auo.prototype={
-aD(d){var x,w,v
-this.dJ(d)
-for(x=this.gdB(0),w=x.length,v=0;v<x.length;x.length===w||(0,A.P)(x),++v)x[v].aD(d)},
-ao(d){var x,w,v
-this.dz(0)
-for(x=this.gdB(0),w=x.length,v=0;v<x.length;x.length===w||(0,A.P)(x),++v)x[v].ao(0)}}
-B.vg.prototype={}
-B.anf.prototype={
-aM(d){var x=new B.apH(this.e,null,new A.aR(),A.ar(y.v))
-x.aL()
-x.sbn(null)
-return x},
-aS(d,e){e.C=this.e}}
-B.apH.prototype={
-cp(d){var x=this.B$
-x=x==null?null:x.aq(C.U,d,x.gcc())
-return x==null?C.W:x},
-eA(d,e){var x=this.B$
-return x==null?null:x.hN(d,e)},
-bN(){var x,w=this,v=w.B$
-if(v==null)w.id=C.W
-else{x=y.k
-v.bR(x.a(A.z.prototype.gP.call(w)),!0)
-w.id=x.a(A.z.prototype.gP.call(w)).bf(w.B$.gt(0))
-x=w.B$.b
-x.toString
-y.x.a(x).a=C.i}v=w.gt(0)
-w.C.$1(v)}}
-B.vh.prototype={
-a6(){var x=this.$ti
-return new B.EK(x.h("@<1>").aG(x).h("EK<1,2>"))}}
-B.EK.prototype={
-JL(){var x,w=this.c
-w.toString
-x=this.a.d
-A.hw(w,!1).mz(x)
-this.a.toString},
-H(d){var x,w,v,u,t,s,r=null
-A.a0(d)
-x=B.Ov(d)
-w=B.bA6(d)
-v=A.aN(y.C)
-this.a.toString
-u=x.w
-if(u==null)u=r
-else{u=u.a4(v)
-u.toString}if(u==null){v=w.gdF().a4(v)
-v.toString
-t=v}else t=u
-v=this.a
-s=A.J_(new A.eR(new A.aj(0,1/0,48,1/0),new A.aK(D.ayy,new A.dt(C.kd,r,r,v.Q,r),D.be8),r),C.ai,C.Y,t)
-v=A.a51(!1,r,!0,A.bMj(s,C.a9,r,t),r,!0,r,r,r,r,new B.aj6(r,x.y),r,r,r,r,this.gTZ(),r,r,r,r,r)
-return new A.E1(new A.bQ(A.c3(r,r,r,r,r,!0,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!1,!1,!1,!1,v,r),r)}}
-B.HT.prototype={
-a6(){return new B.UG(D.aLe,this.$ti.h("UG<1>"))}}
-B.UG.prototype={
-aA(){this.aK()
-this.a4l()},
-aU(d){var x,w=this
-w.bd(d)
-x=d.d
-if(J.bR(x.eP)!==J.bR(w.a.d.eP)||x.p2!=w.a.d.p2)w.a4l()},
-a4l(){var x,w,v,u,t,s,r,q,p,o,n=this
-for(x=n.d,w=x.length,v=0;v<x.length;x.length===w||(0,A.P)(x),++v){u=x[v]
-u.a.du(u.gm8())}t=A.a([],y._)
-s=1/(J.bR(n.a.d.eP)+1.5)
-for(x=1.5*s,r=0;r<J.bR(n.a.d.eP);){++r
-q=r*s
-p=A.O(q+x,0,1)
-w=n.a.d.p2
-u=new A.oA(w,new A.h0(q,p,C.ai),null)
-o=w.gbj(0)
-if(!o.gkc())o=null
-u.d=o
-w.fj(u.gm8())
-t.push(u)}n.d=t},
-n(){var x,w,v,u
-for(x=this.d,w=x.length,v=0;v<x.length;x.length===w||(0,A.P)(x),++v){u=x[v]
-u.a.du(u.gm8())}this.aO()},
-H(d){var x,w,v,u,t,s,r,q,p=this,o=null,n=1/(J.bR(p.a.d.eP)+1.5),m=A.a([],y.p)
-A.a0(d)
-x=B.Ov(d)
-w=B.bA6(d)
-for(v=0;v<J.bR(p.a.d.eP);++v){u=p.d[v]
-t=J.av(p.a.d.eP,v)
-s=p.a
-m.push(new B.anf(new B.bcA(p,v),new A.dB(u,!1,t,s.c[v]),o))}s=J.bR(p.a.d.eP)
-r=p.a
-q=r.e
-r=r.d.ne
-if(r==null)r=x.c
-if(r==null)r=w.gDp()
-r=A.rL(new B.a5H(m,o),o,C.a6,r,o,C.ad)
-r=A.bof(new A.bQ(A.c3(o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,q,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o),!1,!0,!1,!1,r,o),56)
-q=p.a.d.p2
-q.toString
-return A.kX(q,new B.bcB(p,new A.ho(D.aBM),x,w,new A.ho(new A.h0(0,n,C.ai)),new A.ho(new A.h0(0,n*s,C.ai))),new A.eR(D.ab7,r,o))}}
-B.bcx.prototype={
-tr(d){return A.Zs(new A.N(A.O(1/0,d.a,d.b),A.O(1/0,d.c,d.d))).rt(C.nj.aa(0,this.f))},
-tv(d,e){var x,w,v,u,t,s,r=this,q=r.b,p=q.b,o=q.a,n=q.c
-if(o>n)x=d.a-n-e.a
-else if(o<n)x=o
-else{switch(r.e.a){case 0:w=d.a-n-e.a
-break
-case 1:w=o
-break
-default:w=null}x=w}w=0+d.a
-v=0+d.b
-u=new A.M(o,p,w-n,v-q.d).gcb()
-t=r.apz(A.btY(new A.M(0,0,w,v),r.r),u)
-q=r.f
-s=t.a+8+q.a
-if(x<s)x=s
-else{o=e.a
-n=t.c
-w=q.c
-if(x+o>n-8-w)x=n-o-8-w}o=q.b
-if(p<t.b+8+o)p=8+o
-else{o=e.b
-n=t.d
-q=q.d
-if(p+o>n-8-q)p=n-o-8-q}return new A.r(x,p)},
-apz(d,e){var x,w,v,u,t,s,r,q,p,o=C.b.ga0(d)
-for(x=d.length,w=e.a,v=e.b,u=0;u<d.length;d.length===x||(0,A.P)(d),++u){t=d[u]
-s=t.a
-r=t.b
-s=s+(t.c-s)/2-w
-r=r+(t.d-r)/2-v
-q=o.a
-p=o.b
-q=q+(o.c-q)/2-w
-p=p+(o.d-p)/2-v
-if(Math.sqrt(s*s+r*r)<Math.sqrt(q*q+p*p))o=t}return o},
-mM(d){var x=this
-return!x.b.j(0,d.b)||x.d!=d.d||x.e!==d.e||!A.ds(x.c,d.c)||!x.f.j(0,d.f)||!A.wX(x.r,d.r)}}
-B.UF.prototype={
-St(){$.brn()
-var x=this.pV
-if(x==null){x=this.aka()
-x=this.pV=A.cT(C.ai,x,D.CL)}return x},
-ag0(d,e){$.cD.k3$.push(new B.bcz(this,e))},
-gqr(d){return C.c5},
-gpD(){return!0},
-go8(){return null},
-xv(d,e,f){var x,w=this,v={}
-v.a=null
-x=v.a
-if(x!=null)w.ag0(0,x)
-return A.aOO(new A.mc(new B.bcy(v,w,A.bw(d,null,y.w).w,new B.HT(w.dh,w,w.ot,w.ov,w.rF,null,w.$ti.h("HT<1>"))),null),d,!0,!0,!0,!0)},
-n(){var x=this.pV
-if(x!=null)x.n()
-this.A_()},
-grj(){return this.dn}}
-B.EI.prototype={
-a6(){return new B.EJ(this.$ti.h("EJ<1>"))},
-aOC(d){return this.c.$1(d)}}
-B.EJ.prototype={
-aBf(d,e){var x,w,v,u,t=this,s=t.c
-s.toString
-B.Ov(s)
-s=t.c.gai()
-s.toString
-x=y.q
-x.a(s)
-w=t.c
-w.toString
-t.a.toString
-w=A.hw(w,!1).d
-w===$&&A.b()
-w=w.ga_().c.gai()
-w.toString
-x.a(w)
-t.a.toString
-v=A.bK("offset")
-switch(0){case 0:t.a.toString
-v.b=C.i
-break}x=v.b7()
-x=A.cI(s.bV(0,w),x)
-u=s.gt(0).BN(0,C.i).aa(0,v.b7())
-u=A.rw(x,A.cI(s.bV(0,w),u))
-w=w.gt(0)
-return B.bxF(u,new A.M(0,0,0+w.a,0+w.b))},
-agP(){var x,w,v,u=this,t=null,s=u.c
-s.toString
-x=B.Ov(s)
-s=u.a
-s.toString
-w=u.c
-w.toString
-v=s.aOC(w)
-if(J.i9(v)){u.a.toString
-s=u.c
-s.toString
-B.bDf(C.n,x.a,t,s,x.d,t,v,x.c,t,t,u.gaBe(),t,t,x.e,x.b,x.f,!1,u.$ti.h("1?")).bJ(0,new B.aRO(u),y.H)}},
-H(d){var x,w,v,u,t=this,s=null,r=A.a4B(d),q=B.Ov(d)
-t.a.toString
-B.Ov(d)
-x=t.a
-x=x.ch
-w=q.as
-if(w==null)w=r.a
-v=q.Q
-if(v==null)v=r.f
-u=A.en(d,C.bt,y.y)
-u.toString
-u=u.gbx()
-t.a.toString
-return A.Mf(v,s,!0,x,w,new A.dQ(C.Ui,y.e),t.gagO(),C.nj,s,s,u)}}
-B.aj6.prototype={
-a4(d){var x=A.cG(this.a,d,y.h)
-if(x==null)x=null
-return x==null?A.w8(d):x},
-gut(){return"MaterialStateMouseCursor(PopupMenuItemState)"}}
-B.bcv.prototype={
-ga3d(){var x,w=this,v=w.ax
-if(v===$){x=A.a0(w.at)
-w.ax!==$&&A.aw()
-w.ax=x
-v=x}return v},
-gHg(){var x,w=this,v=w.ay
-if(v===$){x=w.ga3d()
-w.ay!==$&&A.aw()
-v=w.ay=x.ax}return v},
-gdF(){return new A.c_(new B.bcw(this),y.aZ)},
-gar(d){var x=this.gHg(),w=x.p4
-return w==null?x.k2:w},
-gcQ(d){var x=this.gHg().x1
-return x==null?C.w:x},
-gdd(){return C.H},
-gcY(d){return C.b_k},
-gDp(){return D.ayu}}
-B.p0.prototype={}
-B.Pb.prototype={
-eX(d){if(!(d.b instanceof B.p0))d.b=new B.p0(null,null,C.i)},
-sjh(d){if(this.A===d)return
-this.A=d
-this.U()},
-eA(d,e){var x,w,v,u,t,s,r,q,p=this,o=null
-switch(p.A.a){case 1:case 3:x=A.eE(d.d,o)
-w=p.X$
-v=A.l(p).h("ag.1")
-u=o
-while(w!=null){t=w.gtS()
-s=C.fl.dk(w.fx,new A.aS(x,e),t)
-u=A.x9(u,s)
-t=w.b
-t.toString
-w=v.a(t).a7$}return u
-case 0:w=p.d_$
-r=p.gBU()
-break
-case 2:w=p.X$
-r=p.gxA()
-break
-default:r=o
-w=r}x=A.eE(o,d.b)
-for(q=0;w!=null;w=r.$1(w)){v=w.gtS()
-t=w.fx
-s=C.fl.dk(t,new A.aS(x,e),v)
-if(s!=null)return s+q
-s=C.U.dk(t,x,w.gcc())
-q+=s.b}return o},
-cp(d){var x,w,v,u,t,s,r=this,q=r.X$
-switch(r.A.a){case 1:case 3:x=d.d
-w=A.eE(x,null)
-for(v=A.l(r).h("ag.1"),u=0;q!=null;){t=q.gcc()
-s=C.U.dk(q.fx,w,t)
-u+=s.a
-t=q.b
-t.toString
-q=v.a(t).a7$}return d.bf(new A.N(u,x))
-case 0:case 2:x=d.b
-w=A.eE(null,x)
-for(v=A.l(r).h("ag.1"),u=0;q!=null;){t=q.gcc()
-s=C.U.dk(q.fx,w,t)
-u+=s.b
-t=q.b
-t.toString
-q=v.a(t).a7$}return d.bf(new A.N(x,u))}},
-bN(){var x,w,v,u,t,s,r,q=this,p=null,o="RenderBox was not laid out: ",n=y.k.a(A.z.prototype.gP.call(q)),m=q.X$
-switch(q.A.a){case 1:x=n.d
-w=A.eE(x,p)
-for(v=y.T,u=0;m!=null;){m.bR(w,!0)
-t=m.b
-t.toString
-v.a(t)
-t.a=new A.r(u,0)
-s=m.id
-u+=(s==null?A.S(A.U(o+A.C(m).k(0)+"#"+A.bm(m))):s).a
-m=t.a7$}q.id=n.bf(new A.N(u,x))
-break
-case 3:x=n.d
-w=A.eE(x,p)
-for(v=y.T,u=0;m!=null;){m.bR(w,!0)
-t=m.b
-t.toString
-v.a(t)
-s=m.id
-u+=(s==null?A.S(A.U(o+A.C(m).k(0)+"#"+A.bm(m))):s).a
-m=t.a7$}m=q.X$
-for(r=0;m!=null;){t=m.b
-t.toString
-v.a(t)
-s=m.id
-r+=(s==null?A.S(A.U(o+A.C(m).k(0)+"#"+A.bm(m))):s).a
-t.a=new A.r(u-r,0)
-m=t.a7$}q.id=n.bf(new A.N(u,x))
-break
-case 2:x=n.b
-w=A.eE(p,x)
-for(v=y.T,u=0;m!=null;){m.bR(w,!0)
-t=m.b
-t.toString
-v.a(t)
-t.a=new A.r(0,u)
-s=m.id
-u+=(s==null?A.S(A.U(o+A.C(m).k(0)+"#"+A.bm(m))):s).b
-m=t.a7$}q.id=n.bf(new A.N(x,u))
-break
-case 0:x=n.b
-w=A.eE(p,x)
-for(v=y.T,u=0;m!=null;){m.bR(w,!0)
-t=m.b
-t.toString
-v.a(t)
-s=m.id
-u+=(s==null?A.S(A.U(o+A.C(m).k(0)+"#"+A.bm(m))):s).b
-m=t.a7$}m=q.X$
-for(r=0;m!=null;){t=m.b
-t.toString
-v.a(t)
-s=m.id
-r+=(s==null?A.S(A.U(o+A.C(m).k(0)+"#"+A.bm(m))):s).b
-t.a=new A.r(0,u-r)
-m=t.a7$}q.id=n.bf(new A.N(x,u))
-break}},
-Gr(d){var x,w,v,u=this.X$
-for(x=y.T,w=0;u!=null;){w=Math.max(w,A.jA(d.$1(u)))
-v=u.b
-v.toString
-u=x.a(v).a7$}return w},
-Gs(d){var x,w,v,u=this.X$
-for(x=y.T,w=0;u!=null;){w+=d.$1(u)
-v=u.b
-v.toString
-u=x.a(v).a7$}return w},
-bt(d){var x
-switch(A.bS(this.A).a){case 0:x=this.Gs(new B.aTk(d))
-break
-case 1:x=this.Gr(new B.aTl(d))
-break
-default:x=null}return x},
-bs(d){var x
-switch(A.bS(this.A).a){case 0:x=this.Gs(new B.aTg(d))
-break
-case 1:x=this.Gr(new B.aTh(d))
-break
-default:x=null}return x},
-bm(d){var x
-switch(A.bS(this.A).a){case 0:x=this.Gs(new B.aTi(d))
-break
-case 1:x=this.Gr(new B.aTj(d))
-break
-default:x=null}return x},
-bl(d){var x
-switch(A.bS(this.A).a){case 0:x=this.Gs(new B.aTe(d))
-break
-case 1:x=this.Gr(new B.aTf(d))
-break
-default:x=null}return x},
-eK(d){return this.a8F(d)},
-aH(d,e){this.lu(d,e)},
-df(d,e){return this.mj(d,e)}}
-B.apE.prototype={
-aD(d){var x,w,v
-this.dJ(d)
-x=this.X$
-for(w=y.T;x!=null;){x.aD(d)
-v=x.b
-v.toString
-x=w.a(v).a7$}},
-ao(d){var x,w,v
-this.dz(0)
-x=this.X$
-for(w=y.T;x!=null;){x.ao(0)
-v=x.b
-v.toString
-x=w.a(v).a7$}}}
-B.apF.prototype={}
-B.P6.prototype={
-sWm(d){if(this.cT===d)return
-this.cT=d
-this.U()},
-sUb(d){return},
-Ay(d){var x=d.b*this.cT
-return new A.aj(x,x,d.c,d.d)},
-bt(d){var x,w=this.B$
-if(w==null)x=this.MU(d)
-else x=w.aq(C.aP,d,w.gc0())
-w=this.cT
-return x/w},
-bs(d){var x,w=this.B$
-if(w==null)x=this.MT(d)
-else x=w.aq(C.aq,d,w.gbL())
-w=this.cT
-return x/w},
-bm(d){var x,w,v=this.B$
-if(v==null)x=this.FG(d)
-else{w=this.cT
-x=v.aq(C.aQ,d*w,v.gbY())}return x/1},
-bl(d){var x,w,v=this.B$
-if(v==null)x=this.FF(d)
-else{w=this.cT
-x=v.aq(C.b0,d*w,v.gc4())}return x/1},
-cp(d){var x=this.B$
-if(x!=null)return d.bf(x.aq(C.U,this.Ay(d),x.gcc()))
-return d.bf(this.Ay(d).bf(C.W))},
-eA(d,e){var x,w,v,u,t=this,s=t.B$
-if(s==null)return null
-x=t.Ay(d)
-w=s.hN(x,e)
-if(w==null)return null
-v=s.aq(C.U,x,s.gcc())
-u=t.aq(C.U,d,t.gcc())
-return w+t.gVA().mb(y.r.a(u.aj(0,v))).b},
-bN(){var x=this,w=x.B$,v=y.k
-if(w!=null){w.bR(x.Ay(v.a(A.z.prototype.gP.call(x))),!0)
-x.id=v.a(A.z.prototype.gP.call(x)).bf(x.B$.gt(0))
-x.BC()}else x.id=v.a(A.z.prototype.gP.call(x)).bf(x.Ay(v.a(A.z.prototype.gP.call(x))).bf(C.W))}}
-B.a3Z.prototype={
-aM(d){var x=new B.P6(this.e,null,C.a3,A.dd(d),null,new A.aR(),A.ar(y.v))
-x.aL()
-x.sbn(null)
-return x},
-aS(d,e){e.sfA(C.a3)
-e.sWm(this.e)
-e.sUb(null)
-e.sc1(A.dd(d))}}
-B.a5H.prototype={
-aM(d){var x=new B.Pb(A.bkP(d,C.ad,!1),0,null,null,new A.aR(),A.ar(y.v))
-x.aL()
-x.L(0,null)
-return x},
-aS(d,e){e.sjh(A.bkP(d,C.ad,!1))}}
-B.xf.prototype={
-hF(d){var x=A.n1(this.a,this.b,d)
-x.toString
-return x}}
-B.cF.prototype={}
-var z=a.updateTypes(["K(K)","~()","lp(@)","at<h,@>(lp)","D<vg<h>>(L)","f(L)","F1(L,aj)","~(F,r)"])
-B.aE6.prototype={
-$2(d,e){return this.aeu(d,e)},
-aeu(d,e){var x=0,w=A.y(y.E),v
-var $async$$2=A.u(function(f,g){if(f===1)return A.v(g,w)
-while(true)switch(x){case 0:v=B.bOa(B.bqF(J.av(e,"data")))
-x=1
-break
-case 1:return A.w(v,w)}})
-return A.x($async$$2,w)},
-$S:751}
-B.aE7.prototype={
-$2(d,e){var x,w
-$.b1()
-x=$.bP
-if(x==null)x=$.bP=C.am
-w=J.ae(e)
-return x.f2(0,null,y.b).zl(J.av(w.i(e,"data"),"type"),J.av(w.i(e,"data"),"created_at"))},
-$S:752}
-B.aE8.prototype={
-$2(d,e){var x=J.ae(e)
-return J.hD(x.i(e,"data"))?"\u672a\u77e5\u9519\u8bef":x.i(e,"data")},
-$S:753}
-B.bd7.prototype={
-$0(){var x=this.a,w=x.f,v=x.c
-v.toString
-x.d=B.bOj(w,v,this.b,x.a.c,new B.bd6(x))
-x.e=!1},
-$S:0}
-B.bd6.prototype={
-$0(){var x=0,w=A.y(y.H),v=this,u,t,s
-var $async$$0=A.u(function(d,e){if(d===1)return A.v(e,w)
-while(true)switch(x){case 0:t=$.b1()
-s=$.bP
-if(s==null)s=$.bP=C.am
-u=v.a
-x=2
-return A.n(s.f2(0,null,y.b).IV(J.av(J.av(u.a.c,"data"),"type"),J.av(J.av(u.a.c,"data"),"created_at")),$async$$0)
-case 2:u.a.tf(0)
-A.la(t,null)
-return A.w(null,w)}})
-return A.x($async$$0,w)},
-$S:11}
-B.bd8.prototype={
-$0(){return this.a.e=!1},
-$S:0}
-B.bd9.prototype={
-$0(){var x=0,w=A.y(y.H),v=this,u,t
-var $async$$0=A.u(function(d,e){if(d===1)return A.v(e,w)
-while(true)switch(x){case 0:u=v.a
-t=u.f.ga_()
-x=2
-return A.n(v.b.LH((t==null?y.D.a(t):t).WU()),$async$$0)
-case 2:u.a.tf(0)
-A.la($.b1(),null)
-return A.w(null,w)}})
-return A.x($async$$0,w)},
-$S:11}
-B.aBd.prototype={
-$1(d){return B.bwQ(d)},
-$S:z+2}
-B.aBc.prototype={
-$1(d){return d.bk()},
-$S:z+3}
-B.aB3.prototype={
-$2(d,e){var x,w,v=d.toLowerCase()
-if(v==="\u70ed\u91cf"||v==="\u5361\u8def\u91cc"||v==="calories")v="\u70ed\u91cf"
-x=this.a
-w=x.i(0,v)
-if(w==null)w=0
-x.m(0,v,w+this.b.UI(d))},
-$S:754}
-B.aB6.prototype={
-$1(d){var x=null,w=A.bu("\u7f16\u8f91 "+this.a.a,x,x,x,x,x,x,x,x,x,x,x,x,x),v=A.add(!0,C.d6,!1,x,!0,x,A.bm_(),this.b,x,x,A.a53(x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,"\u91cd\u91cf (g)",!0,x,x,x,x,x,x,x,x,x,x,x,x,x),C.a6,!0,x,!0,x,!1,x,C.eD,x,x,x,C.b71,x,x,x,1,x,x,!1,"\u2022",x,x,x,x,x,!1,x,!1,x,x,C.hJ,x,x,x,x,x,x,x,x,!0,C.aB,x,C.lO,x,x,x)
-return A.bsM(A.a([A.b_w(!1,D.bcg,x,x,x,x,x,x,new B.aB4(d),x,x),new B.a2h(new B.aB5(d),x,x,x,x,x,x,!1,x,!0,x,D.bc8,x)],y.p),v,w)},
-$S:240}
-B.aB4.prototype={
-$0(){A.hw(this.a,!1).mz(!1)
-return null},
-$S:0}
-B.aB5.prototype={
-$0(){A.hw(this.a,!1).mz(!0)
-return null},
-$S:0}
-B.aB7.prototype={
-$0(){var x=this.a,w=A.rp(this.b.a.a)
-return x.b=w==null?x.b:w},
-$S:0}
-B.aBa.prototype={
-$1(d){if(d==="delete")this.a.a.aPQ()},
-$S:36}
-B.aB9.prototype={
-$1(d){return A.a([D.aXB],y.X)},
-$S:z+4}
-B.aBb.prototype={
-$2(d,e){var x,w,v=null,u=this.a,t=u.d
-t===$&&A.b()
-x=t[e]
-w=$.bH8()[C.e.ah(e,5)]
-t=A.ic(12)
-return A.hM(v,A.bA(v,A.mA(A.a([A.bu(x.a,v,v,v,v,v,v,v,A.a0(d).p1.w,v,v,v,v,v),A.bu(C.c.aI(x.UI("\u70ed\u91cf"),0)+" kcal",v,v,v,v,v,v,v,A.a0(d).p1.z,v,v,v,v,v)],y.n),C.x,C.cK,C.D,v),C.n,v,v,new A.b_(w,v,v,t,v,v,v,C.C),v,v,v,D.ayt,C.BH,v,v,v),C.a6,!1,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,new B.aB8(u,x),v,v,v,v,v,v,v,v)},
-$S:755}
-B.aB8.prototype={
-$0(){return this.a.Gf(this.b)},
-$S:0}
-B.aQm.prototype={
-$2(d,e){var x
-A.Ix(e)
-x=e==null?0:e
-this.a.m(0,d,x)
-return x},
-$S:42}
-B.aRZ.prototype={
-$1(d){return J.cf(d)},
-$S:76}
-B.aS_.prototype={
-$1(d){return B.bO9(y.P.a(d))},
-$S:756}
-B.bko.prototype={
-$2(d,e){var x,w,v
-if(y.f.b(e))return new A.aB(J.cf(d),B.bqF(e),y.s)
-else{x=J.iX(d)
-w=y.s
-if(y.j.b(e)){x=x.k(d)
-v=J.cJ(e,new B.bkn(),y.z)
-return new A.aB(x,A.Q(v,!0,v.$ti.h("aq.E")),w)}else return new A.aB(x.k(d),e,w)}},
-$S:757}
-B.bkn.prototype={
-$1(d){return y.f.b(d)?B.bqF(d):d},
-$S:34}
-B.b7V.prototype={
-$1(d){var x,w
-if(d.u(0,C.r)){x=this.a.glc().k3
-return A.aZ(31,x.G()>>>16&255,x.G()>>>8&255,x.G()&255)}x=this.a.glc()
-w=x.p3
-return w==null?x.k2:w},
-$S:6}
-B.b7X.prototype={
-$1(d){var x
-if(d.u(0,C.r)){x=this.a.glc().k3
-return A.aZ(97,x.G()>>>16&255,x.G()>>>8&255,x.G()&255)}return this.a.glc().b},
-$S:6}
-B.b8_.prototype={
-$1(d){if(d.u(0,C.T))return this.a.glc().b.bv(0.1)
-if(d.u(0,C.E))return this.a.glc().b.bv(0.08)
-if(d.u(0,C.R))return this.a.glc().b.bv(0.1)
-return null},
-$S:63}
-B.b7W.prototype={
-$1(d){if(d.u(0,C.r))return 0
-if(d.u(0,C.T))return 1
-if(d.u(0,C.E))return 3
-if(d.u(0,C.R))return 1
-return 1},
-$S:283}
-B.b7Y.prototype={
-$1(d){var x,w=this
-if(d.u(0,C.r)){x=w.a.glc().k3
-return A.aZ(97,x.G()>>>16&255,x.G()>>>8&255,x.G()&255)}if(d.u(0,C.T))return w.a.glc().b
-if(d.u(0,C.E))return w.a.glc().b
-if(d.u(0,C.R))return w.a.glc().b
-return w.a.glc().b},
-$S:6}
-B.b7Z.prototype={
-$1(d){if(d.u(0,C.r))return C.cr
-return C.ex},
-$S:65}
-B.aLl.prototype={
-$4(d,e,f,g){return new B.amz(d,f,e,g).a4(this.a)},
-$3(d,e,f){return this.$4(d,e,f,null)},
-$S:758}
-B.bdz.prototype={
-$1(d){var x
-if(d!=null){x=d.b
-x.toString
-this.a.eU(d,y.x.a(x).a.aa(0,this.b))}},
-$S:277}
-B.bdy.prototype={
-$2(d,e){return this.a.dD(d,e)},
-$S:21}
-B.bcA.prototype={
-$1(d){this.a.a.d.fb[this.b]=d},
-$S:194}
-B.bcB.prototype={
-$2(d,e){var x,w,v,u,t,s=this,r=null,q=s.b,p=s.a,o=p.a.d,n=o.p2
-n.toString
-o=o.nd
-if(o==null)o=s.c.b
-if(o==null){o=s.d
-o=o.gcY(o)}x=p.a.d.eq
-if(x==null)x=s.c.a
-if(x==null){x=s.d
-x=x.gar(x)}w=p.a
-v=w.r
-w=w.d
-u=w.fc
-if(u==null)u=s.c.d
-if(u==null){u=s.d.d
-u.toString}w=w.nc
-if(w==null)w=s.c.e
-if(w==null){w=s.d
-w=w.gcQ(w)}t=p.a.d.fm
-if(t==null)t=s.c.f
-if(t==null)t=s.d.gdd()
-return new A.dB(new A.aT(n,q,A.l(q).h("aT<aY.T>")),!1,A.h1(C.Y,!0,r,new A.dt(D.a9W,s.e.ag(0,p.a.d.p2.gp(0)),s.f.ag(0,p.a.d.p2.gp(0)),e,r),v,x,u,r,w,o,t,r,C.fO),r)},
-$S:759}
-B.bcz.prototype={
-$1(d){var x=this.a.dh,w=this.b,v=x[w]
-if($.ad.al$.x.i(0,v)!=null){x=x[w]
-x=$.ad.al$.x.i(0,x)
-x.toString
-A.by1(x,0,C.b_s,C.aW,C.G)}},
-$S:2}
-B.bcy.prototype={
-$2(d,e){var x,w,v,u,t=this,s=t.b,r=s.ix
-r=r==null?null:r.$2(d,e)
-if(r==null){r=s.iU
-r.toString}x=t.a.a
-w=d.ak(y.I).w
-v=t.c
-u=A.btX(v)
-return new A.m_(new B.bcx(r,s.fb,x,w,v.r,A.eJ(u,u.$ti.h("m.E"))),new A.pO(s.ou.a,t.d,null),null)},
-$S:760}
-B.aRO.prototype={
-$1(d){var x=this.a
-if(x.c==null)return null
-if(d==null){x.a.toString
-return null}x.a.f.$1(d)},
-$S(){return this.a.$ti.h("bl(1?)")}}
-B.bcw.prototype={
-$1(d){var x,w=this.a,v=w.ch
-if(v===$){x=w.ga3d()
-w.ch!==$&&A.aw()
-v=w.ch=x.p1}x=v.as
-x.toString
-if(d.u(0,C.r)){w=w.gHg().k3
-return x.a6P(A.aZ(97,w.G()>>>16&255,w.G()>>>8&255,w.G()&255))}return x.a6P(w.gHg().k3)},
-$S:59}
-B.aTk.prototype={
-$1(d){return d.aq(C.aP,this.a,d.gc0())},
-$S:28}
-B.aTl.prototype={
-$1(d){return d.aq(C.aP,this.a,d.gc0())},
-$S:28}
-B.aTg.prototype={
-$1(d){return d.aq(C.aq,this.a,d.gbL())},
-$S:28}
-B.aTh.prototype={
-$1(d){return d.aq(C.aq,this.a,d.gbL())},
-$S:28}
-B.aTi.prototype={
-$1(d){return d.aq(C.aQ,this.a,d.gbY())},
-$S:28}
-B.aTj.prototype={
-$1(d){return d.aq(C.aQ,this.a,d.gbY())},
-$S:28}
-B.aTe.prototype={
-$1(d){return d.aq(C.b0,this.a,d.gc4())},
-$S:28}
-B.aTf.prototype={
-$1(d){return d.aq(C.b0,this.a,d.gc4())},
-$S:28}
-B.b1r.prototype={
-$1(d){this.a.a=d
-return!1},
-$S:32};(function installTearOffs(){var x=a._instance_0u,w=a._instance_1u,v=a._static_2,u=a._instance_2u
-var t
-x(t=B.TX.prototype,"gavE","avF",1)
-w(t,"gaok","aol",5)
-x(B.My.prototype,"gatW","atX",1)
-v(B,"c_w","bSA",7)
-w(t=B.V7.prototype,"gc0","bt",0)
-w(t,"gbL","bs",0)
-w(t,"gbY","bm",0)
-w(t,"gc4","bl",0)
-x(B.EK.prototype,"gTZ","JL",1)
-u(t=B.EJ.prototype,"gaBe","aBf",6)
-x(t,"gagO","agP",1)
-w(t=B.Pb.prototype,"gc0","bt",0)
-w(t,"gbL","bs",0)
-w(t,"gbY","bm",0)
-w(t,"gc4","bl",0)
-w(t=B.P6.prototype,"gc0","bt",0)
-w(t,"gbL","bs",0)
-w(t,"gbY","bm",0)
-w(t,"gc4","bl",0)})();(function inheritance(){var x=a.mixin,w=a.mixinHard,v=a.inheritMany,u=a.inherit
-v(A.ql,[B.aE6,B.aE7,B.aE8,B.aB3,B.aBb,B.aQm,B.bko,B.bdy,B.bcB,B.bcy])
-v(A.H,[B.a1T,B.abW,B.lp,B.aXt,B.rv,B.b0g,B.cF])
-v(A.Z,[B.F_,B.CP,B.FK,B.Mx,B.vg,B.HT,B.EI])
-v(A.a_,[B.aoW,B.aiL,B.ara,B.TX,B.EK,B.UG,B.EJ])
-v(A.u5,[B.bd7,B.bd6,B.bd8,B.bd9,B.aB4,B.aB5,B.aB7,B.aB8])
-u(B.a1U,B.aiL)
-v(A.l_,[B.aBd,B.aBc,B.aB6,B.aBa,B.aB9,B.aRZ,B.aS_,B.bkn,B.b7V,B.b7X,B.b8_,B.b7W,B.b7Y,B.b7Z,B.aLl,B.bdz,B.bcA,B.bcz,B.aRO,B.bcw,B.aTk,B.aTl,B.aTg,B.aTh,B.aTi,B.aTj,B.aTe,B.aTf,B.b1r])
-u(B.abX,B.ara)
-u(B.a2h,A.BR)
-u(B.aj9,A.cH)
-u(B.My,A.m9)
-v(A.wk,[B.yP,B.oc])
-u(B.N3,A.ac)
-u(B.amz,B.cF)
-u(B.amX,A.FQ)
-v(A.F,[B.auo,B.apE])
-u(B.V7,B.auo)
-u(B.baT,A.DS)
-v(A.bn,[B.anf,B.a3Z])
-u(B.apH,A.rA)
-u(B.vh,B.vg)
-u(B.bcx,A.abK)
-u(B.UF,A.zt)
-u(B.aj6,A.S0)
-u(B.bcv,A.EL)
-u(B.p0,A.xq)
-u(B.apF,B.apE)
-u(B.Pb,B.apF)
-u(B.P6,A.OV)
-u(B.a5H,A.ek)
-u(B.xf,A.aQ)
-x(B.aiL,B.rv)
-x(B.ara,B.rv)
-w(B.auo,A.pu)
-w(B.apE,A.ag)
-x(B.apF,A.cA)})()
-A.WF(b.typeUniverse,JSON.parse('{"F_":{"Z":[],"f":[]},"a1T":{"aSy":[]},"abW":{"aSy":[]},"aoW":{"a_":["F_"]},"CP":{"Z":[],"f":[]},"a1U":{"rv":["CP"],"a_":["CP"]},"FK":{"Z":[],"f":[]},"abX":{"rv":["FK"],"a_":["FK"]},"rv":{"a_":["1"]},"a2h":{"Z":[],"f":[]},"aj9":{"cH":[]},"Mx":{"Z":[],"f":[]},"TX":{"a_":["Mx"]},"My":{"m9":[]},"N3":{"ac":[],"f":[]},"amz":{"cF":["p?"]},"amX":{"kJ":["oc","F"],"aA":[],"f":[],"kJ.0":"oc","kJ.1":"F"},"V7":{"F":[],"pu":["oc","F"],"z":[],"ax":[]},"vg":{"Z":[],"f":[]},"vh":{"vg":["1"],"Z":[],"f":[]},"HT":{"Z":[],"f":[]},"EI":{"Z":[],"f":[]},"anf":{"bn":[],"aA":[],"f":[]},"apH":{"F":[],"b5":["F"],"z":[],"ax":[]},"EK":{"a_":["2"]},"UG":{"a_":["HT<1>"]},"UF":{"fP":["1"],"fS":["1"],"dv":["1"]},"EJ":{"a_":["EI<1>"]},"aj6":{"dC":[],"cF":["dC"]},"p0":{"eQ":[],"e0":["F"],"d9":[]},"Pb":{"cA":["F","p0"],"F":[],"ag":["F","p0"],"z":[],"ax":[],"ag.1":"p0","cA.1":"p0","ag.0":"F"},"P6":{"F":[],"b5":["F"],"z":[],"ax":[]},"a3Z":{"bn":[],"aA":[],"f":[]},"a5H":{"ek":[],"aA":[],"f":[]},"xf":{"aQ":["aj"],"aY":["aj"],"aQ.T":"aj","aY.T":"aj"},"bKv":{"e2":[],"bv":[],"bd":[],"f":[]},"bNT":{"e2":[],"bv":[],"bd":[],"f":[]}}'))
-var y=(function rtii(){var x=A.a9
-return{k:x("aj"),x:x("eQ"),v:x("f7"),I:x("jG"),W:x("dN"),F:x("bKv"),U:x("iF<a_<Z>>"),b:x("uw"),_:x("B<oA>"),G:x("B<nB>"),X:x("B<vg<h>>"),Q:x("B<F>"),S:x("B<h>"),n:x("B<di>"),p:x("B<f>"),d:x("B<a7<I>()>"),c:x("bC<rv<Z>>"),A:x("bC<a_<Z>>"),T:x("p0"),j:x("D<@>"),s:x("aB<h,@>"),P:x("at<h,@>"),f:x("at<@,@>"),y:x("aC"),w:x("kA"),O:x("lp"),r:x("r"),g:x("boI<H?>"),u:x("EI<h>"),M:x("bNT"),L:x("lt"),E:x("rr"),D:x("rv<Z>"),q:x("F"),N:x("h"),e:x("dQ<A7>"),B:x("c7<h?>"),C:x("ch"),R:x("ci<p>"),a:x("ci<dN>"),J:x("ci<G?>"),l:x("oc"),Z:x("B6"),t:x("WR"),V:x("c_<p>"),Y:x("c_<K>"),m:x("c_<p?>"),o:x("c_<dC?>"),aZ:x("c_<G?>"),cB:x("I"),i:x("K"),z:x("@"),d1:x("p?"),aL:x("D<@>?"),h:x("dC?"),K:x("N?"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.a9W=new A.j1(1,-1)
-D.a9X=new A.ev(-0.2,1)
-D.aa3=new F.Z9("assets/images/gourd_1.jpg",D.a9X)
-D.ab7=new A.aj(112,280,0,1/0)
-D.ayc=new A.dA(16,0,24,0)
-D.bio=new A.ab(0,0,0,2)
-D.ayt=new A.ab(0,6,0,6)
-D.ayu=new A.ab(0,8,0,8)
-D.ayy=new A.ab(12,0,12,0)
-D.BI=new A.ab(16,8,16,8)
-D.CL=new A.h0(0,0.6666666666666666,C.ai)
-D.aBM=new A.h0(0,0.3333333333333333,C.ai)
-D.CS=new B.yP(0,"threeLine")
-D.aC5=new B.yP(1,"titleHeight")
-D.aC6=new B.yP(2,"top")
-D.CT=new B.yP(3,"center")
-D.aC7=new B.yP(4,"bottom")
-D.ff=new B.oc(0,"leading")
-D.df=new B.oc(1,"title")
-D.fg=new B.oc(2,"subtitle")
-D.iv=new B.oc(3,"trailing")
-D.aJh=A.a(x([D.ff,D.df,D.fg,D.iv]),A.a9("B<oc>"))
-D.aLe=A.a(x([]),y._)
-D.awl=new A.p(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,C.f)
-D.atK=new A.p(1,0.7843137254901961,0.9019607843137255,0.788235294117647,C.f)
-D.avS=new A.p(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,C.f)
-D.awF=new A.p(1,0.5058823529411764,0.7803921568627451,0.5176470588235295,C.f)
-D.avk=new A.p(1,0.4,0.7333333333333333,0.41568627450980394,C.f)
-D.awo=new A.p(1,0.2980392156862745,0.6862745098039216,0.3137254901960784,C.f)
-D.awy=new A.p(1,0.2627450980392157,0.6274509803921569,0.2784313725490196,C.f)
-D.aqK=new A.p(1,0.2196078431372549,0.5568627450980392,0.23529411764705882,C.f)
-D.auQ=new A.p(1,0.1803921568627451,0.49019607843137253,0.19607843137254902,C.f)
-D.atx=new A.p(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,C.f)
-D.aTy=new A.aV([50,D.awl,100,D.atK,200,D.avS,300,D.awF,400,D.avk,500,D.awo,600,D.awy,700,D.aqK,800,D.auQ,900,D.atx],A.a9("aV<q,p>"))
-D.Oe=new A.lj(D.aTy,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,C.f)
-D.bcd=new A.di("\u5220\u9664\u8bb0\u5f55",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.aXB=new B.vh("delete",D.bcd,null,A.a9("vh<h>"))
-D.U4=new A.aP(null,12,null,null)
-D.b1A=new A.aP(null,16,null,null)
-D.bc8=new A.di("\u4fdd\u5b58",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.bca=new A.di("\u6682\u4e0d\u652f\u6301\u7684\u8bb0\u5f55\u7c7b\u578b",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.bcg=new A.di("\u53d6\u6d88",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.bci=new A.di("\u52a0\u8f7d\u5931\u8d25",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.bcr=new A.di("\u4fdd\u5b58\u66f4\u6539",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.be8=new A.dQ("menu item padding",A.a9("dQ<h>"))})();(function lazyInitializers(){var x=a.lazyFinal
-x($,"c2g","brt",()=>A.a3(["questionnaire",new B.aE6(),"record_status",new B.aE7(),"error",new B.aE8()],y.N,A.a9("a7<@>(L,at<h,@>)")))
-x($,"c8M","bss",()=>A.a3(["diet",new B.a1T(),"sleep",new B.abW()],y.N,A.a9("aSy")))
-x($,"c8j","bH8",()=>A.a([E.aTY.gzB(),D.Oe.gzB(),C.eZ.gzB(),E.Od.gzB(),E.aTW.gzB()],A.a9("B<p>")))})()};
-((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_6",e:"endPart",h:b})})($__dart_deferred_initializers__,"76QUGj9tOleNr6ry0QldIN6QITQ=");
+// Generated by dart2js (NullSafetyMode.sound, csp, intern-composite-values), the Dart to JavaScript compiler version: 3.7.2.
+((s, d, e) => {
+  s[d] = s[d] || {};
+  s[d][e] = s[d][e] || [];
+  s[d][e].push({p: "main.dart.js_6", e: "beginPart"});
+})(self, "$__dart_deferred_initializers__", "eventLog");
+$__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersList, $) {
+  var J, A, C, F, E,
+  B = {EventRegistry_initializers_closure: function EventRegistry_initializers_closure() {
+    }, EventRegistry_initializers_closure0: function EventRegistry_initializers_closure0() {
+    }, EventRegistry_initializers_closure1: function EventRegistry_initializers_closure1() {
+    },
+    RecordDetailFactory_build(key, context, data, metadata, onDelete) {
+      var createdAt, builder,
+        t1 = J.getInterceptor$asx(metadata),
+        type = A._asString(J.$index$asx(t1.$index(metadata, "data"), "type"));
+      t1 = J.$index$asx(t1.$index(metadata, "data"), "created_at");
+      createdAt = A._asDouble(t1 == null ? 0 : t1);
+      builder = $.$get$recordBuilders().$index(0, type);
+      if (builder == null)
+        return D.Text_CkW;
+      return builder.buildWidget$5(key, context, data, createdAt, onDelete);
+    },
+    DietRecordWidgetBuilder: function DietRecordWidgetBuilder() {
+    },
+    SleepRecordWidgetBuilder: function SleepRecordWidgetBuilder() {
+    },
+    RecordDetailDialog: function RecordDetailDialog(t0, t1, t2) {
+      this.metadata = t0;
+      this.refresh = t1;
+      this.key = t2;
+    },
+    _RecordDetailDialogState: function _RecordDetailDialogState(t0) {
+      var _ = this;
+      _._record_detail$_body = null;
+      _._record_detail$_loading = true;
+      _._widget = _.recordKey = null;
+      _._debugLifecycleState = t0;
+      _._framework$_element = null;
+    },
+    _RecordDetailDialogState__loadDetail_closure: function _RecordDetailDialogState__loadDetail_closure(t0, t1) {
+      this.$this = t0;
+      this.data = t1;
+    },
+    _RecordDetailDialogState__loadDetail__closure: function _RecordDetailDialogState__loadDetail__closure(t0) {
+      this.$this = t0;
+    },
+    _RecordDetailDialogState__loadDetail_closure0: function _RecordDetailDialogState__loadDetail_closure0(t0) {
+      this.$this = t0;
+    },
+    _RecordDetailDialogState_build_closure: function _RecordDetailDialogState_build_closure(t0, t1) {
+      this.$this = t0;
+      this.hDM = t1;
+    },
+    NutritionItem_NutritionItem$fromJson(map) {
+      var t2,
+        _s9_ = "nutrients",
+        nutrients = A.LinkedHashMap_LinkedHashMap$_empty(type$.String, type$.double),
+        t1 = J.getInterceptor$asx(map);
+      if (t1.$index(map, _s9_) != null)
+        J.forEach$1$ax(type$.Map_dynamic_dynamic._as(t1.$index(map, _s9_)), new B.NutritionItem_NutritionItem$fromJson_closure(nutrients));
+      t2 = t1.$index(map, "name");
+      t2 = A._asString(t2 == null ? "" : t2);
+      t1 = A._asNumQ(t1.$index(map, "amount"));
+      return new B.NutritionItem(t2, t1 == null ? 0 : t1, nutrients);
+    },
+    DietRecordWidget: function DietRecordWidget(t0, t1, t2, t3) {
+      var _ = this;
+      _.createdAt = t0;
+      _.record = t1;
+      _.onDelete = t2;
+      _.key = t3;
+    },
+    DietRecordWidgetState: function DietRecordWidgetState(t0) {
+      var _ = this;
+      _.__DietRecordWidgetState_items_A = $;
+      _._widget = null;
+      _._debugLifecycleState = t0;
+      _._framework$_element = null;
+    },
+    DietRecordWidgetState_initState_closure: function DietRecordWidgetState_initState_closure() {
+    },
+    DietRecordWidgetState_getUpdatedRecord_closure: function DietRecordWidgetState_getUpdatedRecord_closure() {
+    },
+    DietRecordWidgetState__calculateTotals_closure: function DietRecordWidgetState__calculateTotals_closure(t0, t1) {
+      this.totals = t0;
+      this.item = t1;
+    },
+    DietRecordWidgetState__editItem_closure: function DietRecordWidgetState__editItem_closure(t0, t1) {
+      this.item = t0;
+      this.weightController = t1;
+    },
+    DietRecordWidgetState__editItem__closure: function DietRecordWidgetState__editItem__closure(t0) {
+      this.ctx = t0;
+    },
+    DietRecordWidgetState__editItem__closure0: function DietRecordWidgetState__editItem__closure0(t0) {
+      this.ctx = t0;
+    },
+    DietRecordWidgetState__editItem_closure0: function DietRecordWidgetState__editItem_closure0(t0, t1) {
+      this.item = t0;
+      this.weightController = t1;
+    },
+    DietRecordWidgetState_build_closure0: function DietRecordWidgetState_build_closure0(t0) {
+      this.$this = t0;
+    },
+    DietRecordWidgetState_build_closure: function DietRecordWidgetState_build_closure() {
+    },
+    DietRecordWidgetState_build_closure1: function DietRecordWidgetState_build_closure1(t0) {
+      this.$this = t0;
+    },
+    DietRecordWidgetState_build__closure: function DietRecordWidgetState_build__closure(t0, t1) {
+      this.$this = t0;
+      this.item = t1;
+    },
+    NutritionItem: function NutritionItem(t0, t1, t2) {
+      this.name = t0;
+      this.amount = t1;
+      this.nutrients = t2;
+    },
+    NutritionItem_NutritionItem$fromJson_closure: function NutritionItem_NutritionItem$fromJson_closure(t0) {
+      this.nutrients = t0;
+    },
+    _DietRecordWidgetState_State_RecordUpdatable: function _DietRecordWidgetState_State_RecordUpdatable() {
+    },
+    SleepRecordWidget: function SleepRecordWidget(t0, t1, t2) {
+      this.createdAt = t0;
+      this.record = t1;
+      this.key = t2;
+    },
+    SleepRecordWidgetState: function SleepRecordWidgetState(t0) {
+      var _ = this;
+      _.__SleepRecordWidgetState_thisSleep_A = $;
+      _._widget = null;
+      _._debugLifecycleState = t0;
+      _._framework$_element = null;
+    },
+    SleepItem: function SleepItem(t0, t1) {
+      this.timeSpec = t0;
+      this.data = t1;
+    },
+    _SleepRecordWidgetState_State_RecordUpdatable: function _SleepRecordWidgetState_State_RecordUpdatable() {
+    },
+    Question_Question$fromJson(json) {
+      var t6,
+        t1 = J.getInterceptor$asx(json),
+        t2 = A._asString(t1.$index(json, "id")),
+        t3 = A._asString(t1.$index(json, "text")),
+        t4 = A._asString(t1.$index(json, "type")),
+        t5 = type$.nullable_List_dynamic._as(t1.$index(json, "options"));
+      if (t5 == null)
+        t5 = null;
+      else {
+        t5 = J.map$1$1$ax(t5, new B.Question_Question$fromJson_closure(), type$.String);
+        t5 = A.List_List$of(t5, true, t5.$ti._eval$1("ListIterable.E"));
+      }
+      if (t5 == null)
+        t5 = A._setArrayType([], type$.JSArray_String);
+      t6 = A._asBoolQ(t1.$index(json, "required"));
+      return A.Question$(t1.$index(json, "answer"), t2, t5, t6 !== false, t3, t4);
+    },
+    Questionnaire_Questionnaire$fromJson(json) {
+      var t3, t4,
+        t1 = A._asString(json.$index(0, "questionnaire")),
+        t2 = A._asStringQ(json.$index(0, "title"));
+      if (t2 == null)
+        t2 = "";
+      t3 = A._asStringQ(json.$index(0, "description"));
+      if (t3 == null)
+        t3 = "";
+      t4 = J.map$1$1$ax(type$.List_dynamic._as(json.$index(0, "questions")), new B.Questionnaire_Questionnaire$fromJson_closure(), type$.Question);
+      return new A.Questionnaire(t1, t2, t3, A.List_List$of(t4, true, t4.$ti._eval$1("ListIterable.E")));
+    },
+    convertKeys2String(input) {
+      return J.map$2$1$ax(input, new B.convertKeys2String_closure(), type$.String, type$.dynamic);
+    },
+    Question_Question$fromJson_closure: function Question_Question$fromJson_closure() {
+    },
+    Questionnaire_Questionnaire$fromJson_closure: function Questionnaire_Questionnaire$fromJson_closure() {
+    },
+    convertKeys2String_closure: function convertKeys2String_closure() {
+    },
+    convertKeys2String__closure: function convertKeys2String__closure() {
+    },
+    RecordUpdatable: function RecordUpdatable() {
+    },
+    TimeSpec: function TimeSpec(t0, t1, t2) {
+      this.start = t0;
+      this.end = t1;
+      this.granularity = t2;
+    },
+    _scaledPadding0(context) {
+      var theme = A.Theme_of(context),
+        t1 = theme.textTheme.labelLarge,
+        defaultFontSize = t1 == null ? null : t1.fontSize;
+      if (defaultFontSize == null)
+        defaultFontSize = 14;
+      t1 = A.MediaQuery__maybeOf(context, C._MediaQueryAspect_4);
+      t1 = t1 == null ? null : t1.get$textScaler();
+      return A.ButtonStyleButton_scaledPadding(new A.EdgeInsets(24, 0, 24, 0), new A.EdgeInsets(12, 0, 12, 0), new A.EdgeInsets(6, 0, 6, 0), (t1 == null ? C._LinearTextScaler_1 : t1).scale$1(0, defaultFontSize) / 14);
+    },
+    ElevatedButton: function ElevatedButton(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12) {
+      var _ = this;
+      _.onPressed = t0;
+      _.onLongPress = t1;
+      _.onHover = t2;
+      _.onFocusChange = t3;
+      _.style = t4;
+      _.clipBehavior = t5;
+      _.focusNode = t6;
+      _.autofocus = t7;
+      _.statesController = t8;
+      _.isSemanticButton = t9;
+      _.tooltip = t10;
+      _.child = t11;
+      _.key = t12;
+    },
+    _ElevatedButtonDefaultsM3: function _ElevatedButtonDefaultsM3(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25) {
+      var _ = this;
+      _.context = t0;
+      _.___ElevatedButtonDefaultsM3__colors_FI = $;
+      _.textStyle = t1;
+      _.backgroundColor = t2;
+      _.foregroundColor = t3;
+      _.overlayColor = t4;
+      _.shadowColor = t5;
+      _.surfaceTintColor = t6;
+      _.elevation = t7;
+      _.padding = t8;
+      _.minimumSize = t9;
+      _.fixedSize = t10;
+      _.maximumSize = t11;
+      _.iconColor = t12;
+      _.iconSize = t13;
+      _.iconAlignment = t14;
+      _.side = t15;
+      _.shape = t16;
+      _.mouseCursor = t17;
+      _.visualDensity = t18;
+      _.tapTargetSize = t19;
+      _.animationDuration = t20;
+      _.enableFeedback = t21;
+      _.alignment = t22;
+      _.splashFactory = t23;
+      _.backgroundBuilder = t24;
+      _.foregroundBuilder = t25;
+    },
+    _ElevatedButtonDefaultsM3_backgroundColor_closure: function _ElevatedButtonDefaultsM3_backgroundColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_foregroundColor_closure: function _ElevatedButtonDefaultsM3_foregroundColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_overlayColor_closure: function _ElevatedButtonDefaultsM3_overlayColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_elevation_closure: function _ElevatedButtonDefaultsM3_elevation_closure() {
+    },
+    _ElevatedButtonDefaultsM3_iconColor_closure: function _ElevatedButtonDefaultsM3_iconColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_mouseCursor_closure: function _ElevatedButtonDefaultsM3_mouseCursor_closure() {
+    },
+    Ink: function Ink(t0, t1, t2) {
+      this.child = t0;
+      this.decoration = t1;
+      this.key = t2;
+    },
+    _InkState: function _InkState(t0, t1) {
+      var _ = this;
+      _._boxKey = t0;
+      _._widget = _._ink = null;
+      _._debugLifecycleState = t1;
+      _._framework$_element = null;
+    },
+    InkDecoration: function InkDecoration(t0, t1, t2, t3) {
+      var _ = this;
+      _._ink_decoration$_decoration = _._ink_decoration$_painter = null;
+      _._ink_decoration$_isVisible = true;
+      _._ink_decoration$_configuration = t0;
+      _._material$_controller = t1;
+      _.referenceBox = t2;
+      _.onRemoved = t3;
+      _._material$_debugDisposed = false;
+    },
+    ListTile$(leading, onLongPress, onTap, subtitle, title) {
+      return new B.ListTile(leading, title, subtitle, onTap, onLongPress, null);
+    },
+    _RenderListTile__positionBox(box, offset) {
+      var t1 = box.parentData;
+      t1.toString;
+      type$.BoxParentData._as(t1).offset = offset;
+    },
+    ListTileTitleAlignment: function ListTileTitleAlignment(t0, t1) {
+      this.index = t0;
+      this._name = t1;
+    },
+    ListTile: function ListTile(t0, t1, t2, t3, t4, t5) {
+      var _ = this;
+      _.leading = t0;
+      _.title = t1;
+      _.subtitle = t2;
+      _.onTap = t3;
+      _.onLongPress = t4;
+      _.key = t5;
+    },
+    ListTile_build_resolveColor: function ListTile_build_resolveColor(t0) {
+      this.states = t0;
+    },
+    _IndividualOverrides: function _IndividualOverrides(t0, t1, t2, t3) {
+      var _ = this;
+      _.explicitColor = t0;
+      _.enabledColor = t1;
+      _.selectedColor = t2;
+      _.disabledColor = t3;
+    },
+    _ListTileSlot: function _ListTileSlot(t0, t1) {
+      this.index = t0;
+      this._name = t1;
+    },
+    _ListTile: function _ListTile(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15) {
+      var _ = this;
+      _.leading = t0;
+      _.title = t1;
+      _.subtitle = t2;
+      _.trailing = t3;
+      _.isThreeLine = t4;
+      _.isDense = t5;
+      _.visualDensity = t6;
+      _.textDirection = t7;
+      _.titleBaselineType = t8;
+      _.subtitleBaselineType = t9;
+      _.horizontalTitleGap = t10;
+      _.minVerticalPadding = t11;
+      _.minLeadingWidth = t12;
+      _.minTileHeight = t13;
+      _.titleAlignment = t14;
+      _.key = t15;
+    },
+    _RenderListTile: function _RenderListTile(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13) {
+      var _ = this;
+      _._isDense = t0;
+      _._visualDensity = t1;
+      _._isThreeLine = t2;
+      _._list_tile$_textDirection = t3;
+      _._titleBaselineType = t4;
+      _._subtitleBaselineType = t5;
+      _._horizontalTitleGap = t6;
+      _._minVerticalPadding = t7;
+      _._minLeadingWidth = t8;
+      _._minTileHeight = t9;
+      _._titleAlignment = t10;
+      _.SlottedContainerRenderObjectMixin__slotToChild = t11;
+      _._layoutCacheStorage = t12;
+      _._computingThisDryBaseline = _._computingThisDryLayout = false;
+      _._box$_size = null;
+      _._debugActivePointers = 0;
+      _._debugDisposed = false;
+      _.parentData = null;
+      _._depth = 0;
+      _.debugCreator = _._object$_parent = null;
+      _._debugDoingThisLayout = _._debugDoingThisResize = false;
+      _._debugCanParentUseSize = null;
+      _._debugMutationsLocked = false;
+      _._object$_owner = null;
+      _._needsLayout = true;
+      _._relayoutBoundary = null;
+      _._doingThisLayoutWithCallback = false;
+      _._constraints = null;
+      _._debugDoingThisPaint = false;
+      _.__RenderObject__wasRepaintBoundary_A = $;
+      _._layerHandle = t13;
+      _._needsCompositingBitsUpdate = false;
+      _.__RenderObject__needsCompositing_A = $;
+      _._needsPaint = true;
+      _._needsCompositedLayerUpdate = false;
+      _._cachedSemanticsConfiguration = null;
+      _._needsSemanticsUpdate = true;
+      _._semantics = null;
+    },
+    _RenderListTile__computeSizes_closure: function _RenderListTile__computeSizes_closure(t0, t1, t2) {
+      this.tileWidth = t0;
+      this.leadingSize = t1;
+      this.trailingSize = t2;
+    },
+    _RenderListTile_paint_doPaint: function _RenderListTile_paint_doPaint(t0, t1) {
+      this.context = t0;
+      this.offset = t1;
+    },
+    _RenderListTile_hitTestChildren_closure: function _RenderListTile_hitTestChildren_closure(t0, t1, t2) {
+      this.position = t0;
+      this.parentData = t1;
+      this.child = t2;
+    },
+    _LisTileDefaultsM3: function _LisTileDefaultsM3(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21) {
+      var _ = this;
+      _.context = t0;
+      _.___LisTileDefaultsM3__textTheme_FI = _.___LisTileDefaultsM3__colors_FI = _.___LisTileDefaultsM3__theme_FI = $;
+      _.dense = t1;
+      _.shape = t2;
+      _.style = t3;
+      _.selectedColor = t4;
+      _.iconColor = t5;
+      _.textColor = t6;
+      _.titleTextStyle = t7;
+      _.subtitleTextStyle = t8;
+      _.leadingAndTrailingTextStyle = t9;
+      _.contentPadding = t10;
+      _.tileColor = t11;
+      _.selectedTileColor = t12;
+      _.horizontalTitleGap = t13;
+      _.minVerticalPadding = t14;
+      _.minLeadingWidth = t15;
+      _.minTileHeight = t16;
+      _.enableFeedback = t17;
+      _.mouseCursor = t18;
+      _.visualDensity = t19;
+      _.titleAlignment = t20;
+      _.controlAffinity = t21;
+    },
+    __RenderListTile_RenderBox_SlottedContainerRenderObjectMixin: function __RenderListTile_RenderBox_SlottedContainerRenderObjectMixin() {
+    },
+    showMenu(clipBehavior, color, constraints, context, elevation, initialValue, items, menuPadding, popUpAnimationStyle, position, positionBuilder, requestFocus, routeSettings, shadowColor, shape, surfaceTintColor, useRootNavigator, $T) {
+      var t2, semanticLabel, t3, _length, menuItemKeys, index, $navigator, t4, t5, t6, t7, t8, t9, t10, t11, t12, _null = null,
+        _s52_ = "Either position or positionBuilder must be provided.",
+        t1 = J.getInterceptor$asx(items);
+      A.assertHelper(t1.get$isNotEmpty(items));
+      A.debugCheckHasMaterialLocalizations(context);
+      t2 = position != null !== (positionBuilder != null);
+      if (A.assertTest(t2))
+        A.assertThrow(_s52_);
+      semanticLabel = _null;
+      switch (A.Theme_of(context).platform.index) {
+        case 2:
+        case 4:
+          break;
+        case 0:
+        case 1:
+        case 3:
+        case 5:
+          A.debugCheckHasMaterialLocalizations(context);
+          t3 = A.Localizations_of(context, C.Type_MaterialLocalizations_nEU, type$.MaterialLocalizations);
+          t3.toString;
+          semanticLabel = t3.get$popupMenuLabel();
+          break;
+      }
+      _length = t1.get$length(items);
+      menuItemKeys = J.JSArray_JSArray$allocateGrowable(_length, type$.GlobalKey_State_StatefulWidget);
+      for (t3 = type$.LabeledGlobalKey_State_StatefulWidget, index = 0; index < _length; ++index)
+        menuItemKeys[index] = new A.LabeledGlobalKey(_null, t3);
+      $navigator = A.Navigator_of(context, false);
+      A.debugCheckHasMaterialLocalizations(context);
+      t4 = A.Localizations_of(context, C.Type_MaterialLocalizations_nEU, type$.MaterialLocalizations);
+      t4.toString;
+      t4 = t4.get$menuDismissLabel();
+      t5 = A.InheritedTheme_capture(context, $navigator.get$context(0));
+      if (A.assertTest(t2))
+        A.assertThrow(_s52_);
+      t1 = A.List_List$filled(t1.get$length(items), _null, false, type$.nullable_Size);
+      t2 = A._setArrayType([], type$.JSArray_of_Future_bool_Function);
+      t6 = $.Zone__current;
+      t7 = A.ProxyAnimation$(C.C__AlwaysDismissedAnimation);
+      t8 = A._setArrayType([], type$.JSArray_OverlayEntry);
+      t9 = A.ValueNotifier$(_null, type$.nullable_String);
+      t10 = $.Zone__current;
+      t11 = $T._eval$1("_Future<0?>");
+      t12 = $T._eval$1("_AsyncCompleter<0?>");
+      t1 = new B._PopupMenuRoute(position, positionBuilder, items, menuItemKeys, t1, initialValue, elevation, surfaceTintColor, shadowColor, semanticLabel, shape, menuPadding, color, t5, constraints, clipBehavior, popUpAnimationStyle, t4, _null, C.TraversalEdgeBehavior_0, t2, A.LinkedHashSet_LinkedHashSet$_empty(type$.PopEntry_nullable_Object), new A.LabeledGlobalKey(_null, $T._eval$1("LabeledGlobalKey<_ModalScopeState<0>>")), new A.LabeledGlobalKey(_null, t3), new A.PageStorageBucket(), _null, 0, new A._AsyncCompleter(new A._Future(t6, $T._eval$1("_Future<0?>")), $T._eval$1("_AsyncCompleter<0?>")), t7, t8, requestFocus, C.RouteSettings_null_null, t9, new A._AsyncCompleter(new A._Future(t10, t11), t12), new A._AsyncCompleter(new A._Future(t10, t11), t12), $T._eval$1("_PopupMenuRoute<0>"));
+      t1.Route$2$requestFocus$settings(requestFocus, routeSettings, $T);
+      return $navigator.push$1$1(t1, $T);
+    },
+    _PopupMenuDefaultsM3$(context) {
+      var _null = null;
+      return new B._PopupMenuDefaultsM3(context, _null, _null, _null, 3, _null, _null, _null, _null, _null, _null, _null, _null, _null);
+    },
+    PopupMenuEntry: function PopupMenuEntry() {
+    },
+    _MenuItem: function _MenuItem(t0, t1, t2) {
+      this.onLayout = t0;
+      this.child = t1;
+      this.key = t2;
+    },
+    _RenderMenuItem: function _RenderMenuItem(t0, t1, t2, t3) {
+      var _ = this;
+      _.onLayout = t0;
+      _.RenderObjectWithChildMixin__child = t1;
+      _._layoutCacheStorage = t2;
+      _._computingThisDryBaseline = _._computingThisDryLayout = false;
+      _._box$_size = null;
+      _._debugActivePointers = 0;
+      _._debugDisposed = false;
+      _.parentData = null;
+      _._depth = 0;
+      _.debugCreator = _._object$_parent = null;
+      _._debugDoingThisLayout = _._debugDoingThisResize = false;
+      _._debugCanParentUseSize = null;
+      _._debugMutationsLocked = false;
+      _._object$_owner = null;
+      _._needsLayout = true;
+      _._relayoutBoundary = null;
+      _._doingThisLayoutWithCallback = false;
+      _._constraints = null;
+      _._debugDoingThisPaint = false;
+      _.__RenderObject__wasRepaintBoundary_A = $;
+      _._layerHandle = t3;
+      _._needsCompositingBitsUpdate = false;
+      _.__RenderObject__needsCompositing_A = $;
+      _._needsPaint = true;
+      _._needsCompositedLayerUpdate = false;
+      _._cachedSemanticsConfiguration = null;
+      _._needsSemanticsUpdate = true;
+      _._semantics = null;
+    },
+    PopupMenuItem: function PopupMenuItem(t0, t1, t2, t3) {
+      var _ = this;
+      _.value = t0;
+      _.child = t1;
+      _.key = t2;
+      _.$ti = t3;
+    },
+    PopupMenuItemState: function PopupMenuItemState(t0, t1) {
+      var _ = this;
+      _._widget = null;
+      _._debugLifecycleState = t0;
+      _._framework$_element = null;
+      _.$ti = t1;
+    },
+    _PopupMenu: function _PopupMenu(t0, t1, t2, t3, t4, t5, t6) {
+      var _ = this;
+      _.itemKeys = t0;
+      _.route = t1;
+      _.semanticLabel = t2;
+      _.constraints = t3;
+      _.clipBehavior = t4;
+      _.key = t5;
+      _.$ti = t6;
+    },
+    _PopupMenuState: function _PopupMenuState(t0, t1, t2) {
+      var _ = this;
+      _._opacities = t0;
+      _._widget = null;
+      _._debugLifecycleState = t1;
+      _._framework$_element = null;
+      _.$ti = t2;
+    },
+    _PopupMenuState_build_closure: function _PopupMenuState_build_closure(t0, t1) {
+      this.$this = t0;
+      this.i = t1;
+    },
+    _PopupMenuState_build_closure0: function _PopupMenuState_build_closure0(t0, t1, t2, t3, t4, t5) {
+      var _ = this;
+      _.$this = t0;
+      _.opacity = t1;
+      _.popupMenuTheme = t2;
+      _.defaults = t3;
+      _.width = t4;
+      _.height = t5;
+    },
+    _PopupMenuRouteLayout: function _PopupMenuRouteLayout(t0, t1, t2, t3, t4, t5) {
+      var _ = this;
+      _.position = t0;
+      _.itemSizes = t1;
+      _.selectedItemIndex = t2;
+      _.textDirection = t3;
+      _.padding = t4;
+      _.avoidBounds = t5;
+    },
+    _PopupMenuRoute: function _PopupMenuRoute(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t27, t28, t29, t30, t31, t32, t33, t34, t35) {
+      var _ = this;
+      _.position = t0;
+      _.positionBuilder = t1;
+      _.items = t2;
+      _.itemKeys = t3;
+      _.itemSizes = t4;
+      _.initialValue = t5;
+      _.elevation = t6;
+      _.surfaceTintColor = t7;
+      _.shadowColor = t8;
+      _.semanticLabel = t9;
+      _.shape = t10;
+      _.menuPadding = t11;
+      _.color = t12;
+      _.capturedThemes = t13;
+      _.constraints = t14;
+      _.clipBehavior = t15;
+      _.popUpAnimationStyle = t16;
+      _._popup_menu$_animation = null;
+      _.barrierLabel = t17;
+      _.filter = t18;
+      _.traversalEdgeBehavior = t19;
+      _.receivedTransition = null;
+      _._offstage = false;
+      _._secondaryAnimationProxy = _._animationProxy = null;
+      _._willPopCallbacks = t20;
+      _._popEntries = t21;
+      _._scopeKey = t22;
+      _._subtreeKey = t23;
+      _._storageBucket = t24;
+      _.__ModalRoute__modalBarrier_A = $;
+      _._modalScopeCache = null;
+      _.__ModalRoute__modalScope_A = $;
+      _.LocalHistoryRoute__localHistory = t25;
+      _.LocalHistoryRoute__entriesImpliesAppBarDismissal = t26;
+      _._transitionCompleter = t27;
+      _._performanceModeRequestHandle = null;
+      _._popFinalized = false;
+      _._routes$_controller = _._animation = null;
+      _._secondaryAnimation = t28;
+      _.willDisposeAnimationController = true;
+      _._trainHoppingListenerRemover = _._result = _._simulation = null;
+      _._overlayEntries = t29;
+      _._requestFocus = t30;
+      _._navigator = null;
+      _._settings = t31;
+      _._restorationScopeId = t32;
+      _._popCompleter = t33;
+      _._disposeCompleter = t34;
+      _.$ti = t35;
+    },
+    _PopupMenuRoute_scrollTo_closure: function _PopupMenuRoute_scrollTo_closure(t0, t1) {
+      this.$this = t0;
+      this.selectedItemIndex = t1;
+    },
+    _PopupMenuRoute_buildPage_closure: function _PopupMenuRoute_buildPage_closure(t0, t1, t2, t3) {
+      var _ = this;
+      _._box_0 = t0;
+      _.$this = t1;
+      _.mediaQuery = t2;
+      _.menu = t3;
+    },
+    PopupMenuButton: function PopupMenuButton(t0, t1, t2, t3, t4) {
+      var _ = this;
+      _.itemBuilder = t0;
+      _.onSelected = t1;
+      _.icon = t2;
+      _.key = t3;
+      _.$ti = t4;
+    },
+    PopupMenuButtonState: function PopupMenuButtonState(t0, t1) {
+      var _ = this;
+      _._widget = null;
+      _._debugLifecycleState = t0;
+      _._framework$_element = null;
+      _.$ti = t1;
+    },
+    PopupMenuButtonState_showButtonMenu_closure: function PopupMenuButtonState_showButtonMenu_closure(t0) {
+      this.$this = t0;
+    },
+    _EffectiveMouseCursor: function _EffectiveMouseCursor(t0, t1) {
+      this.widgetCursor = t0;
+      this.themeCursor = t1;
+    },
+    _PopupMenuDefaultsM3: function _PopupMenuDefaultsM3(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13) {
+      var _ = this;
+      _.context = t0;
+      _.___PopupMenuDefaultsM3__textTheme_FI = _.___PopupMenuDefaultsM3__colors_FI = _.___PopupMenuDefaultsM3__theme_FI = $;
+      _.color = t1;
+      _.shape = t2;
+      _.menuPadding = t3;
+      _.elevation = t4;
+      _.shadowColor = t5;
+      _.surfaceTintColor = t6;
+      _.textStyle = t7;
+      _.labelTextStyle = t8;
+      _.enableFeedback = t9;
+      _.mouseCursor = t10;
+      _.position = t11;
+      _.iconColor = t12;
+      _.iconSize = t13;
+    },
+    _PopupMenuDefaultsM3_labelTextStyle_closure: function _PopupMenuDefaultsM3_labelTextStyle_closure(t0) {
+      this.$this = t0;
+    },
+    ListBodyParentData: function ListBodyParentData(t0, t1, t2) {
+      this.ContainerParentDataMixin_previousSibling = t0;
+      this.ContainerParentDataMixin_nextSibling = t1;
+      this.offset = t2;
+    },
+    RenderListBody: function RenderListBody(t0, t1, t2, t3, t4, t5) {
+      var _ = this;
+      _._list_body$_axisDirection = t0;
+      _.ContainerRenderObjectMixin__childCount = t1;
+      _.ContainerRenderObjectMixin__firstChild = t2;
+      _.ContainerRenderObjectMixin__lastChild = t3;
+      _._layoutCacheStorage = t4;
+      _._computingThisDryBaseline = _._computingThisDryLayout = false;
+      _._box$_size = null;
+      _._debugActivePointers = 0;
+      _._debugDisposed = false;
+      _.parentData = null;
+      _._depth = 0;
+      _.debugCreator = _._object$_parent = null;
+      _._debugDoingThisLayout = _._debugDoingThisResize = false;
+      _._debugCanParentUseSize = null;
+      _._debugMutationsLocked = false;
+      _._object$_owner = null;
+      _._needsLayout = true;
+      _._relayoutBoundary = null;
+      _._doingThisLayoutWithCallback = false;
+      _._constraints = null;
+      _._debugDoingThisPaint = false;
+      _.__RenderObject__wasRepaintBoundary_A = $;
+      _._layerHandle = t5;
+      _._needsCompositingBitsUpdate = false;
+      _.__RenderObject__needsCompositing_A = $;
+      _._needsPaint = true;
+      _._needsCompositedLayerUpdate = false;
+      _._cachedSemanticsConfiguration = null;
+      _._needsSemanticsUpdate = true;
+      _._semantics = null;
+    },
+    RenderListBody__debugCheckConstraints_closure: function RenderListBody__debugCheckConstraints_closure(t0, t1) {
+      this.$this = t0;
+      this.constraints = t1;
+    },
+    RenderListBody__debugCheckConstraints_closure0: function RenderListBody__debugCheckConstraints_closure0(t0, t1) {
+      this.$this = t0;
+      this.constraints = t1;
+    },
+    RenderListBody_computeMinIntrinsicWidth_closure: function RenderListBody_computeMinIntrinsicWidth_closure(t0) {
+      this.height = t0;
+    },
+    RenderListBody_computeMinIntrinsicWidth_closure0: function RenderListBody_computeMinIntrinsicWidth_closure0(t0) {
+      this.height = t0;
+    },
+    RenderListBody_computeMaxIntrinsicWidth_closure: function RenderListBody_computeMaxIntrinsicWidth_closure(t0) {
+      this.height = t0;
+    },
+    RenderListBody_computeMaxIntrinsicWidth_closure0: function RenderListBody_computeMaxIntrinsicWidth_closure0(t0) {
+      this.height = t0;
+    },
+    RenderListBody_computeMinIntrinsicHeight_closure: function RenderListBody_computeMinIntrinsicHeight_closure(t0) {
+      this.width = t0;
+    },
+    RenderListBody_computeMinIntrinsicHeight_closure0: function RenderListBody_computeMinIntrinsicHeight_closure0(t0) {
+      this.width = t0;
+    },
+    RenderListBody_computeMaxIntrinsicHeight_closure: function RenderListBody_computeMaxIntrinsicHeight_closure(t0) {
+      this.width = t0;
+    },
+    RenderListBody_computeMaxIntrinsicHeight_closure0: function RenderListBody_computeMaxIntrinsicHeight_closure0(t0) {
+      this.width = t0;
+    },
+    _RenderListBody_RenderBox_ContainerRenderObjectMixin: function _RenderListBody_RenderBox_ContainerRenderObjectMixin() {
+    },
+    _RenderListBody_RenderBox_ContainerRenderObjectMixin_RenderBoxContainerDefaultsMixin: function _RenderListBody_RenderBox_ContainerRenderObjectMixin_RenderBoxContainerDefaultsMixin() {
+    },
+    RenderFractionallySizedOverflowBox: function RenderFractionallySizedOverflowBox(t0, t1, t2, t3, t4, t5, t6) {
+      var _ = this;
+      _._widthFactor = t0;
+      _._heightFactor = t1;
+      _._resolvedAlignment = null;
+      _._alignment = t2;
+      _._shifted_box$_textDirection = t3;
+      _.RenderObjectWithChildMixin__child = t4;
+      _._layoutCacheStorage = t5;
+      _._computingThisDryBaseline = _._computingThisDryLayout = false;
+      _._box$_size = null;
+      _._debugActivePointers = 0;
+      _._debugDisposed = false;
+      _.parentData = null;
+      _._depth = 0;
+      _.debugCreator = _._object$_parent = null;
+      _._debugDoingThisLayout = _._debugDoingThisResize = false;
+      _._debugCanParentUseSize = null;
+      _._debugMutationsLocked = false;
+      _._object$_owner = null;
+      _._needsLayout = true;
+      _._relayoutBoundary = null;
+      _._doingThisLayoutWithCallback = false;
+      _._constraints = null;
+      _._debugDoingThisPaint = false;
+      _.__RenderObject__wasRepaintBoundary_A = $;
+      _._layerHandle = t6;
+      _._needsCompositingBitsUpdate = false;
+      _.__RenderObject__needsCompositing_A = $;
+      _._needsPaint = true;
+      _._needsCompositedLayerUpdate = false;
+      _._cachedSemanticsConfiguration = null;
+      _._needsSemanticsUpdate = true;
+      _._semantics = null;
+    },
+    FractionallySizedBox: function FractionallySizedBox(t0, t1, t2) {
+      this.widthFactor = t0;
+      this.child = t1;
+      this.key = t2;
+    },
+    ListBody: function ListBody(t0, t1) {
+      this.children = t0;
+      this.key = t1;
+    },
+    BoxConstraintsTween: function BoxConstraintsTween(t0, t1) {
+      this.begin = t0;
+      this.end = t1;
+    },
+    Visibility_of(context) {
+      var t1, ancestor, isVisible, _box_0 = {};
+      _box_0.ancestorContext = context;
+      t1 = type$._VisibilityScope;
+      ancestor = context.getElementForInheritedWidgetOfExactType$1$0(t1);
+      isVisible = true;
+      while (true) {
+        if (!(isVisible && ancestor != null))
+          break;
+        isVisible = t1._as(context.dependOnInheritedElement$1(ancestor)).isVisible;
+        ancestor.visitAncestorElements$1(new B.Visibility_of_closure(_box_0));
+        ancestor = _box_0.ancestorContext.getElementForInheritedWidgetOfExactType$1$0(t1);
+      }
+      return isVisible;
+    },
+    Visibility_of_closure: function Visibility_of_closure(t0) {
+      this._box_0 = t0;
+    },
+    WidgetStateProperty: function WidgetStateProperty() {
+    },
+    PopupMenuTheme_of(context) {
+      var t1;
+      context.dependOnInheritedWidgetOfExactType$1$0(type$.PopupMenuTheme);
+      t1 = A.Theme_of(context);
+      return t1.popupMenuTheme;
+    },
+    CircularProgressIndicator$(backgroundColor, color, key, semanticsLabel, semanticsValue, strokeAlign, strokeCap, strokeWidth, value, valueColor) {
+      return new A.CircularProgressIndicator(strokeWidth, strokeAlign, strokeCap, value, backgroundColor, color, valueColor, semanticsLabel, semanticsValue, key);
+    },
+    ListView$builder(cacheExtent, controller, itemBuilder, itemCount, padding, physics, scrollDirection, shrinkWrap) {
+      var _null = null,
+        t1 = itemCount >= 0;
+      A.assertHelper(t1);
+      A.assertHelper(t1);
+      if (physics == null) {
+        t1 = controller == null && scrollDirection === C.Axis_1;
+        t1 = t1 ? C.AlwaysScrollableScrollPhysics_null : _null;
+      } else
+        t1 = physics;
+      return new A.ListView(new A.SliverChildBuilderDelegate(itemBuilder, itemCount, true, true, true, A.scroll_delegate___kDefaultSemanticIndexCallback$closure(), _null), padding, scrollDirection, false, controller, _null, t1, _null, shrinkWrap, _null, 0, cacheExtent, itemCount, C.DragStartBehavior_1, C.ScrollViewKeyboardDismissBehavior_0, _null, C.Clip_1, C.HitTestBehavior_1, _null);
+    },
+    StyledWidget_constrained(_this, maxWidth) {
+      var t1 = A.ConstrainedBox$(_this, new A.BoxConstraints(0, maxWidth, 0, 1 / 0), null);
+      return t1;
+    }
+  },
+  D;
+  J = holdersList[1];
+  A = holdersList[0];
+  C = holdersList[2];
+  F = holdersList[8];
+  E = holdersList[12];
+  B = hunkHelpers.updateHolder(holdersList[7], B);
+  D = holdersList[10];
+  B.DietRecordWidgetBuilder.prototype = {
+    buildWidget$5(key, context, data, createdAt, onDelete) {
+      type$.void_Function._as(onDelete);
+      type$.Map_String_dynamic._as(data);
+      A.debugCheckHasMediaQuery(context);
+      return new A.SizedBox(null, A.InheritedModel_inheritFrom(context, null, type$.MediaQuery).data.size._dy * 0.6, new B.DietRecordWidget(createdAt, data, onDelete, key), null);
+    },
+    $isRecordWidgetBuilder: 1
+  };
+  B.SleepRecordWidgetBuilder.prototype = {
+    buildWidget$5(key, context, data, createdAt, onDelete) {
+      type$.void_Function._as(onDelete);
+      type$.Map_String_dynamic._as(data);
+      A.debugCheckHasMediaQuery(context);
+      return new A.SizedBox(null, A.InheritedModel_inheritFrom(context, null, type$.MediaQuery).data.size._dy * 0.6, new B.SleepRecordWidget(createdAt, data, key), null);
+    },
+    $isRecordWidgetBuilder: 1
+  };
+  B.RecordDetailDialog.prototype = {
+    createState$0() {
+      return new B._RecordDetailDialogState(C._StateLifecycle_0);
+    },
+    refresh$0($receiver) {
+      return this.refresh.call$0();
+    }
+  };
+  B._RecordDetailDialogState.prototype = {
+    initState$0() {
+      this.super$State$initState();
+      this._loadDetail$0();
+    },
+    _loadDetail$0() {
+      var $async$goto = 0,
+        $async$completer = A._makeAsyncAwaitCompleter(type$.void),
+        $async$handler = 1, $async$errorStack = [], $async$self = this, initializer, data, exception, $async$exception;
+      var $async$_loadDetail$0 = A._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1) {
+          $async$errorStack.push($async$result);
+          $async$goto = $async$handler;
+        }
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$handler = 3;
+              initializer = $.$get$EventRegistry_initializers().$index(0, J.$index$asx($async$self._widget.metadata, "event"));
+              $async$goto = initializer != null ? 6 : 8;
+              break;
+            case 6:
+              // then
+              $async$goto = 9;
+              return A._asyncAwait(initializer.call$2($async$self.get$context(0), $async$self._widget.metadata), $async$_loadDetail$0);
+            case 9:
+              // returning from await.
+              // goto join
+              $async$goto = 7;
+              break;
+            case 8:
+              // else
+              $async$result = null;
+            case 7:
+              // join
+              data = $async$result;
+              $async$self.set$recordKey(new A.LabeledGlobalKey(null, type$.LabeledGlobalKey_RecordUpdatable_StatefulWidget));
+              $async$self.setState$1(new B._RecordDetailDialogState__loadDetail_closure($async$self, data));
+              $async$handler = 1;
+              // goto after finally
+              $async$goto = 5;
+              break;
+            case 3:
+              // catch
+              $async$handler = 2;
+              $async$exception = $async$errorStack.pop();
+              $async$self.setState$1(new B._RecordDetailDialogState__loadDetail_closure0($async$self));
+              // goto after finally
+              $async$goto = 5;
+              break;
+            case 2:
+              // uncaught
+              // goto rethrow
+              $async$goto = 1;
+              break;
+            case 5:
+              // after finally
+              // implicit return
+              return A._asyncReturn(null, $async$completer);
+            case 1:
+              // rethrow
+              return A._asyncRethrow($async$errorStack.at(-1), $async$completer);
+          }
+      });
+      return A._asyncStartSync($async$_loadDetail$0, $async$completer);
+    },
+    build$1(context) {
+      var t1, hDM, t2, _null = null;
+      $.$get$Get();
+      t1 = $.GetInstance__getInstance;
+      if (t1 == null)
+        t1 = $.GetInstance__getInstance = C.C_GetInstance;
+      hDM = t1.find$1$1$tag(0, _null, type$.HealthDataController);
+      if (this._record_detail$_loading)
+        t1 = C.Center_UvW;
+      else {
+        t1 = this._record_detail$_body;
+        if (t1 == null)
+          t1 = D.Text_YUJ;
+      }
+      t2 = A.FButton$(D.Text_yir, new B._RecordDetailDialogState_build_closure(this, hDM));
+      return A.Dialog$(_null, _null, F.StyledWidget_withBackground(B.StyledWidget_constrained(A.StyledWidget_padding(A.StyledList_toColumn(A._setArrayType([t1, D.SizedBox_null_16_null_null, new B.FractionallySizedBox(0.85, t2, _null)], type$.JSArray_Widget), C.CrossAxisAlignment_2, C.MainAxisAlignment_0, C.MainAxisSize_0), 16, _null, _null), 500), D.BackgroundPreset_6yj), _null, _null, _null, _null, _null, _null);
+    },
+    set$recordKey(recordKey) {
+      this.recordKey = type$.nullable_GlobalKey_RecordUpdatable_StatefulWidget._as(recordKey);
+    }
+  };
+  B.DietRecordWidget.prototype = {
+    createState$0() {
+      return new B.DietRecordWidgetState(C._StateLifecycle_0);
+    },
+    onDelete$0() {
+      return this.onDelete.call$0();
+    }
+  };
+  B.DietRecordWidgetState.prototype = {
+    initState$0() {
+      this.super$State$initState();
+      var t1 = J.$index$asx(this._widget.record, "data");
+      t1 = t1 == null ? null : J.$index$asx(t1, "items");
+      if (t1 == null)
+        t1 = [];
+      this.set$__DietRecordWidgetState_items_A(type$.List_NutritionItem._as(J.toList$0$ax(J.map$1$1$ax(t1, new B.DietRecordWidgetState_initState_closure(), type$.NutritionItem))));
+    },
+    getUpdatedRecord$0() {
+      var t4, t5, t6,
+        t1 = this._widget,
+        t2 = t1.createdAt,
+        t3 = type$.dynamic;
+      t1 = A.LinkedHashMap_LinkedHashMap$of(type$.Map_dynamic_dynamic._as(J.$index$asx(t1.record, "data")), t3, t3);
+      t4 = this.__DietRecordWidgetState_items_A;
+      t4 === $ && A.throwLateFieldNI("items");
+      t5 = A._arrayInstanceType(t4);
+      t6 = t5._eval$1("MappedListIterable<1,Map<String,@>>");
+      t1.$indexSet(0, "items", A.List_List$of(new A.MappedListIterable(t4, t5._eval$1("Map<String,@>(1)")._as(new B.DietRecordWidgetState_getUpdatedRecord_closure()), t6), true, t6._eval$1("ListIterable.E")));
+      return A.LinkedHashMap_LinkedHashMap$_literal(["type", "diet", "created_at", t2, "data", t1], type$.String, t3);
+    },
+    _calculateTotals$0() {
+      var t2, _i, item,
+        totals = A.LinkedHashMap_LinkedHashMap$_empty(type$.String, type$.double),
+        t1 = this.__DietRecordWidgetState_items_A;
+      t1 === $ && A.throwLateFieldNI("items");
+      t2 = t1.length;
+      _i = 0;
+      for (; _i < t1.length; t1.length === t2 || (0, A.throwConcurrentModificationError)(t1), ++_i) {
+        item = t1[_i];
+        item.nutrients.forEach$1(0, new B.DietRecordWidgetState__calculateTotals_closure(totals, item));
+      }
+      return totals;
+    },
+    _editItem$1(item) {
+      var $async$goto = 0,
+        $async$completer = A._makeAsyncAwaitCompleter(type$.void),
+        $async$self = this, weightController;
+      var $async$_editItem$1 = A._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return A._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              weightController = A.TextEditingController$(C.JSNumber_methods.toString$0(item.amount));
+              $async$goto = 2;
+              return A._asyncAwait(A.showDialog(new B.DietRecordWidgetState__editItem_closure(item, weightController), $async$self.get$context(0), type$.bool), $async$_editItem$1);
+            case 2:
+              // returning from await.
+              if ($async$result === true)
+                $async$self.setState$1(new B.DietRecordWidgetState__editItem_closure0(item, weightController));
+              // implicit return
+              return A._asyncReturn(null, $async$completer);
+          }
+      });
+      return A._asyncStartSync($async$_editItem$1, $async$completer);
+    },
+    build$1(context) {
+      var totals, t2, t3, t4, t5, t6, t7, _this = this, _null = null,
+        t1 = J.$index$asx(_this._widget.record, "data"),
+        mealType = t1 == null ? _null : J.$index$asx(t1, "meal_type");
+      if (mealType == null)
+        mealType = "\u665a\u9910";
+      totals = _this._calculateTotals$0();
+      t1 = A.Text$(A._asString(mealType), _null, _null, _null, _null, _null, _null, _null, A.Theme_of(context).textTheme.titleLarge, _null, _null, _null, _null, _null);
+      t2 = A.Icon$(C.IconData_58372_MaterialIcons_null_false, _null, _null, _null);
+      t3 = type$.JSArray_Widget;
+      t1 = A.AppBar$(A._setArrayType([new B.PopupMenuButton(new B.DietRecordWidgetState_build_closure(), new B.DietRecordWidgetState_build_closure0(_this), t2, _null, type$.PopupMenuButton_String)], t3), C.Color_Edl, true, t1);
+      t2 = totals.$index(0, "\u70ed\u91cf");
+      t2 = t2 == null ? _null : C.JSNumber_methods.toStringAsFixed$1(t2, 0);
+      t4 = type$.JSArray_Text;
+      t2 = A.StyledList_toColumn(A._setArrayType([A.Text$((t2 == null ? "0" : t2) + " kcal", _null, _null, _null, _null, _null, _null, _null, E.TextStyle_kMo, _null, _null, _null, _null, _null), A.Text$("\u70ed\u91cf", _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null)], t4), C.CrossAxisAlignment_2, C.MainAxisAlignment_0, C.MainAxisSize_1);
+      t5 = totals.$index(0, "\u78b3\u6c34");
+      t5 = t5 == null ? _null : C.JSNumber_methods.toStringAsFixed$1(t5, 1);
+      t5 = A.StyledList_toColumn(A._setArrayType([A.Text$((t5 == null ? "0" : t5) + " mg", _null, _null, _null, _null, _null, _null, _null, E.TextStyle_kMo, _null, _null, _null, _null, _null), A.Text$("\u78b3\u6c34", _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null)], t4), C.CrossAxisAlignment_2, C.MainAxisAlignment_0, C.MainAxisSize_1);
+      t6 = totals.$index(0, "\u86cb\u767d\u8d28");
+      t6 = t6 == null ? _null : C.JSNumber_methods.toStringAsFixed$1(t6, 1);
+      t6 = A.StyledList_toColumn(A._setArrayType([A.Text$((t6 == null ? "0" : t6) + " mg", _null, _null, _null, _null, _null, _null, _null, E.TextStyle_kMo, _null, _null, _null, _null, _null), A.Text$("\u86cb\u767d\u8d28", _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null)], t4), C.CrossAxisAlignment_2, C.MainAxisAlignment_0, C.MainAxisSize_1);
+      t7 = totals.$index(0, "\u8102\u80aa");
+      t7 = t7 == null ? _null : C.JSNumber_methods.toStringAsFixed$1(t7, 1);
+      t2 = A.StyledList_toRow(A._setArrayType([t2, t5, t6, A.StyledList_toColumn(A._setArrayType([A.Text$((t7 == null ? "0" : t7) + " mg", _null, _null, _null, _null, _null, _null, _null, E.TextStyle_kMo, _null, _null, _null, _null, _null), A.Text$("\u8102\u80aa", _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null)], t4), C.CrossAxisAlignment_2, C.MainAxisAlignment_0, C.MainAxisSize_1)], t3), C.CrossAxisAlignment_2, C.MainAxisAlignment_4, C.MainAxisSize_1, _null);
+      t4 = _this.__DietRecordWidgetState_items_A;
+      t4 === $ && A.throwLateFieldNI("items");
+      return A.Scaffold$(t1, C.Color_Edl, A.StyledList_toColumn(A._setArrayType([D.SizedBox_null_12_null_null, t2, D.SizedBox_null_12_null_null, A.Expanded$(B.ListView$builder(_null, _null, new B.DietRecordWidgetState_build_closure1(_this), t4.length, D.EdgeInsets_16_8_16_8, _null, C.Axis_1, false), 1, _null)], t3), C.CrossAxisAlignment_2, C.MainAxisAlignment_0, C.MainAxisSize_1), _null);
+    },
+    set$__DietRecordWidgetState_items_A(__DietRecordWidgetState_items_A) {
+      this.__DietRecordWidgetState_items_A = type$.List_NutritionItem._as(__DietRecordWidgetState_items_A);
+    }
+  };
+  B.NutritionItem.prototype = {
+    nutrientAmount$1(key) {
+      var t1 = this.nutrients.$index(0, key);
+      if (t1 == null)
+        t1 = 0;
+      return t1 / 100 * this.amount;
+    },
+    toJson$0() {
+      return A.LinkedHashMap_LinkedHashMap$_literal(["name", this.name, "amount", this.amount, "nutrients", this.nutrients], type$.String, type$.dynamic);
+    }
+  };
+  B._DietRecordWidgetState_State_RecordUpdatable.prototype = {};
+  B.SleepRecordWidget.prototype = {
+    createState$0() {
+      return new B.SleepRecordWidgetState(C._StateLifecycle_0);
+    }
+  };
+  B.SleepRecordWidgetState.prototype = {
+    initState$0() {
+      var t1, t2, t3, t4, t5, t6, data,
+        _s14_ = "all_sleep_time";
+      this.super$State$initState();
+      t1 = this._widget.record;
+      t2 = J.getInterceptor$asx(t1);
+      t3 = type$.Map_String_dynamic._as(t2.$index(t1, "time_spec"));
+      t4 = J.getInterceptor$asx(t3);
+      t5 = A.DateTime_parse(A._asString(t4.$index(t3, "start")));
+      t6 = t4.$index(t3, "end") == null ? null : A.DateTime_parse(A._asString(t4.$index(t3, "end")));
+      t3 = A._asString(t4.$index(t3, "granularity"));
+      data = A.LinkedHashMap_LinkedHashMap$from(type$.Map_dynamic_dynamic._as(t2.$index(t1, "data")), type$.String, type$.dynamic);
+      if (data.$index(0, _s14_) == null) {
+        t1 = t6 == null ? null : C.JSInt_methods._tdivFast$1(t6.difference$1(t5)._duration, 60000000);
+        data.$indexSet(0, _s14_, t1 == null ? 0 : t1);
+      }
+      this.__SleepRecordWidgetState_thisSleep_A = new B.SleepItem(new B.TimeSpec(t5, t6, t3), data);
+    },
+    getUpdatedRecord$0() {
+      var t1 = this._widget.createdAt,
+        t2 = this.__SleepRecordWidgetState_thisSleep_A;
+      t2 === $ && A.throwLateFieldNI("thisSleep");
+      return A.LinkedHashMap_LinkedHashMap$_literal(["type", "sleep", "created_at", t1, "data", t2.toJson$0()], type$.String, type$.dynamic);
+    },
+    build$1(context) {
+      var _null = null,
+        t1 = this.__SleepRecordWidgetState_thisSleep_A;
+      t1 === $ && A.throwLateFieldNI("thisSleep");
+      return A.Text$(t1.timeSpec.start.toString$0(0) + " - " + A.S(this.__SleepRecordWidgetState_thisSleep_A.timeSpec.end) + " : " + A.S(this.__SleepRecordWidgetState_thisSleep_A.data.$index(0, "all_sleep_time")) + " minutes", _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null);
+    }
+  };
+  B.SleepItem.prototype = {
+    toJson$0() {
+      var json = A.LinkedHashMap_LinkedHashMap$from(this.data, type$.String, type$.dynamic);
+      json.$indexSet(0, "time_spec", this.timeSpec.toJson$0());
+      return json;
+    }
+  };
+  B._SleepRecordWidgetState_State_RecordUpdatable.prototype = {};
+  B.RecordUpdatable.prototype = {$isDiagnosticable: 1, $isState: 1};
+  B.TimeSpec.prototype = {
+    toJson$0() {
+      var t1 = this.start.toIso8601String$0(),
+        t2 = this.end;
+      t2 = t2 == null ? null : t2.toIso8601String$0();
+      return A.LinkedHashMap_LinkedHashMap$_literal(["start", t1, "end", t2, "granularity", this.granularity], type$.String, type$.dynamic);
+    }
+  };
+  B.ElevatedButton.prototype = {
+    defaultStyleOf$1(context) {
+      var _null = null;
+      A.Theme_of(context);
+      A.Theme_of(context);
+      return new B._ElevatedButtonDefaultsM3(context, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, C.Duration_200000, true, C.Alignment_0_0, _null, _null, _null);
+    },
+    themeStyleOf$1(context) {
+      var t1;
+      context.dependOnInheritedWidgetOfExactType$1$0(type$.ElevatedButtonTheme);
+      t1 = A.Theme_of(context);
+      return t1.elevatedButtonTheme.style;
+    }
+  };
+  B._ElevatedButtonDefaultsM3.prototype = {
+    get$_elevated_button$_colors() {
+      var t1, _this = this,
+        value = _this.___ElevatedButtonDefaultsM3__colors_FI;
+      if (value === $) {
+        t1 = A.Theme_of(_this.context);
+        _this.___ElevatedButtonDefaultsM3__colors_FI !== $ && A.throwLateFieldADI("_colors");
+        value = _this.___ElevatedButtonDefaultsM3__colors_FI = t1.colorScheme;
+      }
+      return value;
+    },
+    get$textStyle() {
+      return new A.WidgetStatePropertyAll(A.Theme_of(this.context).textTheme.labelLarge, type$.WidgetStatePropertyAll_nullable_TextStyle);
+    },
+    get$backgroundColor(_) {
+      return new A._WidgetStatePropertyWith(new B._ElevatedButtonDefaultsM3_backgroundColor_closure(this), type$._WidgetStatePropertyWith_nullable_Color);
+    },
+    get$foregroundColor() {
+      return new A._WidgetStatePropertyWith(new B._ElevatedButtonDefaultsM3_foregroundColor_closure(this), type$._WidgetStatePropertyWith_nullable_Color);
+    },
+    get$overlayColor() {
+      return new A._WidgetStatePropertyWith(new B._ElevatedButtonDefaultsM3_overlayColor_closure(this), type$._WidgetStatePropertyWith_nullable_Color);
+    },
+    get$shadowColor(_) {
+      var t1 = this.get$_elevated_button$_colors()._shadow;
+      if (t1 == null)
+        t1 = C.Color_vnR;
+      return new A.WidgetStatePropertyAll(t1, type$.WidgetStatePropertyAll_Color);
+    },
+    get$surfaceTintColor() {
+      return C.WidgetStatePropertyAll_G5s;
+    },
+    get$elevation(_) {
+      return new A._WidgetStatePropertyWith(new B._ElevatedButtonDefaultsM3_elevation_closure(), type$._WidgetStatePropertyWith_double);
+    },
+    get$padding(_) {
+      return new A.WidgetStatePropertyAll(B._scaledPadding0(this.context), type$.WidgetStatePropertyAll_EdgeInsetsGeometry);
+    },
+    get$minimumSize() {
+      return C.WidgetStatePropertyAll_Size_64_40;
+    },
+    get$iconSize() {
+      return C.WidgetStatePropertyAll_18;
+    },
+    get$iconColor() {
+      return new A._WidgetStatePropertyWith(new B._ElevatedButtonDefaultsM3_iconColor_closure(this), type$._WidgetStatePropertyWith_Color);
+    },
+    get$maximumSize() {
+      return C.WidgetStatePropertyAll_HBn;
+    },
+    get$shape(_) {
+      return C.WidgetStatePropertyAll_oQi;
+    },
+    get$mouseCursor() {
+      return new A._WidgetStatePropertyWith(new B._ElevatedButtonDefaultsM3_mouseCursor_closure(), type$._WidgetStatePropertyWith_nullable_MouseCursor);
+    },
+    get$visualDensity() {
+      return A.Theme_of(this.context).visualDensity;
+    },
+    get$tapTargetSize() {
+      return A.Theme_of(this.context).materialTapTargetSize;
+    },
+    get$splashFactory() {
+      return A.Theme_of(this.context).splashFactory;
+    }
+  };
+  B.Ink.prototype = {
+    get$_ink_decoration$_paddingIncludingDecoration() {
+      var _0_40, _0_5, t2, padding,
+        t1 = this.decoration,
+        _0_4 = t1 == null ? null : t1.get$padding(t1);
+      $label0$0: {
+        _0_40 = null;
+        _0_5 = _0_4 == null;
+        t2 = _0_5;
+        A.boolConversionCheck(t2);
+        if (t2) {
+          t1 = C.EdgeInsets_0_0_0_0;
+          break $label0$0;
+        }
+        t2 = _0_4 instanceof A.EdgeInsetsGeometry;
+        if (t2) {
+          padding = _0_4 == null ? type$.EdgeInsetsGeometry._as(_0_4) : _0_4;
+          t1 = padding;
+          break $label0$0;
+        }
+        null.toString;
+        t1 = null.add$1(0, t1.get$padding(t1));
+        break $label0$0;
+      }
+      return t1;
+    },
+    debugFillProperties$1(properties) {
+      var _null = null;
+      this.super$Widget$debugFillProperties(properties);
+      properties.add$1(0, A.DiagnosticsProperty$("padding", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.EdgeInsetsGeometry));
+      properties.add$1(0, A.DiagnosticsProperty$("bg", this.decoration, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.Decoration));
+    },
+    createState$0() {
+      return new B._InkState(new A.LabeledGlobalKey(null, type$.LabeledGlobalKey_State_StatefulWidget), C._StateLifecycle_0);
+    }
+  };
+  B._InkState.prototype = {
+    _handleRemoved$0() {
+      this._ink = null;
+    },
+    deactivate$0() {
+      var t1 = this._ink;
+      if (t1 != null)
+        t1.dispose$0();
+      A.assertHelper(this._ink == null);
+      this.super$State$deactivate();
+    },
+    _build$1(context) {
+      var t1, t2, t3, t4, t5, _this = this;
+      type$.BuildContext._as(context);
+      t1 = _this._ink;
+      t2 = _this._widget;
+      if (t1 == null) {
+        t1 = t2.decoration;
+        t2 = B.Visibility_of(context);
+        t3 = A.createLocalImageConfiguration(context, null);
+        t4 = A.Material_of(context);
+        t5 = A.BindingBase_checkInstance($.WidgetsBinding__instance, type$.WidgetsBinding).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, _this._boxKey).findRenderObject$0();
+        t5.toString;
+        t5 = new B.InkDecoration(t3, t4, type$.RenderBox._as(t5), _this.get$_handleRemoved());
+        $.$get$FlutterMemoryAllocations_instance().dispatchObjectCreated$3$className$library$object(C.Type_InkFeature_UUv.toString$0(0), "package:flutter/material.dart", t5);
+        t5.set$decoration(t1);
+        t5.set$isVisible(t2);
+        t4.addInkFeature$1(t5);
+        _this._ink = t5;
+      } else {
+        t1.set$decoration(t2.decoration);
+        t1 = _this._ink;
+        t1.toString;
+        t1.set$isVisible(B.Visibility_of(context));
+        t1 = _this._ink;
+        t1.toString;
+        t1.set$configuration(A.createLocalImageConfiguration(context, null));
+      }
+      t1 = _this._widget.child;
+      return t1;
+    },
+    build$1(context) {
+      var t1, _this = this;
+      A.debugCheckHasMaterial(context);
+      t1 = _this._widget.get$_ink_decoration$_paddingIncludingDecoration();
+      _this._widget.toString;
+      return new A.Padding(t1, new A.Builder(_this.get$_build(), null), _this._boxKey);
+    }
+  };
+  B.InkDecoration.prototype = {
+    set$decoration(value) {
+      var t1, _this = this;
+      if (J.$eq$(value, _this._ink_decoration$_decoration))
+        return;
+      _this._ink_decoration$_decoration = value;
+      t1 = _this._ink_decoration$_painter;
+      if (t1 != null)
+        t1.dispose$0();
+      t1 = _this._ink_decoration$_decoration;
+      _this._ink_decoration$_painter = t1 == null ? null : t1.createBoxPainter$1(_this.get$_handleChanged());
+      _this._material$_controller.markNeedsPaint$0();
+    },
+    set$isVisible(value) {
+      if (value === this._ink_decoration$_isVisible)
+        return;
+      this._ink_decoration$_isVisible = value;
+      this._material$_controller.markNeedsPaint$0();
+    },
+    set$configuration(value) {
+      if (value.$eq(0, this._ink_decoration$_configuration))
+        return;
+      this._ink_decoration$_configuration = value;
+      this._material$_controller.markNeedsPaint$0();
+    },
+    _handleChanged$0() {
+      this._material$_controller.markNeedsPaint$0();
+    },
+    dispose$0() {
+      var t1 = this._ink_decoration$_painter;
+      if (t1 != null)
+        t1.dispose$0();
+      this.super$InkFeature$dispose();
+    },
+    paintFeature$2(canvas, transform) {
+      var originOffset, sizedConfiguration, _this = this;
+      if (_this._ink_decoration$_painter == null || !_this._ink_decoration$_isVisible)
+        return;
+      originOffset = A.MatrixUtils_getAsTranslation(transform);
+      sizedConfiguration = _this._ink_decoration$_configuration.copyWith$1$size(_this.referenceBox.get$size(0));
+      if (originOffset == null) {
+        canvas.save$0(0);
+        canvas.transform$1(0, transform._vector_math_64$_m4storage);
+        _this._ink_decoration$_painter.paint$3(canvas, C.Offset_0_0, sizedConfiguration);
+        canvas.restore$0(0);
+      } else
+        _this._ink_decoration$_painter.paint$3(canvas, originOffset, sizedConfiguration);
+    }
+  };
+  B.ListTileTitleAlignment.prototype = {
+    _enumToString$0() {
+      return "ListTileTitleAlignment." + this._name;
+    },
+    _yOffsetFor$4(childHeight, tileHeight, listTile, isLeading) {
+      var t1, _0_4, _this = this;
+      $label0$0: {
+        if (D.ListTileTitleAlignment_0 === _this) {
+          t1 = D.ListTileTitleAlignment_3._yOffsetFor$4(childHeight, tileHeight, listTile, isLeading);
+          break $label0$0;
+        }
+        _0_4 = D.ListTileTitleAlignment_1 === _this;
+        if (_0_4 && tileHeight > 72) {
+          t1 = 16;
+          break $label0$0;
+        }
+        if (_0_4) {
+          t1 = (tileHeight - childHeight) / 2;
+          if (isLeading)
+            t1 = Math.min(t1, 16);
+          break $label0$0;
+        }
+        if (D.ListTileTitleAlignment_2 === _this) {
+          t1 = listTile._minVerticalPadding;
+          break $label0$0;
+        }
+        if (D.ListTileTitleAlignment_3 === _this) {
+          t1 = (tileHeight - childHeight) / 2;
+          break $label0$0;
+        }
+        if (D.ListTileTitleAlignment_4 === _this) {
+          t1 = tileHeight - childHeight - listTile._minVerticalPadding;
+          break $label0$0;
+        }
+        t1 = null;
+      }
+      return t1;
+    }
+  };
+  B.ListTile.prototype = {
+    _isDenseLayout$2(theme, tileTheme) {
+      return false;
+    },
+    build$1(context) {
+      var theme, tileTheme, defaults, t1, t2, t3, t4, effectiveIconColor, effectiveColor, iconThemeData, leadingAndTrailingStyle, leadingIcon, titleStyle, titleText, subtitleStyle, subtitleText, textDirection, resolvedContentPadding, effectiveMouseCursor, color, t5, t6, t7, t8, _this = this, _null = null;
+      A.debugCheckHasMaterial(context);
+      theme = A.Theme_of(context);
+      tileTheme = A.ListTileTheme_of(context);
+      defaults = new B._LisTileDefaultsM3(context, _null, C.RoundedRectangleBorder_Ggx, _null, _null, _null, _null, _null, _null, _null, D.EdgeInsetsDirectional_16_0_24_0, _null, _null, _null, 8, 24, _null, _null, _null, _null, _null, _null);
+      t1 = type$.WidgetState;
+      t2 = new B.ListTile_build_resolveColor(A.LinkedHashSet_LinkedHashSet$_empty(t1));
+      t3 = t2.call$3(_null, _null, _null);
+      if (t3 == null) {
+        t3 = tileTheme.iconColor;
+        t3 = t2.call$3(t3, tileTheme.selectedColor, t3);
+      }
+      if (t3 == null) {
+        t3 = theme.listTileTheme;
+        t4 = t3.iconColor;
+        t4 = t2.call$3(t4, t3.selectedColor, t4);
+        effectiveIconColor = t4;
+      } else
+        effectiveIconColor = t3;
+      if (effectiveIconColor == null)
+        effectiveIconColor = t2.call$4(defaults.get$iconColor(), defaults.get$selectedColor(), defaults.get$iconColor(), theme.disabledColor);
+      t3 = t2.call$3(_null, _null, _null);
+      if (t3 == null) {
+        t3 = tileTheme.textColor;
+        t3 = t2.call$3(t3, tileTheme.selectedColor, t3);
+      }
+      if (t3 == null) {
+        t3 = theme.listTileTheme;
+        t4 = t3.textColor;
+        t4 = t2.call$3(t4, t3.selectedColor, t4);
+        effectiveColor = t4;
+      } else
+        effectiveColor = t3;
+      if (effectiveColor == null) {
+        t3 = defaults.textColor;
+        effectiveColor = t2.call$4(t3, defaults.get$selectedColor(), t3, theme.disabledColor);
+      }
+      iconThemeData = A.IconThemeData$(_null, effectiveIconColor, _null, _null, _null, _null, _null, _null, _null);
+      t2 = A.IconButton_styleFrom(_null, _null, _null, _null, _null, _null, effectiveIconColor, _null, _null, _null, _null, _null, _null, _null);
+      leadingAndTrailingStyle = tileTheme.leadingAndTrailingTextStyle;
+      leadingAndTrailingStyle = (leadingAndTrailingStyle == null ? defaults.get$leadingAndTrailingTextStyle() : leadingAndTrailingStyle).copyWith$1$color(effectiveColor);
+      leadingAndTrailingStyle.toString;
+      leadingIcon = A.AnimatedDefaultTextStyle$(_this.leading, C.C__Linear, C.Duration_200000, leadingAndTrailingStyle);
+      titleStyle = tileTheme.titleTextStyle;
+      if (titleStyle == null)
+        titleStyle = defaults.get$titleTextStyle();
+      _this._isDenseLayout$2(theme, tileTheme);
+      titleStyle = titleStyle.copyWith$2$color$fontSize(effectiveColor, _null);
+      titleText = A.AnimatedDefaultTextStyle$(_this.title, C.C__Linear, C.Duration_200000, titleStyle);
+      t3 = _this.subtitle;
+      if (t3 != null) {
+        subtitleStyle = tileTheme.subtitleTextStyle;
+        if (subtitleStyle == null)
+          subtitleStyle = defaults.get$subtitleTextStyle();
+        _this._isDenseLayout$2(theme, tileTheme);
+        subtitleStyle = subtitleStyle.copyWith$2$color$fontSize(effectiveColor, _null);
+        subtitleText = A.AnimatedDefaultTextStyle$(t3, C.C__Linear, C.Duration_200000, subtitleStyle);
+      } else {
+        subtitleStyle = _null;
+        subtitleText = subtitleStyle;
+      }
+      textDirection = A.Directionality_of(context);
+      t3 = tileTheme.contentPadding;
+      t3 = t3 == null ? _null : t3.resolve$1(textDirection);
+      resolvedContentPadding = t3;
+      if (resolvedContentPadding == null)
+        resolvedContentPadding = defaults.contentPadding.resolve$1(textDirection);
+      t1 = A.LinkedHashSet_LinkedHashSet$_empty(t1);
+      t3 = A.WidgetStateProperty_resolveAs(_null, t1, type$.nullable_MouseCursor);
+      if (t3 == null)
+        effectiveMouseCursor = _null;
+      else
+        effectiveMouseCursor = t3;
+      if (effectiveMouseCursor == null)
+        effectiveMouseCursor = A.WidgetStateMouseCursor__clickable(type$.Set_WidgetState._as(t1));
+      t1 = tileTheme.shape;
+      t3 = t1 == null ? C.Border_pk4 : t1;
+      t4 = tileTheme.tileColor;
+      color = t4 == null ? theme.listTileTheme.tileColor : t4;
+      t3 = A.ShapeDecoration$(color == null ? defaults.get$tileColor() : color, _null, _null, _null, t3);
+      _this._isDenseLayout$2(theme, tileTheme);
+      t4 = titleStyle.textBaseline;
+      if (t4 == null) {
+        t4 = defaults.get$titleTextStyle().textBaseline;
+        t4.toString;
+      }
+      t5 = subtitleStyle == null ? _null : subtitleStyle.textBaseline;
+      if (t5 == null) {
+        t5 = defaults.get$subtitleTextStyle().textBaseline;
+        t5.toString;
+      }
+      t6 = tileTheme.horizontalTitleGap;
+      if (t6 == null)
+        t6 = 16;
+      t7 = tileTheme.minVerticalPadding;
+      if (t7 == null) {
+        t7 = defaults.minVerticalPadding;
+        t7.toString;
+      }
+      t8 = tileTheme.minLeadingWidth;
+      if (t8 == null) {
+        t8 = defaults.minLeadingWidth;
+        t8.toString;
+      }
+      t2 = A.SafeArea$(false, A.IconTheme_merge(A.IconButtonTheme$(new B._ListTile(leadingIcon, titleText, subtitleText, _null, false, false, theme.visualDensity, textDirection, t4, t5, t6, t7, t8, tileTheme.minTileHeight, D.ListTileTitleAlignment_0, _null), new A.IconButtonThemeData(t2)), iconThemeData), _null, true, resolvedContentPadding, true, false);
+      return A.InkWell$(false, _null, true, new A.Semantics(A.SemanticsProperties$(_null, _null, _null, _null, _null, true, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, false, _null, _null, _null, _null, _null, _null, _null, _null), false, false, false, false, new B.Ink(t2, t3, _null), _null), t1, true, _null, _null, _null, _null, effectiveMouseCursor, _null, _null, _null, _this.onLongPress, _this.onTap, _null, _null, _null, _null, _null);
+    },
+    debugFillProperties$1(properties) {
+      var t1, _s4_ = "true", _s5_ = "false", _null = null;
+      this.super$Widget$debugFillProperties(properties);
+      properties.add$1(0, A.FlagProperty$("isThreeLine", false, "TWO_LINE", "THREE_LINE", C.DiagnosticLevel_3, true, false));
+      properties.add$1(0, A.FlagProperty$("dense", _null, _s5_, _s4_, C.DiagnosticLevel_3, true, _null));
+      properties.add$1(0, A.DiagnosticsProperty$("visualDensity", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.VisualDensity));
+      properties.add$1(0, A.DiagnosticsProperty$("shape", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.ShapeBorder));
+      properties.add$1(0, A.DiagnosticsProperty$("style", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.ListTileStyle));
+      properties.add$1(0, A.ColorProperty$("selectedColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      properties.add$1(0, A.ColorProperty$("iconColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      properties.add$1(0, A.ColorProperty$("textColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      t1 = type$.TextStyle;
+      properties.add$1(0, A.DiagnosticsProperty$("titleTextStyle", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, t1));
+      properties.add$1(0, A.DiagnosticsProperty$("subtitleTextStyle", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, t1));
+      properties.add$1(0, A.DiagnosticsProperty$("leadingAndTrailingTextStyle", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, t1));
+      properties.add$1(0, A.DiagnosticsProperty$("contentPadding", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.EdgeInsetsGeometry));
+      properties.add$1(0, A.FlagProperty$("enabled", true, _s5_, _s4_, C.DiagnosticLevel_3, true, true));
+      t1 = type$.Function;
+      properties.add$1(0, A.DiagnosticsProperty$("onTap", this.onTap, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, t1));
+      properties.add$1(0, A.DiagnosticsProperty$("onLongPress", this.onLongPress, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, t1));
+      properties.add$1(0, A.DiagnosticsProperty$("mouseCursor", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.MouseCursor));
+      properties.add$1(0, A.FlagProperty$("selected", false, _s5_, _s4_, C.DiagnosticLevel_3, true, false));
+      properties.add$1(0, A.ColorProperty$("focusColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      properties.add$1(0, A.ColorProperty$("hoverColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      properties.add$1(0, A.DiagnosticsProperty$("focusNode", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.FocusNode));
+      properties.add$1(0, A.FlagProperty$("autofocus", false, _s5_, _s4_, C.DiagnosticLevel_3, true, false));
+      properties.add$1(0, A.ColorProperty$("tileColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      properties.add$1(0, A.ColorProperty$("selectedTileColor", _null, _null, C.DiagnosticLevel_3, true, C.DiagnosticsTreeStyle_8));
+      properties.add$1(0, A.FlagProperty$("enableFeedback", _null, _s5_, _s4_, C.DiagnosticLevel_3, true, _null));
+      properties.add$1(0, A.DoubleProperty$("horizontalTitleGap", _null, _null, _null, C.DiagnosticLevel_3, true, _null, _null));
+      properties.add$1(0, A.DoubleProperty$("minVerticalPadding", _null, _null, _null, C.DiagnosticLevel_3, true, _null, _null));
+      properties.add$1(0, A.DoubleProperty$("minLeadingWidth", _null, _null, _null, C.DiagnosticLevel_3, true, _null, _null));
+      properties.add$1(0, A.DiagnosticsProperty$("titleAlignment", _null, true, _null, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.ListTileTitleAlignment));
+    }
+  };
+  B._IndividualOverrides.prototype = {
+    resolve$1(states) {
+      var t1, _this = this;
+      type$.Set_WidgetState._as(states);
+      t1 = _this.explicitColor;
+      if (t1 instanceof A._WidgetStateColor)
+        return A.WidgetStateProperty_resolveAs(t1, states, type$.nullable_Color);
+      if (states.contains$1(0, C.WidgetState_6))
+        return _this.disabledColor;
+      if (states.contains$1(0, C.WidgetState_4))
+        return _this.selectedColor;
+      return _this.enabledColor;
+    }
+  };
+  B._ListTileSlot.prototype = {
+    _enumToString$0() {
+      return "_ListTileSlot." + this._name;
+    }
+  };
+  B._ListTile.prototype = {
+    get$slots() {
+      return D.List_Vf6;
+    },
+    childForSlot$1(slot) {
+      var t1, _this = this;
+      switch (type$._ListTileSlot._as(slot).index) {
+        case 0:
+          t1 = _this.leading;
+          break;
+        case 1:
+          t1 = _this.title;
+          break;
+        case 2:
+          t1 = _this.subtitle;
+          break;
+        case 3:
+          t1 = _this.trailing;
+          break;
+        default:
+          t1 = null;
+      }
+      return t1;
+    },
+    createRenderObject$1(context) {
+      var _this = this,
+        t1 = new B._RenderListTile(false, _this.visualDensity, false, _this.textDirection, _this.titleBaselineType, _this.subtitleBaselineType, _this.horizontalTitleGap, _this.minVerticalPadding, _this.minLeadingWidth, _this.minTileHeight, _this.titleAlignment, A.LinkedHashMap_LinkedHashMap$_empty(type$._ListTileSlot, type$.RenderBox), new A._LayoutCacheStorage(), A.LayerHandle$(type$.ContainerLayer));
+      t1.RenderObject$0();
+      return t1;
+    },
+    updateRenderObject$2(context, renderObject) {
+      var _this = this;
+      type$._RenderListTile._as(renderObject);
+      renderObject.set$isThreeLine(false);
+      renderObject.set$isDense(false);
+      renderObject.set$visualDensity(_this.visualDensity);
+      renderObject.set$textDirection(_this.textDirection);
+      renderObject.set$titleBaselineType(_this.titleBaselineType);
+      renderObject.set$subtitleBaselineType(_this.subtitleBaselineType);
+      renderObject.set$horizontalTitleGap(_this.horizontalTitleGap);
+      renderObject.set$minLeadingWidth(_this.minLeadingWidth);
+      renderObject.set$minTileHeight(_this.minTileHeight);
+      renderObject.set$minVerticalPadding(_this.minVerticalPadding);
+      renderObject.set$titleAlignment(_this.titleAlignment);
+    }
+  };
+  B._RenderListTile.prototype = {
+    get$children(_) {
+      var t4,
+        t1 = A._instanceType(this)._eval$1("SlottedContainerRenderObjectMixin.0"),
+        t2 = this.SlottedContainerRenderObjectMixin__slotToChild,
+        title = t2.$index(0, t1._as(D._ListTileSlot_1)),
+        t3 = A._setArrayType([], type$.JSArray_RenderBox);
+      t1._as(D._ListTileSlot_0);
+      if (t2.$index(0, D._ListTileSlot_0) != null) {
+        t4 = t2.$index(0, D._ListTileSlot_0);
+        t4.toString;
+        t3.push(t4);
+      }
+      if (title != null)
+        t3.push(title);
+      t1._as(D._ListTileSlot_2);
+      if (t2.$index(0, D._ListTileSlot_2) != null) {
+        t4 = t2.$index(0, D._ListTileSlot_2);
+        t4.toString;
+        t3.push(t4);
+      }
+      t1._as(D._ListTileSlot_3);
+      if (t2.$index(0, D._ListTileSlot_3) != null) {
+        t1 = t2.$index(0, D._ListTileSlot_3);
+        t1.toString;
+        t3.push(t1);
+      }
+      return t3;
+    },
+    set$isDense(value) {
+      return;
+    },
+    set$visualDensity(value) {
+      if (this._visualDensity.$eq(0, value))
+        return;
+      this._visualDensity = value;
+      this.markNeedsLayout$0();
+    },
+    set$isThreeLine(value) {
+      return;
+    },
+    set$textDirection(value) {
+      if (this._list_tile$_textDirection === value)
+        return;
+      this._list_tile$_textDirection = value;
+      this.markNeedsLayout$0();
+    },
+    set$titleBaselineType(value) {
+      if (this._titleBaselineType === value)
+        return;
+      this._titleBaselineType = value;
+      this.markNeedsLayout$0();
+    },
+    set$subtitleBaselineType(value) {
+      if (this._subtitleBaselineType === value)
+        return;
+      this._subtitleBaselineType = value;
+      this.markNeedsLayout$0();
+    },
+    get$_effectiveHorizontalTitleGap() {
+      return this._horizontalTitleGap + this._visualDensity.horizontal * 2;
+    },
+    set$horizontalTitleGap(value) {
+      if (this._horizontalTitleGap === value)
+        return;
+      this._horizontalTitleGap = value;
+      this.markNeedsLayout$0();
+    },
+    set$minVerticalPadding(value) {
+      if (this._minVerticalPadding === value)
+        return;
+      this._minVerticalPadding = value;
+      this.markNeedsLayout$0();
+    },
+    set$minLeadingWidth(value) {
+      if (this._minLeadingWidth === value)
+        return;
+      this._minLeadingWidth = value;
+      this.markNeedsLayout$0();
+    },
+    set$minTileHeight(value) {
+      if (this._minTileHeight == value)
+        return;
+      this._minTileHeight = value;
+      this.markNeedsLayout$0();
+    },
+    set$titleAlignment(value) {
+      if (this._titleAlignment === value)
+        return;
+      this._titleAlignment = value;
+      this.markNeedsLayout$0();
+    },
+    get$sizedByParent() {
+      return false;
+    },
+    computeMinIntrinsicWidth$1(height) {
+      var t1, t2, leadingWidth, t3, t4, _this = this;
+      A._asDouble(height);
+      t1 = A._instanceType(_this)._eval$1("SlottedContainerRenderObjectMixin.0");
+      t1._as(D._ListTileSlot_0);
+      t2 = _this.SlottedContainerRenderObjectMixin__slotToChild;
+      leadingWidth = t2.$index(0, D._ListTileSlot_0) != null ? Math.max(t2.$index(0, D._ListTileSlot_0).getMinIntrinsicWidth$1(height), _this._minLeadingWidth) + _this.get$_effectiveHorizontalTitleGap() : 0;
+      t3 = t2.$index(0, t1._as(D._ListTileSlot_1));
+      t3.toString;
+      t3 = t3.getMinIntrinsicWidth$1(height);
+      t4 = t2.$index(0, t1._as(D._ListTileSlot_2));
+      t4 = t4 == null ? 0 : t4.getMinIntrinsicWidth$1(height);
+      t4 = Math.max(t3, t4);
+      t1 = t2.$index(0, t1._as(D._ListTileSlot_3));
+      t1 = t1 == null ? 0 : t1.getMaxIntrinsicWidth$1(height);
+      return leadingWidth + t4 + t1;
+    },
+    computeMaxIntrinsicWidth$1(height) {
+      var t1, t2, leadingWidth, t3, t4, _this = this;
+      A._asDouble(height);
+      t1 = A._instanceType(_this)._eval$1("SlottedContainerRenderObjectMixin.0");
+      t1._as(D._ListTileSlot_0);
+      t2 = _this.SlottedContainerRenderObjectMixin__slotToChild;
+      leadingWidth = t2.$index(0, D._ListTileSlot_0) != null ? Math.max(t2.$index(0, D._ListTileSlot_0).getMaxIntrinsicWidth$1(height), _this._minLeadingWidth) + _this.get$_effectiveHorizontalTitleGap() : 0;
+      t3 = t2.$index(0, t1._as(D._ListTileSlot_1));
+      t3.toString;
+      t3 = t3.getMaxIntrinsicWidth$1(height);
+      t4 = t2.$index(0, t1._as(D._ListTileSlot_2));
+      t4 = t4 == null ? 0 : t4.getMaxIntrinsicWidth$1(height);
+      t4 = Math.max(t3, t4);
+      t1 = t2.$index(0, t1._as(D._ListTileSlot_3));
+      t1 = t1 == null ? 0 : t1.getMaxIntrinsicWidth$1(height);
+      return leadingWidth + t4 + t1;
+    },
+    get$_defaultTileHeight() {
+      var _0_6, t2, _0_40, _null = null,
+        t1 = this._visualDensity,
+        baseDensity = new A.Offset(t1.horizontal, t1.vertical).$mul(0, 4),
+        _0_4 = this.SlottedContainerRenderObjectMixin__slotToChild.$index(0, A._instanceType(this)._eval$1("SlottedContainerRenderObjectMixin.0")._as(D._ListTileSlot_2)) != null;
+      $label0$0: {
+        _0_6 = true;
+        t1 = true;
+        A.boolConversionCheck(t1);
+        if (t1) {
+          t2 = _0_4;
+          _0_40 = t2;
+        } else {
+          _0_40 = _null;
+          t2 = false;
+        }
+        if (t2) {
+          t1 = 72;
+          break $label0$0;
+        }
+        if (A.boolConversionCheck(_0_6)) {
+          t2 = false === (t1 ? _0_40 : _0_4);
+          t1 = t2;
+        } else
+          t1 = false;
+        if (t1) {
+          t1 = 56;
+          break $label0$0;
+        }
+        t1 = _null;
+      }
+      if (typeof t1 !== "number")
+        return A.iae(t1);
+      return baseDensity._dy + t1;
+    },
+    computeMinIntrinsicHeight$1(width) {
+      var t1, t2, t3, t4, _this = this;
+      A._asDouble(width);
+      t1 = _this._minTileHeight;
+      if (t1 == null)
+        t1 = _this.get$_defaultTileHeight();
+      t2 = A._instanceType(_this)._eval$1("SlottedContainerRenderObjectMixin.0");
+      t3 = _this.SlottedContainerRenderObjectMixin__slotToChild;
+      t4 = t3.$index(0, t2._as(D._ListTileSlot_1));
+      t4.toString;
+      t4 = t4.getMinIntrinsicHeight$1(width);
+      t2 = t3.$index(0, t2._as(D._ListTileSlot_2));
+      t2 = t2 == null ? null : t2.getMinIntrinsicHeight$1(width);
+      return Math.max(t1, t4 + (t2 == null ? 0 : t2));
+    },
+    computeMaxIntrinsicHeight$1(width) {
+      return this.getMinIntrinsicHeight$1(A._asDouble(width));
+    },
+    computeDistanceToActualBaseline$1(baseline) {
+      var t1, t2;
+      type$.TextBaseline._as(baseline);
+      A._instanceType(this)._eval$1("SlottedContainerRenderObjectMixin.0")._as(D._ListTileSlot_1);
+      t1 = this.SlottedContainerRenderObjectMixin__slotToChild;
+      t2 = t1.$index(0, D._ListTileSlot_1);
+      t2.toString;
+      t2 = t2.parentData;
+      t2.toString;
+      type$.BoxParentData._as(t2);
+      t1 = t1.$index(0, D._ListTileSlot_1);
+      t1.toString;
+      return A.BaselineOffset__(t1.getDistanceToActualBaseline$1(baseline), t2.offset._dy);
+    },
+    _computeSizes$4$positionChild(getBaseline, getSize, constraints, positionChild) {
+      var looseConstraints, tileWidth, t1, iconConstraints, t2, t3, t4, t5, leadingSize, t6, trailingSize, t7, titleStart, t8, adjustedTrailingWidth, textConstraints, t9, titleHeight, tileHeight, titleY, subtitleHeight, t10, titleBaseline, subtitleBaseline, targetTitleY, targetSubtitleY, halfOverlap, idealTitleY, idealSubtitleY, t11, compact, _this = this;
+      type$.nullable_double_Function_RenderBox_BoxConstraints_TextBaseline._as(getBaseline);
+      type$.Size_Function_RenderBox_BoxConstraints._as(getSize);
+      type$.nullable_void_Function_RenderBox_Offset._as(positionChild);
+      looseConstraints = constraints.loosen$0();
+      tileWidth = looseConstraints.maxWidth;
+      t1 = _this._visualDensity;
+      iconConstraints = looseConstraints.enforce$1(new A.BoxConstraints(0, 1 / 0, 0, 56 + new A.Offset(t1.horizontal, t1.vertical).$mul(0, 4)._dy));
+      t1 = A._instanceType(_this)._eval$1("SlottedContainerRenderObjectMixin.0");
+      t2 = _this.SlottedContainerRenderObjectMixin__slotToChild;
+      t3 = t2.$index(0, t1._as(D._ListTileSlot_0));
+      t4 = t2.$index(0, t1._as(D._ListTileSlot_3));
+      t5 = t3 == null;
+      leadingSize = t5 ? null : getSize.call$2(t3, iconConstraints);
+      t6 = t4 == null;
+      trailingSize = t6 ? null : getSize.call$2(t4, iconConstraints);
+      A.assertHelper(new B._RenderListTile__computeSizes_closure(tileWidth, leadingSize, trailingSize).call$0());
+      t7 = leadingSize == null;
+      titleStart = t7 ? 0 : Math.max(_this._minLeadingWidth, leadingSize._dx) + _this.get$_effectiveHorizontalTitleGap();
+      t8 = trailingSize == null;
+      adjustedTrailingWidth = t8 ? 0 : Math.max(trailingSize._dx + _this.get$_effectiveHorizontalTitleGap(), 32);
+      textConstraints = looseConstraints.tighten$1$width(tileWidth - titleStart - adjustedTrailingWidth);
+      t9 = t2.$index(0, t1._as(D._ListTileSlot_2));
+      t1._as(D._ListTileSlot_1);
+      t1 = t2.$index(0, D._ListTileSlot_1);
+      t1.toString;
+      titleHeight = getSize.call$2(t1, textConstraints)._dy;
+      switch (_this._list_tile$_textDirection.index) {
+        case 1:
+          t1 = true;
+          break;
+        case 0:
+          t1 = false;
+          break;
+        default:
+          t1 = null;
+      }
+      if (t9 == null) {
+        t9 = _this._minTileHeight;
+        if (t9 == null)
+          t9 = _this.get$_defaultTileHeight();
+        tileHeight = Math.max(t9, titleHeight + 2 * _this._minVerticalPadding);
+        titleY = (tileHeight - titleHeight) / 2;
+      } else {
+        subtitleHeight = getSize.call$2(t9, textConstraints)._dy;
+        t10 = t2.$index(0, D._ListTileSlot_1);
+        t10.toString;
+        titleBaseline = getBaseline.call$3(t10, textConstraints, _this._titleBaselineType);
+        if (titleBaseline == null)
+          titleBaseline = titleHeight;
+        subtitleBaseline = getBaseline.call$3(t9, textConstraints, _this._subtitleBaselineType);
+        if (subtitleBaseline == null)
+          subtitleBaseline = subtitleHeight;
+        targetTitleY = 32 - titleBaseline;
+        targetSubtitleY = 52 + _this._visualDensity.vertical * 2 - subtitleBaseline;
+        halfOverlap = Math.max(targetTitleY + titleHeight - targetSubtitleY, 0) / 2;
+        idealTitleY = targetTitleY - halfOverlap;
+        idealSubtitleY = targetSubtitleY + halfOverlap;
+        t10 = _this._minVerticalPadding;
+        if (!(idealTitleY < t10)) {
+          t11 = _this._minTileHeight;
+          if (t11 == null)
+            t11 = _this.get$_defaultTileHeight();
+          compact = idealSubtitleY + subtitleHeight + t10 > t11;
+        } else
+          compact = true;
+        if (positionChild != null) {
+          t10 = t1 ? titleStart : adjustedTrailingWidth;
+          positionChild.call$2(t9, new A.Offset(t10, compact ? _this._minVerticalPadding + titleHeight : idealSubtitleY));
+        }
+        if (compact)
+          tileHeight = 2 * _this._minVerticalPadding + titleHeight + subtitleHeight;
+        else {
+          t9 = _this._minTileHeight;
+          tileHeight = t9 == null ? _this.get$_defaultTileHeight() : t9;
+        }
+        titleY = compact ? _this._minVerticalPadding : idealTitleY;
+      }
+      if (positionChild != null) {
+        t2 = t2.$index(0, D._ListTileSlot_1);
+        t2.toString;
+        positionChild.call$2(t2, new A.Offset(t1 ? titleStart : adjustedTrailingWidth, titleY));
+        if (!t5 && !t7) {
+          t2 = t1 ? 0 : tileWidth - leadingSize._dx;
+          positionChild.call$2(t3, new A.Offset(t2, _this._titleAlignment._yOffsetFor$4(leadingSize._dy, tileHeight, _this, true)));
+        }
+        if (!t6 && !t8) {
+          t1 = t1 ? tileWidth - trailingSize._dx : 0;
+          positionChild.call$2(t4, new A.Offset(t1, _this._titleAlignment._yOffsetFor$4(trailingSize._dy, tileHeight, _this, false)));
+        }
+      }
+      return new A._Record_3_tex78tConstraints_tileSize_titleY(textConstraints, new A.Size(tileWidth, tileHeight), titleY);
+    },
+    _computeSizes$3(getBaseline, getSize, constraints) {
+      return this._computeSizes$4$positionChild(getBaseline, getSize, constraints, null);
+    },
+    computeDryBaseline$2(constraints, baseline) {
+      var sizes, t1;
+      type$.BoxConstraints._as(constraints);
+      type$.TextBaseline._as(baseline);
+      sizes = this._computeSizes$3(A.layout_helper_ChildLayoutHelper_getDryBaseline$closure(), A.layout_helper_ChildLayoutHelper_dryLayoutChild$closure(), constraints);
+      t1 = this.SlottedContainerRenderObjectMixin__slotToChild.$index(0, A._instanceType(this)._eval$1("SlottedContainerRenderObjectMixin.0")._as(D._ListTileSlot_1));
+      t1.toString;
+      return A.BaselineOffset__(t1.getDryBaseline$2(sizes._0, baseline), sizes._2);
+    },
+    computeDryLayout$1(constraints) {
+      return constraints.constrain$1(this._computeSizes$3(A.layout_helper_ChildLayoutHelper_getDryBaseline$closure(), A.layout_helper_ChildLayoutHelper_dryLayoutChild$closure(), constraints)._1);
+    },
+    performLayout$0() {
+      var _this = this,
+        t1 = type$.BoxConstraints,
+        tileSize = _this._computeSizes$4$positionChild(A.layout_helper_ChildLayoutHelper_getBaseline$closure(), A.layout_helper_ChildLayoutHelper_layoutChild$closure(), t1._as(A.RenderObject.prototype.get$constraints.call(_this)), B.list_tile__RenderListTile__positionBox$closure())._1;
+      _this.set$size(0, t1._as(A.RenderObject.prototype.get$constraints.call(_this)).constrain$1(tileSize));
+      A.assertHelper(_this.get$size(0)._dx === t1._as(A.RenderObject.prototype.get$constraints.call(_this)).constrainWidth$1(tileSize._dx));
+      A.assertHelper(_this.get$size(0)._dy === t1._as(A.RenderObject.prototype.get$constraints.call(_this)).constrainHeight$1(tileSize._dy));
+    },
+    paint$2(context, offset) {
+      var t4,
+        t1 = new B._RenderListTile_paint_doPaint(context, offset),
+        t2 = A._instanceType(this)._eval$1("SlottedContainerRenderObjectMixin.0"),
+        t3 = this.SlottedContainerRenderObjectMixin__slotToChild;
+      t1.call$1(t3.$index(0, t2._as(D._ListTileSlot_0)));
+      t4 = t3.$index(0, t2._as(D._ListTileSlot_1));
+      t4.toString;
+      t1.call$1(t4);
+      t1.call$1(t3.$index(0, t2._as(D._ListTileSlot_2)));
+      t1.call$1(t3.$index(0, t2._as(D._ListTileSlot_3)));
+    },
+    hitTestSelf$1(position) {
+      return true;
+    },
+    hitTestChildren$2$position(result, position) {
+      var t1, t2, t3, _i, child, t4;
+      for (t1 = this.get$children(0), t2 = t1.length, t3 = type$.BoxParentData, _i = 0; _i < t1.length; t1.length === t2 || (0, A.throwConcurrentModificationError)(t1), ++_i) {
+        child = t1[_i];
+        t4 = child.parentData;
+        t4.toString;
+        t3._as(t4);
+        if (result.addWithPaintOffset$3$hitTest$offset$position(new B._RenderListTile_hitTestChildren_closure(position, t4, child), t4.offset, position))
+          return true;
+      }
+      return false;
+    }
+  };
+  B._LisTileDefaultsM3.prototype = {
+    get$_list_tile$_theme() {
+      var result, _this = this,
+        value = _this.___LisTileDefaultsM3__theme_FI;
+      if (value === $) {
+        result = A.Theme_of(_this.context);
+        _this.___LisTileDefaultsM3__theme_FI !== $ && A.throwLateFieldADI("_theme");
+        _this.___LisTileDefaultsM3__theme_FI = result;
+        value = result;
+      }
+      return value;
+    },
+    get$_list_tile$_colors() {
+      var t1, _this = this,
+        value = _this.___LisTileDefaultsM3__colors_FI;
+      if (value === $) {
+        t1 = _this.get$_list_tile$_theme();
+        _this.___LisTileDefaultsM3__colors_FI !== $ && A.throwLateFieldADI("_colors");
+        value = _this.___LisTileDefaultsM3__colors_FI = t1.colorScheme;
+      }
+      return value;
+    },
+    get$_list_tile$_textTheme() {
+      var t1, _this = this,
+        value = _this.___LisTileDefaultsM3__textTheme_FI;
+      if (value === $) {
+        t1 = _this.get$_list_tile$_theme();
+        _this.___LisTileDefaultsM3__textTheme_FI !== $ && A.throwLateFieldADI("_textTheme");
+        value = _this.___LisTileDefaultsM3__textTheme_FI = t1.textTheme;
+      }
+      return value;
+    },
+    get$tileColor() {
+      return C.Color_Edl;
+    },
+    get$titleTextStyle() {
+      var t1 = this.get$_list_tile$_textTheme().bodyLarge;
+      t1.toString;
+      return t1.copyWith$1$color(this.get$_list_tile$_colors().onSurface);
+    },
+    get$subtitleTextStyle() {
+      var t2, t3,
+        t1 = this.get$_list_tile$_textTheme().bodyMedium;
+      t1.toString;
+      t2 = this.get$_list_tile$_colors();
+      t3 = t2._onSurfaceVariant;
+      return t1.copyWith$1$color(t3 == null ? t2.onSurface : t3);
+    },
+    get$leadingAndTrailingTextStyle() {
+      var t2, t3,
+        t1 = this.get$_list_tile$_textTheme().labelSmall;
+      t1.toString;
+      t2 = this.get$_list_tile$_colors();
+      t3 = t2._onSurfaceVariant;
+      return t1.copyWith$1$color(t3 == null ? t2.onSurface : t3);
+    },
+    get$selectedColor() {
+      return this.get$_list_tile$_colors().primary;
+    },
+    get$iconColor() {
+      var t1 = this.get$_list_tile$_colors(),
+        t2 = t1._onSurfaceVariant;
+      return t2 == null ? t1.onSurface : t2;
+    }
+  };
+  B.__RenderListTile_RenderBox_SlottedContainerRenderObjectMixin.prototype = {
+    attach$1(owner) {
+      var t1, t2, _i;
+      this.super$RenderObject$attach(owner);
+      for (t1 = this.get$children(0), t2 = t1.length, _i = 0; _i < t1.length; t1.length === t2 || (0, A.throwConcurrentModificationError)(t1), ++_i)
+        t1[_i].attach$1(owner);
+    },
+    detach$0(_) {
+      var t1, t2, _i;
+      this.super$RenderObject$detach(0);
+      for (t1 = this.get$children(0), t2 = t1.length, _i = 0; _i < t1.length; t1.length === t2 || (0, A.throwConcurrentModificationError)(t1), ++_i)
+        t1[_i].detach$0(0);
+    }
+  };
+  B.PopupMenuEntry.prototype = {};
+  B._MenuItem.prototype = {
+    createRenderObject$1(context) {
+      var t1 = new B._RenderMenuItem(this.onLayout, null, new A._LayoutCacheStorage(), A.LayerHandle$(type$.ContainerLayer));
+      t1.RenderObject$0();
+      t1.set$child(null);
+      return t1;
+    },
+    updateRenderObject$2(context, renderObject) {
+      type$._RenderMenuItem._as(renderObject).set$onLayout(this.onLayout);
+    }
+  };
+  B._RenderMenuItem.prototype = {
+    computeDryLayout$1(constraints) {
+      var t1 = this.RenderObjectWithChildMixin__child;
+      t1 = t1 == null ? null : t1._computeIntrinsics$2$3(C.C__DryLayout, constraints, t1.get$_computeDryLayout(), type$.BoxConstraints, type$.Size);
+      return t1 == null ? C.Size_0_0 : t1;
+    },
+    computeDryBaseline$2(constraints, baseline) {
+      var t1;
+      type$.BoxConstraints._as(constraints);
+      type$.TextBaseline._as(baseline);
+      t1 = this.RenderObjectWithChildMixin__child;
+      return t1 == null ? null : t1.getDryBaseline$2(constraints, baseline);
+    },
+    performLayout$0() {
+      var t2, _this = this,
+        t1 = _this.RenderObjectWithChildMixin__child;
+      if (t1 == null)
+        _this.set$size(0, C.Size_0_0);
+      else {
+        t2 = type$.BoxConstraints;
+        t1.layout$2$parentUsesSize(t2._as(A.RenderObject.prototype.get$constraints.call(_this)), true);
+        _this.set$size(0, t2._as(A.RenderObject.prototype.get$constraints.call(_this)).constrain$1(_this.RenderObjectWithChildMixin__child.get$size(0)));
+        t2 = _this.RenderObjectWithChildMixin__child.parentData;
+        t2.toString;
+        type$.BoxParentData._as(t2).offset = C.Offset_0_0;
+      }
+      t1 = _this.get$size(0);
+      _this.onLayout.call$1(t1);
+    },
+    set$onLayout(onLayout) {
+      this.onLayout = type$.void_Function_Size._as(onLayout);
+    }
+  };
+  B.PopupMenuItem.prototype = {
+    createState$0() {
+      var t1 = this.$ti;
+      return new B.PopupMenuItemState(C._StateLifecycle_0, t1._eval$1("@<1>")._bind$1(t1)._eval$1("PopupMenuItemState<1,2>"));
+    }
+  };
+  B.PopupMenuItemState.prototype = {
+    handleTap$0() {
+      var _this = this,
+        t1 = _this.get$context(0),
+        t2 = _this._widget.value;
+      A.Navigator_of(t1, false).pop$1$1(t2, _this.$ti._precomputed1);
+      _this._widget.toString;
+    },
+    build$1(context) {
+      var popupMenuTheme, defaults, t1, t2, style, item, _this = this, _null = null;
+      A.Theme_of(context);
+      popupMenuTheme = B.PopupMenuTheme_of(context);
+      defaults = B._PopupMenuDefaultsM3$(context);
+      t1 = A.LinkedHashSet_LinkedHashSet$_empty(type$.WidgetState);
+      _this._widget.toString;
+      t2 = popupMenuTheme.labelTextStyle;
+      if (t2 == null)
+        t2 = _null;
+      else {
+        t2 = t2.resolve$1(t1);
+        t2.toString;
+      }
+      if (t2 == null) {
+        t1 = defaults.get$labelTextStyle().resolve$1(t1);
+        t1.toString;
+        style = t1;
+      } else
+        style = t2;
+      t1 = _this._widget;
+      item = A.AnimatedDefaultTextStyle$(A.ConstrainedBox$(new A.Padding(D.EdgeInsets_12_0_12_0, A.Align$(C.AlignmentDirectional_m1_0, t1.child, _null, _null, _null), D.ValueKey_kM4), new A.BoxConstraints(0, 1 / 0, 48, 1 / 0), _null), C.C__Linear, C.Duration_200000, style);
+      _this._widget.toString;
+      t1 = A.InkWell$(false, _null, true, A.ListTileTheme_merge(item, C.EdgeInsets_0_0_0_0, _null, style), _null, true, _null, _null, _null, _null, new B._EffectiveMouseCursor(_null, popupMenuTheme.mouseCursor), _null, _null, _null, _null, _this.get$handleTap(), _null, _null, _null, _null, _null);
+      return new A.MergeSemantics(new A.Semantics(A.SemanticsProperties$(_null, _null, _null, _null, _null, true, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null), false, false, false, false, t1, _null), _null);
+    }
+  };
+  B._PopupMenu.prototype = {
+    createState$0() {
+      return new B._PopupMenuState(D.List_empty19, C._StateLifecycle_0, this.$ti._eval$1("_PopupMenuState<1>"));
+    }
+  };
+  B._PopupMenuState.prototype = {
+    initState$0() {
+      this.super$State$initState();
+      this._setOpacities$0();
+    },
+    didUpdateWidget$1(oldWidget) {
+      var t1, _this = this;
+      _this.$ti._eval$1("_PopupMenu<1>")._as(oldWidget);
+      _this.super$State$didUpdateWidget(oldWidget);
+      t1 = oldWidget.route;
+      if (J.get$length$asx(t1.items) !== J.get$length$asx(_this._widget.route.items) || t1._animationProxy != _this._widget.route._animationProxy)
+        _this._setOpacities$0();
+    },
+    _setOpacities$0() {
+      var t1, t2, _i, opacity, newOpacities, unit, i, start, end, t3, t4, _this = this;
+      for (t1 = _this._opacities, t2 = t1.length, _i = 0; _i < t1.length; t1.length === t2 || (0, A.throwConcurrentModificationError)(t1), ++_i) {
+        opacity = t1[_i];
+        $.$get$FlutterMemoryAllocations_instance().dispatchObjectDisposed$1$object(opacity);
+        opacity.parent.removeStatusListener$1(opacity.get$_updateCurveDirection());
+      }
+      newOpacities = A._setArrayType([], type$.JSArray_CurvedAnimation);
+      unit = 1 / (J.get$length$asx(_this._widget.route.items) + 1.5);
+      for (t1 = 1.5 * unit, i = 0; i < J.get$length$asx(_this._widget.route.items);) {
+        ++i;
+        start = i * unit;
+        end = A.clampDouble(start + t1, 0, 1);
+        t2 = _this._widget.route._animationProxy;
+        t2.toString;
+        opacity = new A.CurvedAnimation(t2, new A.Interval(start, end, C.C__Linear), null);
+        $.$get$FlutterMemoryAllocations_instance().dispatchObjectCreated$3$className$library$object(C.Type_CurvedAnimation_gv2.toString$0(0), "package:flutter/animation.dart", opacity);
+        t3 = t2.get$status(0);
+        if (t3.get$isAnimating()) {
+          t4 = opacity._curveDirection;
+          t3 = t4 == null ? t3 : t4;
+        } else
+          t3 = null;
+        opacity._curveDirection = t3;
+        t2.addStatusListener$1(opacity.get$_updateCurveDirection());
+        C.JSArray_methods.add$1(newOpacities, opacity);
+      }
+      _this.set$_opacities(newOpacities);
+    },
+    dispose$0() {
+      var t1, t2, _i, opacity;
+      for (t1 = this._opacities, t2 = t1.length, _i = 0; _i < t1.length; t1.length === t2 || (0, A.throwConcurrentModificationError)(t1), ++_i) {
+        opacity = t1[_i];
+        $.$get$FlutterMemoryAllocations_instance().dispatchObjectDisposed$1$object(opacity);
+        opacity.parent.removeStatusListener$1(opacity.get$_updateCurveDirection());
+      }
+      this.super$State$dispose();
+    },
+    build$1(context) {
+      var popupMenuTheme, defaults, i, t1, opacity, item, t2, t3, child, _this = this, _null = null,
+        unit = 1 / (J.get$length$asx(_this._widget.route.items) + 1.5),
+        children = A._setArrayType([], type$.JSArray_Widget);
+      A.Theme_of(context);
+      popupMenuTheme = B.PopupMenuTheme_of(context);
+      defaults = B._PopupMenuDefaultsM3$(context);
+      for (i = 0; i < J.get$length$asx(_this._widget.route.items); ++i) {
+        t1 = _this._opacities;
+        if (!(i < t1.length))
+          return A.ioore(t1, i);
+        opacity = t1[i];
+        item = J.$index$asx(_this._widget.route.items, i);
+        t1 = _this._widget;
+        t1 = t1.itemKeys;
+        if (!(i < t1.length))
+          return A.ioore(t1, i);
+        C.JSArray_methods.add$1(children, new B._MenuItem(new B._PopupMenuState_build_closure(_this, i), new A.FadeTransition(opacity, false, item, t1[i]), _null));
+      }
+      t1 = J.get$length$asx(_this._widget.route.items);
+      t2 = _this._widget;
+      t3 = t2.semanticLabel;
+      t2 = t2.route.menuPadding;
+      if (t2 == null)
+        t2 = popupMenuTheme.menuPadding;
+      if (t2 == null)
+        t2 = defaults.get$menuPadding();
+      t2 = A.SingleChildScrollView$(new B.ListBody(children, _null), _null, C.DragStartBehavior_1, t2, _null, C.Axis_1);
+      child = A.ConstrainedBox$(A.IntrinsicWidth$(new A.Semantics(A.SemanticsProperties$(_null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, t3, _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null), false, true, false, false, t2, _null), 56), D.BoxConstraints_I6b, _null);
+      t2 = _this._widget.route._animationProxy;
+      t2.toString;
+      return A.AnimatedBuilder$(t2, new B._PopupMenuState_build_closure0(_this, new A.CurveTween(D.Interval_Z1Z), popupMenuTheme, defaults, new A.CurveTween(new A.Interval(0, unit, C.C__Linear)), new A.CurveTween(new A.Interval(0, unit * t1, C.C__Linear))), child);
+    },
+    set$_opacities(_opacities) {
+      this._opacities = type$.List_CurvedAnimation._as(_opacities);
+    }
+  };
+  B._PopupMenuRouteLayout.prototype = {
+    getConstraintsForChild$1(constraints) {
+      return A.BoxConstraints$loose(new A.Size(constraints.constrainWidth$0(), constraints.constrainHeight$0())).deflate$1(C.EdgeInsets_8_8_8_8.$add(0, this.padding));
+    },
+    getPositionForChild$2(size, childSize) {
+      var x, t4, t5, originCenter, subScreen, x0, _this = this,
+        t1 = _this.position,
+        y = t1.top,
+        t2 = t1.left,
+        t3 = t1.right;
+      if (t2 > t3)
+        x = size._dx - t3 - childSize._dx;
+      else if (t2 < t3)
+        x = t2;
+      else {
+        switch (_this.textDirection.index) {
+          case 0:
+            t4 = size._dx - t3 - childSize._dx;
+            break;
+          case 1:
+            t4 = t2;
+            break;
+          default:
+            t4 = null;
+        }
+        x = t4;
+      }
+      t4 = 0 + size._dx;
+      t5 = 0 + size._dy;
+      originCenter = new A.Rect(t2, y, t4 - t3, t5 - t1.bottom).get$center();
+      subScreen = _this._closestScreen$2(A.DisplayFeatureSubScreen_subScreensInBounds(new A.Rect(0, 0, t4, t5), _this.avoidBounds), originCenter);
+      t1 = _this.padding;
+      x0 = subScreen.left + 8 + t1.left;
+      if (x < x0)
+        x = x0;
+      else {
+        t2 = childSize._dx;
+        t3 = subScreen.right;
+        t4 = t1.right;
+        if (x + t2 > t3 - 8 - t4)
+          x = t3 - t2 - 8 - t4;
+      }
+      t2 = t1.top;
+      if (y < subScreen.top + 8 + t2)
+        y = 8 + t2;
+      else {
+        t2 = childSize._dy;
+        t3 = subScreen.bottom;
+        t1 = t1.bottom;
+        if (y + t2 > t3 - 8 - t1)
+          y = t3 - t2 - 8 - t1;
+      }
+      return new A.Offset(x, y);
+    },
+    _closestScreen$2(screens, point) {
+      var closest, t1, t2, t3, _i, $screen, t4, t5, t6, t7;
+      type$.Iterable_Rect._as(screens);
+      closest = C.JSArray_methods.get$first(screens);
+      for (t1 = screens.length, t2 = point._dx, t3 = point._dy, _i = 0; _i < screens.length; screens.length === t1 || (0, A.throwConcurrentModificationError)(screens), ++_i) {
+        $screen = screens[_i];
+        t4 = $screen.left;
+        t5 = $screen.top;
+        t4 = t4 + ($screen.right - t4) / 2 - t2;
+        t5 = t5 + ($screen.bottom - t5) / 2 - t3;
+        t6 = closest.left;
+        t7 = closest.top;
+        t6 = t6 + (closest.right - t6) / 2 - t2;
+        t7 = t7 + (closest.bottom - t7) / 2 - t3;
+        if (Math.sqrt(t4 * t4 + t5 * t5) < Math.sqrt(t6 * t6 + t7 * t7))
+          closest = $screen;
+      }
+      return closest;
+    },
+    shouldRelayout$1(oldDelegate) {
+      var t1, t2, _this = this;
+      type$._PopupMenuRouteLayout._as(oldDelegate);
+      t1 = _this.itemSizes;
+      t2 = oldDelegate.itemSizes;
+      A.assertHelper(t1.length === t2.length);
+      return !_this.position.$eq(0, oldDelegate.position) || _this.selectedItemIndex != oldDelegate.selectedItemIndex || _this.textDirection !== oldDelegate.textDirection || !A.listEquals(t1, t2, type$.nullable_Size) || !_this.padding.$eq(0, oldDelegate.padding) || !A.setEquals(_this.avoidBounds, oldDelegate.avoidBounds, type$.Rect);
+    }
+  };
+  B._PopupMenuRoute.prototype = {
+    createAnimation$0() {
+      $.$get$AnimationStyle_noAnimation();
+      var t1 = this._popup_menu$_animation;
+      if (t1 == null) {
+        t1 = this.super$TransitionRoute$createAnimation();
+        t1 = this._popup_menu$_animation = A.CurvedAnimation$(C.C__Linear, t1, D.Interval_Gs3);
+      }
+      return t1;
+    },
+    scrollTo$1(_, selectedItemIndex) {
+      A._asInt(selectedItemIndex);
+      A.BindingBase_checkInstance($.SchedulerBinding__instance, type$.SchedulerBinding).addPostFrameCallback$1(new B._PopupMenuRoute_scrollTo_closure(this, selectedItemIndex));
+    },
+    get$transitionDuration(_) {
+      return C.Duration_300000;
+    },
+    get$barrierDismissible() {
+      return true;
+    },
+    get$barrierColor() {
+      return null;
+    },
+    buildPage$3(context, animation, secondaryAnimation) {
+      var _this = this, _box_0 = {},
+        t1 = type$.Animation_double;
+      t1._as(animation);
+      t1._as(secondaryAnimation);
+      _box_0.selectedItemIndex = null;
+      t1 = _box_0.selectedItemIndex;
+      if (t1 != null)
+        _this.scrollTo$1(0, t1);
+      A.debugCheckHasMediaQuery(context);
+      return A.MediaQuery$removePadding(new A.LayoutBuilder(new B._PopupMenuRoute_buildPage_closure(_box_0, _this, A.InheritedModel_inheritFrom(context, null, type$.MediaQuery).data, new B._PopupMenu(_this.itemKeys, _this, _this.semanticLabel, _this.constraints, _this.clipBehavior, null, _this.$ti._eval$1("_PopupMenu<1>"))), null), context, true, true, true, true);
+    },
+    dispose$0() {
+      var t1 = this._popup_menu$_animation;
+      if (t1 != null)
+        t1.dispose$0();
+      this.super$TransitionRoute$dispose();
+    },
+    get$barrierLabel() {
+      return this.barrierLabel;
+    }
+  };
+  B.PopupMenuButton.prototype = {
+    createState$0() {
+      return new B.PopupMenuButtonState(C._StateLifecycle_0, this.$ti._eval$1("PopupMenuButtonState<1>"));
+    },
+    itemBuilder$1(arg0) {
+      return this.itemBuilder.call$1(arg0);
+    }
+  };
+  B.PopupMenuButtonState.prototype = {
+    _positionBuilder$2(__wc0_formal, constraints) {
+      var t1, t2, t3, offset, t4, _this = this;
+      B.PopupMenuTheme_of(_this.get$context(0));
+      t1 = _this.get$context(0).findRenderObject$0();
+      t1.toString;
+      t2 = type$.RenderBox;
+      t2._as(t1);
+      t3 = _this.get$context(0);
+      _this._widget.toString;
+      t3 = A.Navigator_of(t3, false).__NavigatorState__overlayKey_A;
+      t3 === $ && A.throwLateFieldNI("_overlayKey");
+      t3 = t3.get$currentState().get$context(0).findRenderObject$0();
+      t3.toString;
+      t2._as(t3);
+      _this._widget.toString;
+      offset = A._Cell$named("offset");
+      switch (0) {
+        case 0:
+          _this._widget.toString;
+          offset._value = C.Offset_0_0;
+          break;
+      }
+      t2 = type$.Offset._as(offset._readLocal$0());
+      t2 = A.MatrixUtils_transformPoint(t1.getTransformTo$1(0, t3), t2);
+      t4 = t1.get$size(0).bottomRight$1(0, C.Offset_0_0).$add(0, offset._readLocal$0());
+      t4 = A.Rect$fromPoints(t2, A.MatrixUtils_transformPoint(t1.getTransformTo$1(0, t3), t4));
+      t3 = t3.get$size(0);
+      return A.RelativeRect$fromRect(t4, new A.Rect(0, 0, 0 + t3._dx, 0 + t3._dy));
+    },
+    showButtonMenu$0() {
+      var items, _this = this, _null = null,
+        popupMenuTheme = B.PopupMenuTheme_of(_this.get$context(0)),
+        t1 = _this._widget;
+      t1.toString;
+      items = t1.itemBuilder$1(_this.get$context(0));
+      if (J.get$isNotEmpty$asx(items)) {
+        _this._widget.toString;
+        t1 = _this.get$context(0);
+        _this._widget.toString;
+        B.showMenu(C.Clip_0, popupMenuTheme.color, _null, t1, popupMenuTheme.elevation, _null, items, popupMenuTheme.menuPadding, _null, _null, _this.get$_positionBuilder(), _null, _null, popupMenuTheme.shadowColor, popupMenuTheme.shape, popupMenuTheme.surfaceTintColor, false, _this.$ti._eval$1("1?")).then$1$1(0, new B.PopupMenuButtonState_showButtonMenu_closure(_this), type$.void);
+      }
+    },
+    build$1(context) {
+      var t1, t2, t3, t4, _this = this, _null = null,
+        iconTheme = A.IconTheme_of(context),
+        popupMenuTheme = B.PopupMenuTheme_of(context);
+      _this._widget.toString;
+      B.PopupMenuTheme_of(context);
+      A.debugCheckHasMaterialLocalizations(context);
+      t1 = _this._widget;
+      t1 = t1.icon;
+      t2 = popupMenuTheme.iconSize;
+      if (t2 == null)
+        t2 = iconTheme.size;
+      t3 = popupMenuTheme.iconColor;
+      if (t3 == null)
+        t3 = iconTheme.color;
+      A.debugCheckHasMaterialLocalizations(context);
+      t4 = A.Localizations_of(context, C.Type_MaterialLocalizations_nEU, type$.MaterialLocalizations);
+      t4.toString;
+      t4 = t4.get$showMenuTooltip();
+      _this._widget.toString;
+      return A.IconButton$(t3, _null, true, t1, t2, new A.ValueKey(C.StandardComponentType_2, type$.ValueKey_StandardComponentType), _this.get$showButtonMenu(), C.EdgeInsets_8_8_8_8, _null, _null, t4);
+    }
+  };
+  B._EffectiveMouseCursor.prototype = {
+    resolve$1(states) {
+      var t1;
+      type$.Set_WidgetState._as(states);
+      t1 = A.WidgetStateProperty_resolveAs(this.widgetCursor, states, type$.nullable_MouseCursor);
+      if (t1 == null)
+        t1 = null;
+      return t1 == null ? A.WidgetStateMouseCursor__clickable(states) : t1;
+    },
+    get$debugDescription() {
+      return "MaterialStateMouseCursor(PopupMenuItemState)";
+    }
+  };
+  B._PopupMenuDefaultsM3.prototype = {
+    get$_popup_menu$_theme() {
+      var result, _this = this,
+        value = _this.___PopupMenuDefaultsM3__theme_FI;
+      if (value === $) {
+        result = A.Theme_of(_this.context);
+        _this.___PopupMenuDefaultsM3__theme_FI !== $ && A.throwLateFieldADI("_theme");
+        _this.___PopupMenuDefaultsM3__theme_FI = result;
+        value = result;
+      }
+      return value;
+    },
+    get$_popup_menu$_colors() {
+      var t1, _this = this,
+        value = _this.___PopupMenuDefaultsM3__colors_FI;
+      if (value === $) {
+        t1 = _this.get$_popup_menu$_theme();
+        _this.___PopupMenuDefaultsM3__colors_FI !== $ && A.throwLateFieldADI("_colors");
+        value = _this.___PopupMenuDefaultsM3__colors_FI = t1.colorScheme;
+      }
+      return value;
+    },
+    get$labelTextStyle() {
+      return new A._WidgetStatePropertyWith(new B._PopupMenuDefaultsM3_labelTextStyle_closure(this), type$._WidgetStatePropertyWith_nullable_TextStyle);
+    },
+    get$color(_) {
+      var t1 = this.get$_popup_menu$_colors(),
+        t2 = t1._surfaceContainer;
+      return t2 == null ? t1.surface : t2;
+    },
+    get$shadowColor(_) {
+      var t1 = this.get$_popup_menu$_colors()._shadow;
+      return t1 == null ? C.Color_vnR : t1;
+    },
+    get$surfaceTintColor() {
+      return C.Color_Edl;
+    },
+    get$shape(_) {
+      return C.RoundedRectangleBorder_pY4;
+    },
+    get$menuPadding() {
+      return D.EdgeInsets_0_8_0_8;
+    }
+  };
+  B.ListBodyParentData.prototype = {};
+  B.RenderListBody.prototype = {
+    setupParentData$1(child) {
+      type$.RenderBox._as(child);
+      if (!(child.parentData instanceof B.ListBodyParentData))
+        child.parentData = new B.ListBodyParentData(null, null, C.Offset_0_0);
+    },
+    set$axisDirection(value) {
+      if (this._list_body$_axisDirection === value)
+        return;
+      this._list_body$_axisDirection = value;
+      this.markNeedsLayout$0();
+    },
+    computeDryBaseline$2(constraints, baseline) {
+      var childConstraints, child, t2, t3, t4, baselineOffset, baselineOffset0, t5, nextChild, mainAxisExtent, _this = this, _null = null,
+        t1 = type$.BoxConstraints;
+      t1._as(constraints);
+      type$.TextBaseline._as(baseline);
+      _this._debugCheckConstraints$1(constraints);
+      switch (_this._list_body$_axisDirection.index) {
+        case 1:
+        case 3:
+          childConstraints = A.BoxConstraints$tightFor(constraints.maxHeight, _null);
+          child = _this.ContainerRenderObjectMixin__firstChild;
+          t1 = A._instanceType(_this);
+          t2 = t1._eval$1("ContainerRenderObjectMixin.0");
+          t1 = t1._eval$1("ContainerRenderObjectMixin.1");
+          t3 = type$.Record_2_BoxConstraints_and_TextBaseline;
+          t4 = type$.nullable_double;
+          baselineOffset = _null;
+          while (child != null) {
+            baselineOffset0 = child._computeIntrinsics$2$3(C.C__Baseline, new A._Record_2(childConstraints, baseline), child.get$_computeDryBaseline(), t3, t4);
+            A.assertHelper($.RenderObject_debugCheckingIntrinsics || baselineOffset0 == child.computeDryBaseline$2(childConstraints, baseline));
+            baselineOffset = A.BaselineOffset_minOf(baselineOffset, baselineOffset0);
+            t2._as(child);
+            A.assertHelper(child.get$parent(child) === _this);
+            t5 = child.parentData;
+            t5.toString;
+            child = t1._as(t5).ContainerParentDataMixin_nextSibling;
+          }
+          return baselineOffset;
+        case 0:
+          child = _this.ContainerRenderObjectMixin__lastChild;
+          nextChild = _this.get$childBefore();
+          break;
+        case 2:
+          child = _this.ContainerRenderObjectMixin__firstChild;
+          nextChild = _this.get$childAfter();
+          break;
+        default:
+          nextChild = _null;
+          child = nextChild;
+      }
+      childConstraints = A.BoxConstraints$tightFor(_null, constraints.maxWidth);
+      for (t2 = type$.Size, t3 = type$.Record_2_BoxConstraints_and_TextBaseline, t4 = type$.nullable_double, mainAxisExtent = 0; child != null; child = nextChild.call$1(child)) {
+        baselineOffset = child._computeIntrinsics$2$3(C.C__Baseline, new A._Record_2(childConstraints, baseline), child.get$_computeDryBaseline(), t3, t4);
+        A.assertHelper($.RenderObject_debugCheckingIntrinsics || baselineOffset == child.computeDryBaseline$2(childConstraints, baseline));
+        if (baselineOffset != null)
+          return baselineOffset + mainAxisExtent;
+        mainAxisExtent += child._computeIntrinsics$2$3(C.C__DryLayout, childConstraints, child.get$_computeDryLayout(), t1, t2)._dy;
+      }
+      return _null;
+    },
+    computeDryLayout$1(constraints) {
+      var child, t1, innerConstraints, t2, t3, t4, t5, mainAxisExtent, t6, _this = this;
+      _this._debugCheckConstraints$1(constraints);
+      child = _this.ContainerRenderObjectMixin__firstChild;
+      switch (_this._list_body$_axisDirection.index) {
+        case 1:
+        case 3:
+          t1 = constraints.maxHeight;
+          innerConstraints = A.BoxConstraints$tightFor(t1, null);
+          for (t2 = type$.BoxConstraints, t3 = type$.Size, t4 = A._instanceType(_this), t5 = t4._eval$1("ContainerRenderObjectMixin.0"), t4 = t4._eval$1("ContainerRenderObjectMixin.1"), mainAxisExtent = 0; child != null;) {
+            mainAxisExtent += child._computeIntrinsics$2$3(C.C__DryLayout, innerConstraints, child.get$_computeDryLayout(), t2, t3)._dx;
+            t5._as(child);
+            A.assertHelper(child.get$parent(child) === _this);
+            t6 = child.parentData;
+            t6.toString;
+            child = t4._as(t6).ContainerParentDataMixin_nextSibling;
+          }
+          return constraints.constrain$1(new A.Size(mainAxisExtent, t1));
+        case 0:
+        case 2:
+          t1 = constraints.maxWidth;
+          innerConstraints = A.BoxConstraints$tightFor(null, t1);
+          for (t2 = type$.BoxConstraints, t3 = type$.Size, t4 = A._instanceType(_this), t5 = t4._eval$1("ContainerRenderObjectMixin.0"), t4 = t4._eval$1("ContainerRenderObjectMixin.1"), mainAxisExtent = 0; child != null;) {
+            mainAxisExtent += child._computeIntrinsics$2$3(C.C__DryLayout, innerConstraints, child.get$_computeDryLayout(), t2, t3)._dy;
+            t5._as(child);
+            A.assertHelper(child.get$parent(child) === _this);
+            t6 = child.parentData;
+            t6.toString;
+            child = t4._as(t6).ContainerParentDataMixin_nextSibling;
+          }
+          return constraints.constrain$1(new A.Size(t1, mainAxisExtent));
+      }
+    },
+    _debugCheckConstraints$1(constraints) {
+      A.assertHelper(new B.RenderListBody__debugCheckConstraints_closure(this, constraints).call$0());
+      A.assertHelper(new B.RenderListBody__debugCheckConstraints_closure0(this, constraints).call$0());
+      return true;
+    },
+    performLayout$0() {
+      var child, t1, innerConstraints, t2, mainAxisExtent, t3, position, _this = this, _null = null,
+        constraints = type$.BoxConstraints._as(A.RenderObject.prototype.get$constraints.call(_this));
+      _this._debugCheckConstraints$1(constraints);
+      child = _this.ContainerRenderObjectMixin__firstChild;
+      switch (_this._list_body$_axisDirection.index) {
+        case 1:
+          t1 = constraints.maxHeight;
+          innerConstraints = A.BoxConstraints$tightFor(t1, _null);
+          for (t2 = type$.ListBodyParentData, mainAxisExtent = 0; child != null;) {
+            child.layout$2$parentUsesSize(innerConstraints, true);
+            t3 = child.parentData;
+            t3.toString;
+            t2._as(t3);
+            t3.offset = new A.Offset(mainAxisExtent, 0);
+            mainAxisExtent += child.get$size(0)._dx;
+            A.assertHelper(child.parentData === t3);
+            child = t3.ContainerParentDataMixin_nextSibling;
+          }
+          _this.set$size(0, constraints.constrain$1(new A.Size(mainAxisExtent, t1)));
+          break;
+        case 3:
+          t1 = constraints.maxHeight;
+          innerConstraints = A.BoxConstraints$tightFor(t1, _null);
+          for (t2 = type$.ListBodyParentData, mainAxisExtent = 0; child != null;) {
+            child.layout$2$parentUsesSize(innerConstraints, true);
+            t3 = child.parentData;
+            t3.toString;
+            t2._as(t3);
+            mainAxisExtent += child.get$size(0)._dx;
+            A.assertHelper(child.parentData === t3);
+            child = t3.ContainerParentDataMixin_nextSibling;
+          }
+          child = _this.ContainerRenderObjectMixin__firstChild;
+          for (position = 0; child != null;) {
+            t3 = child.parentData;
+            t3.toString;
+            t2._as(t3);
+            position += child.get$size(0)._dx;
+            t3.offset = new A.Offset(mainAxisExtent - position, 0);
+            A.assertHelper(child.parentData === t3);
+            child = t3.ContainerParentDataMixin_nextSibling;
+          }
+          _this.set$size(0, constraints.constrain$1(new A.Size(mainAxisExtent, t1)));
+          break;
+        case 2:
+          t1 = constraints.maxWidth;
+          innerConstraints = A.BoxConstraints$tightFor(_null, t1);
+          for (t2 = type$.ListBodyParentData, mainAxisExtent = 0; child != null;) {
+            child.layout$2$parentUsesSize(innerConstraints, true);
+            t3 = child.parentData;
+            t3.toString;
+            t2._as(t3);
+            t3.offset = new A.Offset(0, mainAxisExtent);
+            mainAxisExtent += child.get$size(0)._dy;
+            A.assertHelper(child.parentData === t3);
+            child = t3.ContainerParentDataMixin_nextSibling;
+          }
+          _this.set$size(0, constraints.constrain$1(new A.Size(t1, mainAxisExtent)));
+          break;
+        case 0:
+          t1 = constraints.maxWidth;
+          innerConstraints = A.BoxConstraints$tightFor(_null, t1);
+          for (t2 = type$.ListBodyParentData, mainAxisExtent = 0; child != null;) {
+            child.layout$2$parentUsesSize(innerConstraints, true);
+            t3 = child.parentData;
+            t3.toString;
+            t2._as(t3);
+            mainAxisExtent += child.get$size(0)._dy;
+            A.assertHelper(child.parentData === t3);
+            child = t3.ContainerParentDataMixin_nextSibling;
+          }
+          child = _this.ContainerRenderObjectMixin__firstChild;
+          for (position = 0; child != null;) {
+            t3 = child.parentData;
+            t3.toString;
+            t2._as(t3);
+            position += child.get$size(0)._dy;
+            t3.offset = new A.Offset(0, mainAxisExtent - position);
+            A.assertHelper(child.parentData === t3);
+            child = t3.ContainerParentDataMixin_nextSibling;
+          }
+          _this.set$size(0, constraints.constrain$1(new A.Size(t1, mainAxisExtent)));
+          break;
+      }
+      t1 = _this.get$size(0);
+      A.assertHelper(isFinite(t1._dx) && isFinite(t1._dy));
+    },
+    debugFillProperties$1(properties) {
+      this.super$RenderBox$debugFillProperties(properties);
+      properties.add$1(0, A.EnumProperty$("axisDirection", this._list_body$_axisDirection, C.C__NoDefaultValue, C.DiagnosticLevel_3, type$.AxisDirection));
+    },
+    _getIntrinsicCrossAxis$1(childSize) {
+      var child, t1, extent, t2;
+      type$.double_Function_RenderBox._as(childSize);
+      child = this.ContainerRenderObjectMixin__firstChild;
+      for (t1 = type$.ListBodyParentData, extent = 0; child != null;) {
+        extent = Math.max(extent, A.checkNum(childSize.call$1(child)));
+        t2 = child.parentData;
+        t2.toString;
+        child = t1._as(t2).ContainerParentDataMixin_nextSibling;
+      }
+      return extent;
+    },
+    _getIntrinsicMainAxis$1(childSize) {
+      var child, t1, extent, t2;
+      type$.double_Function_RenderBox._as(childSize);
+      child = this.ContainerRenderObjectMixin__firstChild;
+      for (t1 = type$.ListBodyParentData, extent = 0; child != null;) {
+        t2 = childSize.call$1(child);
+        if (typeof t2 !== "number")
+          return A.iae(t2);
+        extent += t2;
+        t2 = child.parentData;
+        t2.toString;
+        child = t1._as(t2).ContainerParentDataMixin_nextSibling;
+      }
+      return extent;
+    },
+    computeMinIntrinsicWidth$1(height) {
+      var t1;
+      A._asDouble(height);
+      switch (A.axisDirectionToAxis(this._list_body$_axisDirection).index) {
+        case 0:
+          t1 = this._getIntrinsicMainAxis$1(new B.RenderListBody_computeMinIntrinsicWidth_closure(height));
+          break;
+        case 1:
+          t1 = this._getIntrinsicCrossAxis$1(new B.RenderListBody_computeMinIntrinsicWidth_closure0(height));
+          break;
+        default:
+          t1 = null;
+      }
+      return t1;
+    },
+    computeMaxIntrinsicWidth$1(height) {
+      var t1;
+      A._asDouble(height);
+      switch (A.axisDirectionToAxis(this._list_body$_axisDirection).index) {
+        case 0:
+          t1 = this._getIntrinsicMainAxis$1(new B.RenderListBody_computeMaxIntrinsicWidth_closure(height));
+          break;
+        case 1:
+          t1 = this._getIntrinsicCrossAxis$1(new B.RenderListBody_computeMaxIntrinsicWidth_closure0(height));
+          break;
+        default:
+          t1 = null;
+      }
+      return t1;
+    },
+    computeMinIntrinsicHeight$1(width) {
+      var t1;
+      A._asDouble(width);
+      switch (A.axisDirectionToAxis(this._list_body$_axisDirection).index) {
+        case 0:
+          t1 = this._getIntrinsicMainAxis$1(new B.RenderListBody_computeMinIntrinsicHeight_closure(width));
+          break;
+        case 1:
+          t1 = this._getIntrinsicCrossAxis$1(new B.RenderListBody_computeMinIntrinsicHeight_closure0(width));
+          break;
+        default:
+          t1 = null;
+      }
+      return t1;
+    },
+    computeMaxIntrinsicHeight$1(width) {
+      var t1;
+      A._asDouble(width);
+      switch (A.axisDirectionToAxis(this._list_body$_axisDirection).index) {
+        case 0:
+          t1 = this._getIntrinsicMainAxis$1(new B.RenderListBody_computeMaxIntrinsicHeight_closure(width));
+          break;
+        case 1:
+          t1 = this._getIntrinsicCrossAxis$1(new B.RenderListBody_computeMaxIntrinsicHeight_closure0(width));
+          break;
+        default:
+          t1 = null;
+      }
+      return t1;
+    },
+    computeDistanceToActualBaseline$1(baseline) {
+      return this.defaultComputeDistanceToFirstActualBaseline$1(type$.TextBaseline._as(baseline));
+    },
+    paint$2(context, offset) {
+      this.defaultPaint$2(context, offset);
+    },
+    hitTestChildren$2$position(result, position) {
+      return this.defaultHitTestChildren$2$position(result, position);
+    }
+  };
+  B._RenderListBody_RenderBox_ContainerRenderObjectMixin.prototype = {
+    attach$1(owner) {
+      var child, t1, t2;
+      this.super$RenderObject$attach(owner);
+      child = this.ContainerRenderObjectMixin__firstChild;
+      for (t1 = type$.ListBodyParentData; child != null;) {
+        child.attach$1(owner);
+        t2 = child.parentData;
+        t2.toString;
+        child = t1._as(t2).ContainerParentDataMixin_nextSibling;
+      }
+    },
+    detach$0(_) {
+      var child, t1, t2;
+      this.super$RenderObject$detach(0);
+      child = this.ContainerRenderObjectMixin__firstChild;
+      for (t1 = type$.ListBodyParentData; child != null;) {
+        child.detach$0(0);
+        t2 = child.parentData;
+        t2.toString;
+        child = t1._as(t2).ContainerParentDataMixin_nextSibling;
+      }
+    }
+  };
+  B._RenderListBody_RenderBox_ContainerRenderObjectMixin_RenderBoxContainerDefaultsMixin.prototype = {};
+  B.RenderFractionallySizedOverflowBox.prototype = {
+    set$widthFactor(value) {
+      A.assertHelper(value >= 0);
+      if (this._widthFactor === value)
+        return;
+      this._widthFactor = value;
+      this.markNeedsLayout$0();
+    },
+    set$heightFactor(value) {
+      return;
+    },
+    _getInnerConstraints$1(constraints) {
+      var width,
+        minWidth = constraints.minWidth,
+        maxWidth = constraints.maxWidth,
+        t1 = this._widthFactor;
+      if (t1 != null) {
+        width = maxWidth * t1;
+        maxWidth = width;
+        minWidth = maxWidth;
+      }
+      return new A.BoxConstraints(minWidth, maxWidth, constraints.minHeight, constraints.maxHeight);
+    },
+    computeMinIntrinsicWidth$1(height) {
+      var t1, result;
+      A._asDouble(height);
+      t1 = this.RenderObjectWithChildMixin__child;
+      if (t1 == null)
+        result = this.super$RenderShiftedBox$computeMinIntrinsicWidth(height);
+      else
+        result = t1.getMinIntrinsicWidth$1(height);
+      A.assertHelper(isFinite(result));
+      t1 = this._widthFactor;
+      return result / (t1 == null ? 1 : t1);
+    },
+    computeMaxIntrinsicWidth$1(height) {
+      var t1, result;
+      A._asDouble(height);
+      t1 = this.RenderObjectWithChildMixin__child;
+      if (t1 == null)
+        result = this.super$RenderShiftedBox$computeMaxIntrinsicWidth(height);
+      else
+        result = t1.getMaxIntrinsicWidth$1(height);
+      A.assertHelper(isFinite(result));
+      t1 = this._widthFactor;
+      return result / (t1 == null ? 1 : t1);
+    },
+    computeMinIntrinsicHeight$1(width) {
+      var t1, result, t2;
+      A._asDouble(width);
+      t1 = this.RenderObjectWithChildMixin__child;
+      if (t1 == null)
+        result = this.super$RenderShiftedBox$computeMinIntrinsicHeight(width);
+      else {
+        t2 = this._widthFactor;
+        result = t1.getMinIntrinsicHeight$1(width * (t2 == null ? 1 : t2));
+      }
+      A.assertHelper(isFinite(result));
+      return result / 1;
+    },
+    computeMaxIntrinsicHeight$1(width) {
+      var t1, result, t2;
+      A._asDouble(width);
+      t1 = this.RenderObjectWithChildMixin__child;
+      if (t1 == null)
+        result = this.super$RenderShiftedBox$computeMaxIntrinsicHeight(width);
+      else {
+        t2 = this._widthFactor;
+        result = t1.getMaxIntrinsicHeight$1(width * (t2 == null ? 1 : t2));
+      }
+      A.assertHelper(isFinite(result));
+      return result / 1;
+    },
+    computeDryLayout$1(constraints) {
+      var t1 = this.RenderObjectWithChildMixin__child;
+      if (t1 != null)
+        return constraints.constrain$1(t1._computeIntrinsics$2$3(C.C__DryLayout, this._getInnerConstraints$1(constraints), t1.get$_computeDryLayout(), type$.BoxConstraints, type$.Size));
+      return constraints.constrain$1(this._getInnerConstraints$1(constraints).constrain$1(C.Size_0_0));
+    },
+    computeDryBaseline$2(constraints, baseline) {
+      var child, childConstraints, result, t2, childSize, size, _this = this,
+        t1 = type$.BoxConstraints;
+      t1._as(constraints);
+      type$.TextBaseline._as(baseline);
+      child = _this.RenderObjectWithChildMixin__child;
+      if (child == null)
+        return null;
+      childConstraints = _this._getInnerConstraints$1(constraints);
+      result = child.getDryBaseline$2(childConstraints, baseline);
+      if (result == null)
+        return null;
+      t2 = type$.Size;
+      childSize = child._computeIntrinsics$2$3(C.C__DryLayout, childConstraints, child.get$_computeDryLayout(), t1, t2);
+      size = _this._computeIntrinsics$2$3(C.C__DryLayout, constraints, _this.get$_computeDryLayout(), t1, t2);
+      return result + _this.get$resolvedAlignment().alongOffset$1(type$.Offset._as(size.$sub(0, childSize)))._dy;
+    },
+    performLayout$0() {
+      var _this = this,
+        t1 = _this.RenderObjectWithChildMixin__child,
+        t2 = type$.BoxConstraints;
+      if (t1 != null) {
+        t1.layout$2$parentUsesSize(_this._getInnerConstraints$1(t2._as(A.RenderObject.prototype.get$constraints.call(_this))), true);
+        _this.set$size(0, t2._as(A.RenderObject.prototype.get$constraints.call(_this)).constrain$1(_this.RenderObjectWithChildMixin__child.get$size(0)));
+        _this.alignChild$0();
+      } else
+        _this.set$size(0, t2._as(A.RenderObject.prototype.get$constraints.call(_this)).constrain$1(_this._getInnerConstraints$1(t2._as(A.RenderObject.prototype.get$constraints.call(_this))).constrain$1(C.Size_0_0)));
+    },
+    debugFillProperties$1(properties) {
+      var _s12_ = "pass-through",
+        _null = null;
+      this.super$RenderAligningShiftedBox$debugFillProperties(properties);
+      properties.add$1(0, A.DoubleProperty$("widthFactor", this._widthFactor, C.C__NoDefaultValue, _s12_, C.DiagnosticLevel_3, true, _null, _null));
+      properties.add$1(0, A.DoubleProperty$("heightFactor", this._heightFactor, C.C__NoDefaultValue, _s12_, C.DiagnosticLevel_3, true, _null, _null));
+    }
+  };
+  B.FractionallySizedBox.prototype = {
+    createRenderObject$1(context) {
+      var t2,
+        t1 = new B.RenderFractionallySizedOverflowBox(this.widthFactor, null, C.Alignment_0_0, A.Directionality_maybeOf(context), null, new A._LayoutCacheStorage(), A.LayerHandle$(type$.ContainerLayer));
+      t1.RenderObject$0();
+      t1.set$child(null);
+      t2 = t1._widthFactor;
+      A.assertHelper(t2 == null || t2 >= 0);
+      return t1;
+    },
+    updateRenderObject$2(context, renderObject) {
+      type$.RenderFractionallySizedOverflowBox._as(renderObject);
+      renderObject.set$alignment(C.Alignment_0_0);
+      renderObject.set$widthFactor(this.widthFactor);
+      renderObject.set$heightFactor(null);
+      renderObject.set$textDirection(A.Directionality_maybeOf(context));
+    },
+    debugFillProperties$1(properties) {
+      var _null = null;
+      this.super$Widget$debugFillProperties(properties);
+      properties.add$1(0, A.DiagnosticsProperty$("alignment", C.Alignment_0_0, true, C.C__NoDefaultValue, _null, false, _null, _null, C.DiagnosticLevel_3, _null, false, true, true, C.DiagnosticsTreeStyle_8, _null, type$.AlignmentGeometry));
+      properties.add$1(0, A.DoubleProperty$("widthFactor", this.widthFactor, _null, _null, C.DiagnosticLevel_3, true, _null, _null));
+      properties.add$1(0, A.DoubleProperty$("heightFactor", _null, _null, _null, C.DiagnosticLevel_3, true, _null, _null));
+    }
+  };
+  B.ListBody.prototype = {
+    createRenderObject$1(context) {
+      var t1 = new B.RenderListBody(A.getAxisDirectionFromAxisReverseAndDirectionality(context, C.Axis_1, false), 0, null, null, new A._LayoutCacheStorage(), A.LayerHandle$(type$.ContainerLayer));
+      t1.RenderObject$0();
+      t1.addAll$1(0, null);
+      return t1;
+    },
+    updateRenderObject$2(context, renderObject) {
+      type$.RenderListBody._as(renderObject).set$axisDirection(A.getAxisDirectionFromAxisReverseAndDirectionality(context, C.Axis_1, false));
+    }
+  };
+  B.BoxConstraintsTween.prototype = {
+    lerp$1(t) {
+      var t1 = A.BoxConstraints_lerp(this.begin, this.end, t);
+      t1.toString;
+      return t1;
+    }
+  };
+  B.WidgetStateProperty.prototype = {};
+  var typesOffset = hunkHelpers.updateTypes(["double(double)", "~()", "NutritionItem(@)", "Map<String,@>(NutritionItem)", "List<PopupMenuEntry<String>>(BuildContext)", "Widget(BuildContext)", "RelativeRect(BuildContext,BoxConstraints)", "~(RenderBox,Offset)"]);
+  B.EventRegistry_initializers_closure.prototype = {
+    call$2(context, metadata) {
+      return this.$call$body$EventRegistry_initializers_closure(context, type$.Map_String_dynamic._as(metadata));
+    },
+    $call$body$EventRegistry_initializers_closure(context, metadata) {
+      var $async$goto = 0,
+        $async$completer = A._makeAsyncAwaitCompleter(type$.Questionnaire),
+        $async$returnValue;
+      var $async$call$2 = A._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return A._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$returnValue = B.Questionnaire_Questionnaire$fromJson(B.convertKeys2String(type$.Map_dynamic_dynamic._as(J.$index$asx(metadata, "data"))));
+              // goto return
+              $async$goto = 1;
+              break;
+            case 1:
+              // return
+              return A._asyncReturn($async$returnValue, $async$completer);
+          }
+      });
+      return A._asyncStartSync($async$call$2, $async$completer);
+    },
+    $signature: 849
+  };
+  B.EventRegistry_initializers_closure0.prototype = {
+    call$2(context, metadata) {
+      var t1, t2;
+      type$.Map_String_dynamic._as(metadata);
+      $.$get$Get();
+      t1 = $.GetInstance__getInstance;
+      if (t1 == null)
+        t1 = $.GetInstance__getInstance = C.C_GetInstance;
+      t2 = J.getInterceptor$asx(metadata);
+      return t1.find$1$1$tag(0, null, type$.HealthDataController).getRecord$2(A._asString(J.$index$asx(t2.$index(metadata, "data"), "type")), A._asDouble(J.$index$asx(t2.$index(metadata, "data"), "created_at")));
+    },
+    $signature: 850
+  };
+  B.EventRegistry_initializers_closure1.prototype = {
+    call$2(context, metadata) {
+      var t1;
+      type$.Map_String_dynamic._as(metadata);
+      t1 = J.getInterceptor$asx(metadata);
+      t1 = A._asBool(J.get$isEmpty$asx(t1.$index(metadata, "data"))) ? "\u672a\u77e5\u9519\u8bef" : t1.$index(metadata, "data");
+      return type$.Future_dynamic._as(t1);
+    },
+    $signature: 851
+  };
+  B._RecordDetailDialogState__loadDetail_closure.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1._record_detail$_body = B.RecordDetailFactory_build(t1.recordKey, t1.get$context(0), this.data, t1._widget.metadata, new B._RecordDetailDialogState__loadDetail__closure(t1));
+      t1._record_detail$_loading = false;
+    },
+    $signature: 0
+  };
+  B._RecordDetailDialogState__loadDetail__closure.prototype = {
+    call$0() {
+      var $async$goto = 0,
+        $async$completer = A._makeAsyncAwaitCompleter(type$.void),
+        $async$self = this, t3, t1, t2;
+      var $async$call$0 = A._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return A._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              t1 = $.$get$Get();
+              t2 = $.GetInstance__getInstance;
+              if (t2 == null)
+                t2 = $.GetInstance__getInstance = C.C_GetInstance;
+              t3 = $async$self.$this;
+              $async$goto = 2;
+              return A._asyncAwait(t2.find$1$1$tag(0, null, type$.HealthDataController).deleteRecord$2(A._asString(J.$index$asx(J.$index$asx(t3._widget.metadata, "data"), "type")), A._asDouble(J.$index$asx(J.$index$asx(t3._widget.metadata, "data"), "created_at"))), $async$call$0);
+            case 2:
+              // returning from await.
+              t3._widget.refresh$0(0);
+              A.GetNavigation_back(t1, null, type$.dynamic);
+              // implicit return
+              return A._asyncReturn(null, $async$completer);
+          }
+      });
+      return A._asyncStartSync($async$call$0, $async$completer);
+    },
+    $signature: 14
+  };
+  B._RecordDetailDialogState__loadDetail_closure0.prototype = {
+    call$0() {
+      return this.$this._record_detail$_loading = false;
+    },
+    $signature: 0
+  };
+  B._RecordDetailDialogState_build_closure.prototype = {
+    call$0() {
+      var $async$goto = 0,
+        $async$completer = A._makeAsyncAwaitCompleter(type$.void),
+        $async$self = this, t1, t2;
+      var $async$call$0 = A._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return A._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              t1 = $async$self.$this;
+              t2 = t1.recordKey.get$currentState();
+              $async$goto = 2;
+              return A._asyncAwait($async$self.hDM.updateRecord$1((t2 == null ? type$.RecordUpdatable_StatefulWidget._as(t2) : t2).getUpdatedRecord$0()), $async$call$0);
+            case 2:
+              // returning from await.
+              t1._widget.refresh$0(0);
+              A.GetNavigation_back($.$get$Get(), null, type$.dynamic);
+              // implicit return
+              return A._asyncReturn(null, $async$completer);
+          }
+      });
+      return A._asyncStartSync($async$call$0, $async$completer);
+    },
+    $signature: 14
+  };
+  B.DietRecordWidgetState_initState_closure.prototype = {
+    call$1(e) {
+      return B.NutritionItem_NutritionItem$fromJson(type$.Map_String_dynamic._as(e));
+    },
+    $signature: typesOffset + 2
+  };
+  B.DietRecordWidgetState_getUpdatedRecord_closure.prototype = {
+    call$1(item) {
+      return type$.NutritionItem._as(item).toJson$0();
+    },
+    $signature: typesOffset + 3
+  };
+  B.DietRecordWidgetState__calculateTotals_closure.prototype = {
+    call$2(k, v) {
+      var key, t1, t2;
+      A._asString(k);
+      A._asDouble(v);
+      key = k.toLowerCase();
+      if (key === "\u70ed\u91cf" || key === "\u5361\u8def\u91cc" || key === "calories")
+        key = "\u70ed\u91cf";
+      t1 = this.totals;
+      t2 = t1.$index(0, key);
+      if (t2 == null)
+        t2 = 0;
+      t1.$indexSet(0, key, t2 + this.item.nutrientAmount$1(k));
+    },
+    $signature: 852
+  };
+  B.DietRecordWidgetState__editItem_closure.prototype = {
+    call$1(ctx) {
+      var t1, t2, _null = null;
+      type$.BuildContext._as(ctx);
+      t1 = A.Text$("\u7f16\u8f91 " + this.item.name, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null);
+      t2 = A.TextField$(true, C.List_empty, false, _null, true, _null, A.text_field0_TextField__defaultContextMenuBuilder$closure(), this.weightController, _null, _null, A.InputDecoration$(_null, _null, _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, "\u91cd\u91cf (g)", true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null), C.DragStartBehavior_1, true, _null, true, _null, false, _null, C.Type_EditableText_O5i, _null, _null, _null, C.TextInputType_2_false_false, _null, _null, _null, 1, _null, _null, false, "\u2022", _null, _null, _null, _null, _null, false, _null, false, _null, _null, C.EdgeInsets_20_20_20_20, _null, _null, _null, _null, _null, _null, _null, _null, true, C.TextAlign_4, _null, C.TextCapitalization_30, _null, _null, _null);
+      return A.AlertDialog$(A._setArrayType([A.TextButton$(false, D.Text_Sec, _null, _null, _null, _null, _null, _null, new B.DietRecordWidgetState__editItem__closure(ctx), _null, _null), new B.ElevatedButton(new B.DietRecordWidgetState__editItem__closure0(ctx), _null, _null, _null, _null, _null, _null, false, _null, true, _null, D.Text_9qB, _null)], type$.JSArray_Widget), t2, t1);
+    },
+    $signature: 242
+  };
+  B.DietRecordWidgetState__editItem__closure.prototype = {
+    call$0() {
+      A.Navigator_of(this.ctx, false).pop$1$1(false, type$.bool);
+      return null;
+    },
+    $signature: 0
+  };
+  B.DietRecordWidgetState__editItem__closure0.prototype = {
+    call$0() {
+      A.Navigator_of(this.ctx, false).pop$1$1(true, type$.bool);
+      return null;
+    },
+    $signature: 0
+  };
+  B.DietRecordWidgetState__editItem_closure0.prototype = {
+    call$0() {
+      var t1 = this.item,
+        t2 = A.Primitives_parseDouble(this.weightController._change_notifier$_value.text);
+      return t1.amount = t2 == null ? t1.amount : t2;
+    },
+    $signature: 0
+  };
+  B.DietRecordWidgetState_build_closure0.prototype = {
+    call$1(value) {
+      if (A._asString(value) === "delete")
+        this.$this._widget.onDelete$0();
+    },
+    $signature: 35
+  };
+  B.DietRecordWidgetState_build_closure.prototype = {
+    call$1(context) {
+      return A._setArrayType([D.PopupMenuItem_tjH], type$.JSArray_PopupMenuEntry_String);
+    },
+    $signature: typesOffset + 4
+  };
+  B.DietRecordWidgetState_build_closure1.prototype = {
+    call$2(context, index) {
+      var t1, t2, item, color, _null = null;
+      type$.BuildContext._as(context);
+      A._asInt(index);
+      t1 = this.$this;
+      t2 = t1.__DietRecordWidgetState_items_A;
+      t2 === $ && A.throwLateFieldNI("items");
+      if (!(index >= 0 && index < t2.length))
+        return A.ioore(t2, index);
+      item = t2[index];
+      color = $.$get$foodCardColors()[C.JSInt_methods.$mod(index, 5)];
+      t2 = A.BoxDecoration$(_null, _null, A.BorderRadius$circular(12), _null, color, _null, _null, C.BoxShape_0);
+      return A.GestureDetector$(_null, A.Container$(_null, A.StyledList_toRow(A._setArrayType([A.Text$(item.name, _null, _null, _null, _null, _null, _null, _null, A.Theme_of(context).textTheme.titleMedium, _null, _null, _null, _null, _null), A.Text$(C.JSNumber_methods.toStringAsFixed$1(item.nutrientAmount$1("\u70ed\u91cf"), 0) + " kcal", _null, _null, _null, _null, _null, _null, _null, A.Theme_of(context).textTheme.bodyMedium, _null, _null, _null, _null, _null)], type$.JSArray_Text), C.CrossAxisAlignment_2, C.MainAxisAlignment_3, C.MainAxisSize_1, _null), C.Clip_0, _null, _null, t2, _null, _null, _null, D.EdgeInsets_0_6_0_6, C.EdgeInsets_14_14_14_14, _null, _null, _null), C.DragStartBehavior_1, false, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, new B.DietRecordWidgetState_build__closure(t1, item), _null, _null, _null, _null, _null, _null, _null, _null);
+    },
+    $signature: 853
+  };
+  B.DietRecordWidgetState_build__closure.prototype = {
+    call$0() {
+      return this.$this._editItem$1(this.item);
+    },
+    $signature: 0
+  };
+  B.NutritionItem_NutritionItem$fromJson_closure.prototype = {
+    call$2(k, v) {
+      var t1;
+      A._asString(k);
+      A._asNumQ(v);
+      t1 = v == null ? 0 : v;
+      this.nutrients.$indexSet(0, k, t1);
+      return t1;
+    },
+    $signature: 47
+  };
+  B.Question_Question$fromJson_closure.prototype = {
+    call$1(e) {
+      return J.toString$0$(e);
+    },
+    $signature: 83
+  };
+  B.Questionnaire_Questionnaire$fromJson_closure.prototype = {
+    call$1(q) {
+      return B.Question_Question$fromJson(type$.Map_String_dynamic._as(q));
+    },
+    $signature: 854
+  };
+  B.convertKeys2String_closure.prototype = {
+    call$2(k, v) {
+      var t1, t2, t3;
+      if (type$.Map_dynamic_dynamic._is(v))
+        return new A.MapEntry(J.toString$0$(k), B.convertKeys2String(v), type$.MapEntry_String_dynamic);
+      else {
+        t1 = J.getInterceptor$(k);
+        t2 = type$.MapEntry_String_dynamic;
+        if (type$.List_dynamic._is(v)) {
+          t1 = t1.toString$0(k);
+          t3 = J.map$1$1$ax(v, new B.convertKeys2String__closure(), type$.dynamic);
+          return new A.MapEntry(t1, A.List_List$of(t3, true, t3.$ti._eval$1("ListIterable.E")), t2);
+        } else
+          return new A.MapEntry(t1.toString$0(k), v, t2);
+      }
+    },
+    $signature: 855
+  };
+  B.convertKeys2String__closure.prototype = {
+    call$1(e) {
+      return type$.Map_dynamic_dynamic._is(e) ? B.convertKeys2String(e) : e;
+    },
+    $signature: 41
+  };
+  B._ElevatedButtonDefaultsM3_backgroundColor_closure.prototype = {
+    call$1(states) {
+      var t1, t2;
+      if (type$.Set_WidgetState._as(states).contains$1(0, C.WidgetState_6))
+        return this.$this.get$_elevated_button$_colors().onSurface.withOpacity$1(0.12);
+      t1 = this.$this.get$_elevated_button$_colors();
+      t2 = t1._surfaceContainerLow;
+      return t2 == null ? t1.surface : t2;
+    },
+    $signature: 7
+  };
+  B._ElevatedButtonDefaultsM3_foregroundColor_closure.prototype = {
+    call$1(states) {
+      if (type$.Set_WidgetState._as(states).contains$1(0, C.WidgetState_6))
+        return this.$this.get$_elevated_button$_colors().onSurface.withOpacity$1(0.38);
+      return this.$this.get$_elevated_button$_colors().primary;
+    },
+    $signature: 7
+  };
+  B._ElevatedButtonDefaultsM3_overlayColor_closure.prototype = {
+    call$1(states) {
+      type$.Set_WidgetState._as(states);
+      if (states.contains$1(0, C.WidgetState_2))
+        return this.$this.get$_elevated_button$_colors().primary.withOpacity$1(0.1);
+      if (states.contains$1(0, C.WidgetState_0))
+        return this.$this.get$_elevated_button$_colors().primary.withOpacity$1(0.08);
+      if (states.contains$1(0, C.WidgetState_1))
+        return this.$this.get$_elevated_button$_colors().primary.withOpacity$1(0.1);
+      return null;
+    },
+    $signature: 68
+  };
+  B._ElevatedButtonDefaultsM3_elevation_closure.prototype = {
+    call$1(states) {
+      type$.Set_WidgetState._as(states);
+      if (states.contains$1(0, C.WidgetState_6))
+        return 0;
+      if (states.contains$1(0, C.WidgetState_2))
+        return 1;
+      if (states.contains$1(0, C.WidgetState_0))
+        return 3;
+      if (states.contains$1(0, C.WidgetState_1))
+        return 1;
+      return 1;
+    },
+    $signature: 186
+  };
+  B._ElevatedButtonDefaultsM3_iconColor_closure.prototype = {
+    call$1(states) {
+      var _this = this;
+      type$.Set_WidgetState._as(states);
+      if (states.contains$1(0, C.WidgetState_6))
+        return _this.$this.get$_elevated_button$_colors().onSurface.withOpacity$1(0.38);
+      if (states.contains$1(0, C.WidgetState_2))
+        return _this.$this.get$_elevated_button$_colors().primary;
+      if (states.contains$1(0, C.WidgetState_0))
+        return _this.$this.get$_elevated_button$_colors().primary;
+      if (states.contains$1(0, C.WidgetState_1))
+        return _this.$this.get$_elevated_button$_colors().primary;
+      return _this.$this.get$_elevated_button$_colors().primary;
+    },
+    $signature: 7
+  };
+  B._ElevatedButtonDefaultsM3_mouseCursor_closure.prototype = {
+    call$1(states) {
+      if (type$.Set_WidgetState._as(states).contains$1(0, C.WidgetState_6))
+        return C.SystemMouseCursor_basic;
+      return C.SystemMouseCursor_click;
+    },
+    $signature: 76
+  };
+  B.ListTile_build_resolveColor.prototype = {
+    call$4(explicitColor, selectedColor, enabledColor, disabledColor) {
+      return new B._IndividualOverrides(explicitColor, enabledColor, selectedColor, disabledColor).resolve$1(this.states);
+    },
+    call$3(explicitColor, selectedColor, enabledColor) {
+      return this.call$4(explicitColor, selectedColor, enabledColor, null);
+    },
+    $signature: 856
+  };
+  B._RenderListTile__computeSizes_closure.prototype = {
+    call$0() {
+      var t2, overflowedWidget,
+        t1 = this.tileWidth;
+      if (t1 === 0)
+        return true;
+      t2 = this.leadingSize;
+      if (t1 === (t2 == null ? null : t2._dx))
+        overflowedWidget = "Leading";
+      else {
+        t2 = this.trailingSize;
+        overflowedWidget = t1 === (t2 == null ? null : t2._dx) ? "Trailing" : null;
+      }
+      if (overflowedWidget == null)
+        return true;
+      throw A.wrapException(A.FlutterError$fromParts(A._setArrayType([A.ErrorSummary$(overflowedWidget + " widget consumes the entire tile width (including ListTile.contentPadding)."), A.ErrorDescription$("Either resize the tile width so that the " + C.JSString_methods.toLowerCase$0(overflowedWidget) + " widget plus any content padding do not exceed the tile width, or use a sized widget, or consider replacing ListTile with a custom widget."), A.ErrorHint$("See also: https://api.flutter.dev/flutter/material/ListTile-class.html#material.ListTile.4")], type$.JSArray_DiagnosticsNode)));
+    },
+    $signature: 1
+  };
+  B._RenderListTile_paint_doPaint.prototype = {
+    call$1(child) {
+      var t1;
+      if (child != null) {
+        t1 = child.parentData;
+        t1.toString;
+        this.context.paintChild$2(child, type$.BoxParentData._as(t1).offset.$add(0, this.offset));
+      }
+    },
+    $signature: 193
+  };
+  B._RenderListTile_hitTestChildren_closure.prototype = {
+    call$2(result, transformed) {
+      A.assertHelper(transformed.$eq(0, this.position.$sub(0, this.parentData.offset)));
+      return this.child.hitTest$2$position(result, transformed);
+    },
+    $signature: 25
+  };
+  B._PopupMenuState_build_closure.prototype = {
+    call$1(size) {
+      C.JSArray_methods.$indexSet(this.$this._widget.route.itemSizes, this.i, size);
+    },
+    $signature: 286
+  };
+  B._PopupMenuState_build_closure0.prototype = {
+    call$2(context, child) {
+      var t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, _this = this, _null = null;
+      type$.BuildContext._as(context);
+      type$.nullable_Widget._as(child);
+      t1 = _this.opacity;
+      t2 = _this.$this;
+      t3 = t2._widget.route;
+      t4 = t3._animationProxy;
+      t4.toString;
+      t5 = type$.Animation_double;
+      t5._as(t4);
+      t3 = t3.shape;
+      if (t3 == null)
+        t3 = _this.popupMenuTheme.shape;
+      if (t3 == null) {
+        t3 = _this.defaults;
+        t3 = t3.get$shape(t3);
+      }
+      t6 = t2._widget.route.color;
+      if (t6 == null)
+        t6 = _this.popupMenuTheme.color;
+      if (t6 == null) {
+        t6 = _this.defaults;
+        t6 = t6.get$color(t6);
+      }
+      t7 = t2._widget;
+      t8 = t7.clipBehavior;
+      t7 = t7.route;
+      t9 = t7.elevation;
+      if (t9 == null)
+        t9 = _this.popupMenuTheme.elevation;
+      if (t9 == null) {
+        t9 = _this.defaults.elevation;
+        t9.toString;
+      }
+      t7 = t7.shadowColor;
+      if (t7 == null)
+        t7 = _this.popupMenuTheme.shadowColor;
+      if (t7 == null) {
+        t7 = _this.defaults;
+        t7 = t7.get$shadowColor(t7);
+      }
+      t10 = t2._widget.route.surfaceTintColor;
+      if (t10 == null)
+        t10 = _this.popupMenuTheme.surfaceTintColor;
+      if (t10 == null)
+        t10 = _this.defaults.get$surfaceTintColor();
+      t11 = t2._widget.route._animationProxy;
+      t11.toString;
+      t11 = _this.width.transform$1(0, t5._as(t11).get$value(0));
+      t2 = t2._widget.route._animationProxy;
+      t2.toString;
+      return new A.FadeTransition(new A._AnimatedEvaluation(t4, t1, A._instanceType(t1)._eval$1("_AnimatedEvaluation<Animatable.T>")), false, A.Material$(C.Duration_200000, true, _null, A.Align$(D.AlignmentDirectional_1_m1, child, _this.height.transform$1(0, t5._as(t2).get$value(0)), _null, t11), t8, t6, t9, _null, t7, t3, t10, _null, C.MaterialType_1), _null);
+    },
+    $signature: 857
+  };
+  B._PopupMenuRoute_scrollTo_closure.prototype = {
+    call$1(__wc0_formal) {
+      var t1, t2, t3, t4;
+      type$.Duration._as(__wc0_formal);
+      t1 = this.$this.itemKeys;
+      t2 = this.selectedItemIndex;
+      if (!(t2 < t1.length))
+        return A.ioore(t1, t2);
+      t3 = t1[t2];
+      t4 = type$.WidgetsBinding;
+      if (A.BindingBase_checkInstance($.WidgetsBinding__instance, t4).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, t3) != null) {
+        if (!(t2 < t1.length))
+          return A.ioore(t1, t2);
+        t1 = t1[t2];
+        t1 = A.BindingBase_checkInstance($.WidgetsBinding__instance, t4).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, t1);
+        t1.toString;
+        A.Scrollable_ensureVisible(t1, 0, C.ScrollPositionAlignmentPolicy_0, C.Cubic_glB, C.Duration_0);
+      }
+    },
+    $signature: 3
+  };
+  B._PopupMenuRoute_buildPage_closure.prototype = {
+    call$2(context, constraints) {
+      var t1, t2, t3, t4, t5, t6, _this = this;
+      type$.BoxConstraints._as(constraints);
+      t1 = _this.$this;
+      t2 = t1.positionBuilder;
+      t2 = t2 == null ? null : t2.call$2(context, constraints);
+      if (t2 == null) {
+        t2 = t1.position;
+        t2.toString;
+      }
+      t3 = _this._box_0.selectedItemIndex;
+      t4 = A.Directionality_of(context);
+      t5 = _this.mediaQuery;
+      t6 = A.DisplayFeatureSubScreen_avoidBounds(t5);
+      return new A.CustomSingleChildLayout(new B._PopupMenuRouteLayout(t2, t1.itemSizes, t3, t4, t5.padding, A.LinkedHashSet_LinkedHashSet$of(t6, t6.$ti._eval$1("Iterable.E"))), new A._CaptureAll(t1.capturedThemes._themes, _this.menu, null), null);
+    },
+    $signature: 858
+  };
+  B.PopupMenuButtonState_showButtonMenu_closure.prototype = {
+    call$1(newValue) {
+      var t1 = this.$this,
+        t2 = t1.$ti;
+      t2._eval$1("1?")._as(newValue);
+      if (t1._framework$_element == null)
+        return null;
+      if (newValue == null) {
+        t1._widget.toString;
+        return null;
+      }
+      t2._eval$1("~(1)?")._as(t1._widget.onSelected).call$1(newValue);
+    },
+    $signature() {
+      return this.$this.$ti._eval$1("Null(1?)");
+    }
+  };
+  B._PopupMenuDefaultsM3_labelTextStyle_closure.prototype = {
+    call$1(states) {
+      var t1, value, t2;
+      type$.Set_WidgetState._as(states);
+      t1 = this.$this;
+      value = t1.___PopupMenuDefaultsM3__textTheme_FI;
+      if (value === $) {
+        t2 = t1.get$_popup_menu$_theme();
+        t1.___PopupMenuDefaultsM3__textTheme_FI !== $ && A.throwLateFieldADI("_textTheme");
+        value = t1.___PopupMenuDefaultsM3__textTheme_FI = t2.textTheme;
+      }
+      t2 = value.labelLarge;
+      t2.toString;
+      if (states.contains$1(0, C.WidgetState_6))
+        return t2.apply$1$color(t1.get$_popup_menu$_colors().onSurface.withOpacity$1(0.38));
+      return t2.apply$1$color(t1.get$_popup_menu$_colors().onSurface);
+    },
+    $signature: 67
+  };
+  B.RenderListBody__debugCheckConstraints_closure.prototype = {
+    call$0() {
+      switch (A.axisDirectionToAxis(this.$this._list_body$_axisDirection).index) {
+        case 0:
+          if (!(this.constraints.maxWidth < 1 / 0))
+            return true;
+          break;
+        case 1:
+          if (!(this.constraints.maxHeight < 1 / 0))
+            return true;
+          break;
+      }
+      throw A.wrapException(A.FlutterError$fromParts(A._setArrayType([A.ErrorSummary$("RenderListBody must have unlimited space along its main axis."), A.ErrorDescription$("RenderListBody does not clip or resize its children, so it must be placed in a parent that does not constrain the main axis."), A.ErrorHint$("You probably want to put the RenderListBody inside a RenderViewport with a matching main axis.")], type$.JSArray_DiagnosticsNode)));
+    },
+    $signature: 1
+  };
+  B.RenderListBody__debugCheckConstraints_closure0.prototype = {
+    call$0() {
+      switch (A.axisDirectionToAxis(this.$this._list_body$_axisDirection).index) {
+        case 0:
+          if (this.constraints.maxHeight < 1 / 0)
+            return true;
+          break;
+        case 1:
+          if (this.constraints.maxWidth < 1 / 0)
+            return true;
+          break;
+      }
+      throw A.wrapException(A.FlutterError$fromParts(A._setArrayType([A.ErrorSummary$("RenderListBody must have a bounded constraint for its cross axis."), A.ErrorDescription$("RenderListBody forces its children to expand to fit the RenderListBody's container, so it must be placed in a parent that constrains the cross axis to a finite dimension."), A.ErrorHint$("If you are attempting to nest a RenderListBody with one direction inside one of another direction, you will want to wrap the inner one inside a box that fixes the dimension in that direction, for example, a RenderIntrinsicWidth or RenderIntrinsicHeight object. This is relatively expensive, however.")], type$.JSArray_DiagnosticsNode)));
+    },
+    $signature: 1
+  };
+  B.RenderListBody_computeMinIntrinsicWidth_closure.prototype = {
+    call$1(child) {
+      return child.getMinIntrinsicWidth$1(this.height);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMinIntrinsicWidth_closure0.prototype = {
+    call$1(child) {
+      return child.getMinIntrinsicWidth$1(this.height);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMaxIntrinsicWidth_closure.prototype = {
+    call$1(child) {
+      return child.getMaxIntrinsicWidth$1(this.height);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMaxIntrinsicWidth_closure0.prototype = {
+    call$1(child) {
+      return child.getMaxIntrinsicWidth$1(this.height);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMinIntrinsicHeight_closure.prototype = {
+    call$1(child) {
+      return child.getMinIntrinsicHeight$1(this.width);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMinIntrinsicHeight_closure0.prototype = {
+    call$1(child) {
+      return child.getMinIntrinsicHeight$1(this.width);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMaxIntrinsicHeight_closure.prototype = {
+    call$1(child) {
+      return child.getMaxIntrinsicHeight$1(this.width);
+    },
+    $signature: 31
+  };
+  B.RenderListBody_computeMaxIntrinsicHeight_closure0.prototype = {
+    call$1(child) {
+      return child.getMaxIntrinsicHeight$1(this.width);
+    },
+    $signature: 31
+  };
+  B.Visibility_of_closure.prototype = {
+    call$1($parent) {
+      this._box_0.ancestorContext = $parent;
+      return false;
+    },
+    $signature: 20
+  };
+  (function installTearOffs() {
+    var _instance_0_u = hunkHelpers._instance_0u,
+      _instance_1_u = hunkHelpers._instance_1u,
+      _static_2 = hunkHelpers._static_2,
+      _instance_2_u = hunkHelpers._instance_2u;
+    var _;
+    _instance_0_u(_ = B._InkState.prototype, "get$_handleRemoved", "_handleRemoved$0", 1);
+    _instance_1_u(_, "get$_build", "_build$1", 5);
+    _instance_0_u(B.InkDecoration.prototype, "get$_handleChanged", "_handleChanged$0", 1);
+    _static_2(B, "list_tile__RenderListTile__positionBox$closure", "_RenderListTile__positionBox", 7);
+    _instance_1_u(_ = B._RenderListTile.prototype, "get$computeMinIntrinsicWidth", "computeMinIntrinsicWidth$1", 0);
+    _instance_1_u(_, "get$computeMaxIntrinsicWidth", "computeMaxIntrinsicWidth$1", 0);
+    _instance_1_u(_, "get$computeMinIntrinsicHeight", "computeMinIntrinsicHeight$1", 0);
+    _instance_1_u(_, "get$computeMaxIntrinsicHeight", "computeMaxIntrinsicHeight$1", 0);
+    _instance_0_u(B.PopupMenuItemState.prototype, "get$handleTap", "handleTap$0", 1);
+    _instance_2_u(_ = B.PopupMenuButtonState.prototype, "get$_positionBuilder", "_positionBuilder$2", 6);
+    _instance_0_u(_, "get$showButtonMenu", "showButtonMenu$0", 1);
+    _instance_1_u(_ = B.RenderListBody.prototype, "get$computeMinIntrinsicWidth", "computeMinIntrinsicWidth$1", 0);
+    _instance_1_u(_, "get$computeMaxIntrinsicWidth", "computeMaxIntrinsicWidth$1", 0);
+    _instance_1_u(_, "get$computeMinIntrinsicHeight", "computeMinIntrinsicHeight$1", 0);
+    _instance_1_u(_, "get$computeMaxIntrinsicHeight", "computeMaxIntrinsicHeight$1", 0);
+    _instance_1_u(_ = B.RenderFractionallySizedOverflowBox.prototype, "get$computeMinIntrinsicWidth", "computeMinIntrinsicWidth$1", 0);
+    _instance_1_u(_, "get$computeMaxIntrinsicWidth", "computeMaxIntrinsicWidth$1", 0);
+    _instance_1_u(_, "get$computeMinIntrinsicHeight", "computeMinIntrinsicHeight$1", 0);
+    _instance_1_u(_, "get$computeMaxIntrinsicHeight", "computeMaxIntrinsicHeight$1", 0);
+  })();
+  (function inheritance() {
+    var _mixin = hunkHelpers.mixin,
+      _mixinHard = hunkHelpers.mixinHard,
+      _inheritMany = hunkHelpers.inheritMany,
+      _inherit = hunkHelpers.inherit;
+    _inheritMany(A.Closure2Args, [B.EventRegistry_initializers_closure, B.EventRegistry_initializers_closure0, B.EventRegistry_initializers_closure1, B.DietRecordWidgetState__calculateTotals_closure, B.DietRecordWidgetState_build_closure1, B.NutritionItem_NutritionItem$fromJson_closure, B.convertKeys2String_closure, B._RenderListTile_hitTestChildren_closure, B._PopupMenuState_build_closure0, B._PopupMenuRoute_buildPage_closure]);
+    _inheritMany(A.Object, [B.DietRecordWidgetBuilder, B.SleepRecordWidgetBuilder, B.NutritionItem, B.SleepItem, B.RecordUpdatable, B.TimeSpec, B.WidgetStateProperty]);
+    _inheritMany(A.StatefulWidget, [B.RecordDetailDialog, B.DietRecordWidget, B.SleepRecordWidget, B.Ink, B.PopupMenuEntry, B._PopupMenu, B.PopupMenuButton]);
+    _inheritMany(A.State, [B._RecordDetailDialogState, B._DietRecordWidgetState_State_RecordUpdatable, B._SleepRecordWidgetState_State_RecordUpdatable, B._InkState, B.PopupMenuItemState, B._PopupMenuState, B.PopupMenuButtonState]);
+    _inheritMany(A.Closure0Args, [B._RecordDetailDialogState__loadDetail_closure, B._RecordDetailDialogState__loadDetail__closure, B._RecordDetailDialogState__loadDetail_closure0, B._RecordDetailDialogState_build_closure, B.DietRecordWidgetState__editItem__closure, B.DietRecordWidgetState__editItem__closure0, B.DietRecordWidgetState__editItem_closure0, B.DietRecordWidgetState_build__closure, B._RenderListTile__computeSizes_closure, B.RenderListBody__debugCheckConstraints_closure, B.RenderListBody__debugCheckConstraints_closure0]);
+    _inherit(B.DietRecordWidgetState, B._DietRecordWidgetState_State_RecordUpdatable);
+    _inheritMany(A.Closure, [B.DietRecordWidgetState_initState_closure, B.DietRecordWidgetState_getUpdatedRecord_closure, B.DietRecordWidgetState__editItem_closure, B.DietRecordWidgetState_build_closure0, B.DietRecordWidgetState_build_closure, B.Question_Question$fromJson_closure, B.Questionnaire_Questionnaire$fromJson_closure, B.convertKeys2String__closure, B._ElevatedButtonDefaultsM3_backgroundColor_closure, B._ElevatedButtonDefaultsM3_foregroundColor_closure, B._ElevatedButtonDefaultsM3_overlayColor_closure, B._ElevatedButtonDefaultsM3_elevation_closure, B._ElevatedButtonDefaultsM3_iconColor_closure, B._ElevatedButtonDefaultsM3_mouseCursor_closure, B.ListTile_build_resolveColor, B._RenderListTile_paint_doPaint, B._PopupMenuState_build_closure, B._PopupMenuRoute_scrollTo_closure, B.PopupMenuButtonState_showButtonMenu_closure, B._PopupMenuDefaultsM3_labelTextStyle_closure, B.RenderListBody_computeMinIntrinsicWidth_closure, B.RenderListBody_computeMinIntrinsicWidth_closure0, B.RenderListBody_computeMaxIntrinsicWidth_closure, B.RenderListBody_computeMaxIntrinsicWidth_closure0, B.RenderListBody_computeMinIntrinsicHeight_closure, B.RenderListBody_computeMinIntrinsicHeight_closure0, B.RenderListBody_computeMaxIntrinsicHeight_closure, B.RenderListBody_computeMaxIntrinsicHeight_closure0, B.Visibility_of_closure]);
+    _inherit(B.SleepRecordWidgetState, B._SleepRecordWidgetState_State_RecordUpdatable);
+    _inherit(B.ElevatedButton, A.ButtonStyleButton);
+    _inherit(B._ElevatedButtonDefaultsM3, A.ButtonStyle);
+    _inherit(B.InkDecoration, A.InkFeature);
+    _inheritMany(A._Enum, [B.ListTileTitleAlignment, B._ListTileSlot]);
+    _inherit(B.ListTile, A.StatelessWidget);
+    _inherit(B._IndividualOverrides, B.WidgetStateProperty);
+    _inherit(B._ListTile, A.SlottedMultiChildRenderObjectWidget);
+    _inheritMany(A.RenderBox, [B.__RenderListTile_RenderBox_SlottedContainerRenderObjectMixin, B._RenderListBody_RenderBox_ContainerRenderObjectMixin]);
+    _inherit(B._RenderListTile, B.__RenderListTile_RenderBox_SlottedContainerRenderObjectMixin);
+    _inherit(B._LisTileDefaultsM3, A.ListTileThemeData);
+    _inheritMany(A.SingleChildRenderObjectWidget, [B._MenuItem, B.FractionallySizedBox]);
+    _inherit(B._RenderMenuItem, A.RenderShiftedBox);
+    _inherit(B.PopupMenuItem, B.PopupMenuEntry);
+    _inherit(B._PopupMenuRouteLayout, A.SingleChildLayoutDelegate);
+    _inherit(B._PopupMenuRoute, A.PopupRoute);
+    _inherit(B._EffectiveMouseCursor, A.WidgetStateMouseCursor);
+    _inherit(B._PopupMenuDefaultsM3, A.PopupMenuThemeData);
+    _inherit(B.ListBodyParentData, A.ContainerBoxParentData);
+    _inherit(B._RenderListBody_RenderBox_ContainerRenderObjectMixin_RenderBoxContainerDefaultsMixin, B._RenderListBody_RenderBox_ContainerRenderObjectMixin);
+    _inherit(B.RenderListBody, B._RenderListBody_RenderBox_ContainerRenderObjectMixin_RenderBoxContainerDefaultsMixin);
+    _inherit(B.RenderFractionallySizedOverflowBox, A.RenderAligningShiftedBox);
+    _inherit(B.ListBody, A.MultiChildRenderObjectWidget);
+    _inherit(B.BoxConstraintsTween, A.Tween);
+    _mixin(B._DietRecordWidgetState_State_RecordUpdatable, B.RecordUpdatable);
+    _mixin(B._SleepRecordWidgetState_State_RecordUpdatable, B.RecordUpdatable);
+    _mixinHard(B.__RenderListTile_RenderBox_SlottedContainerRenderObjectMixin, A.SlottedContainerRenderObjectMixin);
+    _mixinHard(B._RenderListBody_RenderBox_ContainerRenderObjectMixin, A.ContainerRenderObjectMixin);
+    _mixin(B._RenderListBody_RenderBox_ContainerRenderObjectMixin_RenderBoxContainerDefaultsMixin, A.RenderBoxContainerDefaultsMixin);
+  })();
+  A._Universe_addRules(init.typeUniverse, JSON.parse('{"RecordDetailDialog":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"DietRecordWidgetBuilder":{"RecordWidgetBuilder":[]},"SleepRecordWidgetBuilder":{"RecordWidgetBuilder":[]},"_RecordDetailDialogState":{"State":["RecordDetailDialog"],"Diagnosticable":[],"State.T":"RecordDetailDialog"},"DietRecordWidget":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"DietRecordWidgetState":{"RecordUpdatable":["DietRecordWidget"],"State":["DietRecordWidget"],"Diagnosticable":[],"State.T":"DietRecordWidget"},"SleepRecordWidget":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"SleepRecordWidgetState":{"RecordUpdatable":["SleepRecordWidget"],"State":["SleepRecordWidget"],"Diagnosticable":[],"State.T":"SleepRecordWidget"},"RecordUpdatable":{"State":["1"],"Diagnosticable":[]},"ElevatedButton":{"ButtonStyleButton":[],"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"_ElevatedButtonDefaultsM3":{"ButtonStyle":[],"Diagnosticable":[]},"Ink":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"_InkState":{"State":["Ink"],"Diagnosticable":[],"State.T":"Ink"},"InkDecoration":{"InkFeature":[]},"ListTile":{"StatelessWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"_ListTileSlot":{"Enum":[]},"ListTileTitleAlignment":{"Enum":[]},"_IndividualOverrides":{"WidgetStateProperty":["Color?"]},"_ListTile":{"SlottedMultiChildRenderObjectWidgetMixin":["_ListTileSlot","RenderBox"],"RenderObjectWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[],"SlottedMultiChildRenderObjectWidgetMixin.0":"_ListTileSlot","SlottedMultiChildRenderObjectWidgetMixin.1":"RenderBox"},"_RenderListTile":{"RenderBox":[],"SlottedContainerRenderObjectMixin":["_ListTileSlot","RenderBox"],"RenderObject":[],"DiagnosticableTree":[],"Diagnosticable":[],"HitTestTarget":[],"SlottedContainerRenderObjectMixin.1":"RenderBox","SlottedContainerRenderObjectMixin.0":"_ListTileSlot"},"_LisTileDefaultsM3":{"ListTileThemeData":[],"Diagnosticable":[]},"PopupMenuEntry":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"PopupMenuItem":{"PopupMenuEntry":["1"],"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"_PopupMenu":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"PopupMenuButton":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"_MenuItem":{"SingleChildRenderObjectWidget":[],"RenderObjectWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"_RenderMenuItem":{"RenderBox":[],"RenderObjectWithChildMixin":["RenderBox"],"RenderObject":[],"DiagnosticableTree":[],"Diagnosticable":[],"HitTestTarget":[],"RenderObjectWithChildMixin.0":"RenderBox"},"PopupMenuItemState":{"State":["2"],"Diagnosticable":[],"State.T":"2"},"_PopupMenuState":{"State":["_PopupMenu<1>"],"Diagnosticable":[],"State.T":"_PopupMenu<1>"},"_PopupMenuRouteLayout":{"SingleChildLayoutDelegate":[]},"_PopupMenuRoute":{"ModalRoute":["1"],"_ModalRoute_TransitionRoute_LocalHistoryRoute":["1"],"TransitionRoute":["1"],"OverlayRoute":["1"],"LocalHistoryRoute":["1"],"Route":["1"],"_RoutePlaceholder":[]},"PopupMenuButtonState":{"State":["PopupMenuButton<1>"],"Diagnosticable":[],"State.T":"PopupMenuButton<1>"},"_EffectiveMouseCursor":{"MouseCursor":[],"Diagnosticable":[],"WidgetStateProperty":["MouseCursor"]},"_PopupMenuDefaultsM3":{"PopupMenuThemeData":[],"Diagnosticable":[]},"ListBodyParentData":{"BoxParentData":[],"ContainerParentDataMixin":["RenderBox"],"ParentData":[],"ContainerParentDataMixin.0":"RenderBox"},"RenderListBody":{"RenderBoxContainerDefaultsMixin":["RenderBox","ListBodyParentData"],"RenderBox":[],"ContainerRenderObjectMixin":["RenderBox","ListBodyParentData"],"RenderObject":[],"DiagnosticableTree":[],"Diagnosticable":[],"HitTestTarget":[],"ContainerRenderObjectMixin.0":"RenderBox","ContainerRenderObjectMixin.1":"ListBodyParentData","RenderBoxContainerDefaultsMixin.1":"ListBodyParentData","RenderBoxContainerDefaultsMixin.0":"RenderBox"},"RenderFractionallySizedOverflowBox":{"RenderBox":[],"RenderObjectWithChildMixin":["RenderBox"],"RenderObject":[],"DiagnosticableTree":[],"Diagnosticable":[],"HitTestTarget":[],"RenderObjectWithChildMixin.0":"RenderBox"},"FractionallySizedBox":{"SingleChildRenderObjectWidget":[],"RenderObjectWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"ListBody":{"MultiChildRenderObjectWidget":[],"RenderObjectWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"BoxConstraintsTween":{"Tween":["BoxConstraints"],"Animatable":["BoxConstraints"],"Animatable.T":"BoxConstraints","Tween.T":"BoxConstraints"},"ElevatedButtonTheme":{"InheritedTheme":[],"InheritedWidget":[],"ProxyWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]},"PopupMenuTheme":{"InheritedTheme":[],"InheritedWidget":[],"ProxyWidget":[],"Widget":[],"DiagnosticableTree":[],"Diagnosticable":[]}}'));
+  var type$ = (function rtii() {
+    var findType = A.findType;
+    return {
+      AlignmentGeometry: findType("AlignmentGeometry"),
+      Animation_double: findType("Animation<double>"),
+      AxisDirection: findType("AxisDirection"),
+      BoxConstraints: findType("BoxConstraints"),
+      BoxParentData: findType("BoxParentData"),
+      BuildContext: findType("BuildContext"),
+      ContainerLayer: findType("ContainerLayer0"),
+      Decoration: findType("Decoration"),
+      Duration: findType("Duration"),
+      EdgeInsetsGeometry: findType("EdgeInsetsGeometry"),
+      ElevatedButtonTheme: findType("ElevatedButtonTheme"),
+      FocusNode: findType("FocusNode"),
+      Function: findType("Function"),
+      Future_dynamic: findType("Future<@>"),
+      GlobalKey_State_StatefulWidget: findType("GlobalKey<State<StatefulWidget>>"),
+      HealthDataController: findType("HealthDataController"),
+      Iterable_Rect: findType("Iterable<Rect>"),
+      JSArray_CurvedAnimation: findType("JSArray<CurvedAnimation>"),
+      JSArray_DiagnosticsNode: findType("JSArray<DiagnosticsNode>"),
+      JSArray_OverlayEntry: findType("JSArray<OverlayEntry>"),
+      JSArray_PopupMenuEntry_String: findType("JSArray<PopupMenuEntry<String>>"),
+      JSArray_RenderBox: findType("JSArray<RenderBox>"),
+      JSArray_String: findType("JSArray<String>"),
+      JSArray_Text: findType("JSArray<Text>"),
+      JSArray_Widget: findType("JSArray<Widget>"),
+      JSArray_of_Future_bool_Function: findType("JSArray<Future<bool>()>"),
+      LabeledGlobalKey_RecordUpdatable_StatefulWidget: findType("LabeledGlobalKey<RecordUpdatable<StatefulWidget>>"),
+      LabeledGlobalKey_State_StatefulWidget: findType("LabeledGlobalKey<State<StatefulWidget>>"),
+      ListBodyParentData: findType("ListBodyParentData"),
+      ListTileStyle: findType("ListTileStyle"),
+      ListTileTitleAlignment: findType("ListTileTitleAlignment"),
+      List_CurvedAnimation: findType("List<CurvedAnimation>"),
+      List_NutritionItem: findType("List<NutritionItem>"),
+      List_dynamic: findType("List<@>"),
+      MapEntry_String_dynamic: findType("MapEntry<String,@>"),
+      Map_String_dynamic: findType("Map<String,@>"),
+      Map_dynamic_dynamic: findType("Map<@,@>"),
+      MaterialLocalizations: findType("MaterialLocalizations"),
+      MediaQuery: findType("MediaQuery"),
+      MouseCursor: findType("MouseCursor"),
+      NutritionItem: findType("NutritionItem"),
+      Offset: findType("Offset"),
+      PopEntry_nullable_Object: findType("PopEntry<Object?>"),
+      PopupMenuButton_String: findType("PopupMenuButton<String>"),
+      PopupMenuTheme: findType("PopupMenuTheme"),
+      Question: findType("Question"),
+      Questionnaire: findType("Questionnaire"),
+      RecordUpdatable_StatefulWidget: findType("RecordUpdatable<StatefulWidget>"),
+      Record_2_BoxConstraints_and_TextBaseline: findType("+(BoxConstraints,TextBaseline)"),
+      Rect: findType("Rect"),
+      RenderBox: findType("RenderBox"),
+      RenderFractionallySizedOverflowBox: findType("RenderFractionallySizedOverflowBox"),
+      RenderListBody: findType("RenderListBody"),
+      SchedulerBinding: findType("SchedulerBinding"),
+      Set_WidgetState: findType("Set<WidgetState>"),
+      ShapeBorder: findType("ShapeBorder"),
+      Size: findType("Size"),
+      Size_Function_RenderBox_BoxConstraints: findType("Size(RenderBox,BoxConstraints)"),
+      String: findType("String"),
+      TextBaseline: findType("TextBaseline"),
+      TextStyle: findType("TextStyle"),
+      ValueKey_StandardComponentType: findType("ValueKey<StandardComponentType>"),
+      VisualDensity: findType("VisualDensity"),
+      WidgetState: findType("WidgetState"),
+      WidgetStatePropertyAll_Color: findType("WidgetStatePropertyAll<Color>"),
+      WidgetStatePropertyAll_EdgeInsetsGeometry: findType("WidgetStatePropertyAll<EdgeInsetsGeometry>"),
+      WidgetStatePropertyAll_nullable_TextStyle: findType("WidgetStatePropertyAll<TextStyle?>"),
+      WidgetsBinding: findType("WidgetsBinding"),
+      _ListTileSlot: findType("_ListTileSlot"),
+      _PopupMenuRouteLayout: findType("_PopupMenuRouteLayout"),
+      _RenderListTile: findType("_RenderListTile"),
+      _RenderMenuItem: findType("_RenderMenuItem"),
+      _VisibilityScope: findType("_VisibilityScope"),
+      _WidgetStatePropertyWith_Color: findType("_WidgetStatePropertyWith<Color>"),
+      _WidgetStatePropertyWith_double: findType("_WidgetStatePropertyWith<double>"),
+      _WidgetStatePropertyWith_nullable_Color: findType("_WidgetStatePropertyWith<Color?>"),
+      _WidgetStatePropertyWith_nullable_MouseCursor: findType("_WidgetStatePropertyWith<MouseCursor?>"),
+      _WidgetStatePropertyWith_nullable_TextStyle: findType("_WidgetStatePropertyWith<TextStyle?>"),
+      bool: findType("bool"),
+      double: findType("double"),
+      double_Function_RenderBox: findType("double(RenderBox)"),
+      dynamic: findType("@"),
+      nullable_Color: findType("Color?"),
+      nullable_GlobalKey_RecordUpdatable_StatefulWidget: findType("GlobalKey<RecordUpdatable<StatefulWidget>>?"),
+      nullable_List_dynamic: findType("List<@>?"),
+      nullable_MouseCursor: findType("MouseCursor?"),
+      nullable_Size: findType("Size?"),
+      nullable_String: findType("String?"),
+      nullable_Widget: findType("Widget?"),
+      nullable_double: findType("double?"),
+      nullable_double_Function_RenderBox_BoxConstraints_TextBaseline: findType("double?(RenderBox,BoxConstraints,TextBaseline)"),
+      nullable_void_Function_RenderBox_Offset: findType("~(RenderBox,Offset)?"),
+      void: findType("~"),
+      void_Function: findType("~()"),
+      void_Function_Size: findType("~(Size)")
+    };
+  })();
+  (function constants() {
+    var makeConstList = hunkHelpers.makeConstList;
+    D.AlignmentDirectional_1_m1 = new A.AlignmentDirectional(1, -1);
+    D.Alignment_NmG = new A.Alignment(-0.2, 1);
+    D.BackgroundPreset_6yj = new F.BackgroundPreset("assets/images/gourd_1.jpg", D.Alignment_NmG);
+    D.BoxConstraints_I6b = new A.BoxConstraints(112, 280, 0, 1 / 0);
+    D.EdgeInsetsDirectional_16_0_24_0 = new A.EdgeInsetsDirectional(16, 0, 24, 0);
+    D.EdgeInsets_0_0_0_2 = new A.EdgeInsets(0, 0, 0, 2);
+    D.EdgeInsets_0_6_0_6 = new A.EdgeInsets(0, 6, 0, 6);
+    D.EdgeInsets_0_8_0_8 = new A.EdgeInsets(0, 8, 0, 8);
+    D.EdgeInsets_12_0_12_0 = new A.EdgeInsets(12, 0, 12, 0);
+    D.EdgeInsets_16_8_16_8 = new A.EdgeInsets(16, 8, 16, 8);
+    D.Interval_Gs3 = new A.Interval(0, 0.6666666666666666, C.C__Linear);
+    D.Interval_Z1Z = new A.Interval(0, 0.3333333333333333, C.C__Linear);
+    D.ListTileTitleAlignment_0 = new B.ListTileTitleAlignment(0, "threeLine");
+    D.ListTileTitleAlignment_1 = new B.ListTileTitleAlignment(1, "titleHeight");
+    D.ListTileTitleAlignment_2 = new B.ListTileTitleAlignment(2, "top");
+    D.ListTileTitleAlignment_3 = new B.ListTileTitleAlignment(3, "center");
+    D.ListTileTitleAlignment_4 = new B.ListTileTitleAlignment(4, "bottom");
+    D._ListTileSlot_0 = new B._ListTileSlot(0, "leading");
+    D._ListTileSlot_1 = new B._ListTileSlot(1, "title");
+    D._ListTileSlot_2 = new B._ListTileSlot(2, "subtitle");
+    D._ListTileSlot_3 = new B._ListTileSlot(3, "trailing");
+    D.List_Vf6 = A._setArrayType(makeConstList([D._ListTileSlot_0, D._ListTileSlot_1, D._ListTileSlot_2, D._ListTileSlot_3]), A.findType("JSArray<_ListTileSlot>"));
+    D.List_empty19 = A._setArrayType(makeConstList([]), type$.JSArray_CurvedAnimation);
+    D.Color_vv0 = new A.Color(1, 0.9098039215686274, 0.9607843137254902, 0.9137254901960784, C.ColorSpace_0);
+    D.Color_EjK = new A.Color(1, 0.7843137254901961, 0.9019607843137255, 0.788235294117647, C.ColorSpace_0);
+    D.Color_nGS = new A.Color(1, 0.6470588235294118, 0.8392156862745098, 0.6549019607843137, C.ColorSpace_0);
+    D.Color_zpa = new A.Color(1, 0.5058823529411764, 0.7803921568627451, 0.5176470588235295, C.ColorSpace_0);
+    D.Color_bfV = new A.Color(1, 0.4, 0.7333333333333333, 0.41568627450980394, C.ColorSpace_0);
+    D.Color_wAm = new A.Color(1, 0.2980392156862745, 0.6862745098039216, 0.3137254901960784, C.ColorSpace_0);
+    D.Color_yy5 = new A.Color(1, 0.2627450980392157, 0.6274509803921569, 0.2784313725490196, C.ColorSpace_0);
+    D.Color_1bm = new A.Color(1, 0.2196078431372549, 0.5568627450980392, 0.23529411764705882, C.ColorSpace_0);
+    D.Color_UjG = new A.Color(1, 0.1803921568627451, 0.49019607843137253, 0.19607843137254902, C.ColorSpace_0);
+    D.Color_C6W = new A.Color(1, 0.10588235294117647, 0.3686274509803922, 0.12549019607843137, C.ColorSpace_0);
+    D.Map_tFts8 = new A.GeneralConstantMap([50, D.Color_vv0, 100, D.Color_EjK, 200, D.Color_nGS, 300, D.Color_zpa, 400, D.Color_bfV, 500, D.Color_wAm, 600, D.Color_yy5, 700, D.Color_1bm, 800, D.Color_UjG, 900, D.Color_C6W], A.findType("GeneralConstantMap<int,Color>"));
+    D.MaterialColor_vIZ = new A.MaterialColor(D.Map_tFts8, 1, 0.2980392156862745, 0.6862745098039216, 0.3137254901960784, C.ColorSpace_0);
+    D.Text_RAk = new A.Text("\u5220\u9664\u8bb0\u5f55", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.PopupMenuItem_tjH = new B.PopupMenuItem("delete", D.Text_RAk, null, A.findType("PopupMenuItem<String>"));
+    D.SizedBox_null_12_null_null = new A.SizedBox(null, 12, null, null);
+    D.SizedBox_null_16_null_null = new A.SizedBox(null, 16, null, null);
+    D.Text_9qB = new A.Text("\u4fdd\u5b58", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.Text_CkW = new A.Text("\u6682\u4e0d\u652f\u6301\u7684\u8bb0\u5f55\u7c7b\u578b", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.Text_Sec = new A.Text("\u53d6\u6d88", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.Text_YUJ = new A.Text("\u52a0\u8f7d\u5931\u8d25", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.Text_yir = new A.Text("\u4fdd\u5b58\u66f4\u6539", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.ValueKey_kM4 = new A.ValueKey("menu item padding", A.findType("ValueKey<String>"));
+  })();
+  (function lazyInitializers() {
+    var _lazyFinal = hunkHelpers.lazyFinal;
+    _lazyFinal($, "EventRegistry_initializers", "$get$EventRegistry_initializers", () => A.LinkedHashMap_LinkedHashMap$_literal(["questionnaire", new B.EventRegistry_initializers_closure(), "record_status", new B.EventRegistry_initializers_closure0(), "error", new B.EventRegistry_initializers_closure1()], type$.String, A.findType("Future<@>(BuildContext,Map<String,@>)")));
+    _lazyFinal($, "recordBuilders", "$get$recordBuilders", () => A.LinkedHashMap_LinkedHashMap$_literal(["diet", new B.DietRecordWidgetBuilder(), "sleep", new B.SleepRecordWidgetBuilder()], type$.String, A.findType("RecordWidgetBuilder")));
+    _lazyFinal($, "foodCardColors", "$get$foodCardColors", () => A._setArrayType([E.MaterialColor_Ugb.get$shade100(), D.MaterialColor_vIZ.get$shade100(), C.MaterialColor_45F.get$shade100(), E.MaterialColor_VpP.get$shade100(), E.MaterialColor_I62.get$shade100()], A.findType("JSArray<Color>")));
+  })();
+};
+;
+((d, h) => {
+  d[h] = d.current;
+  d.eventLog.push({p: "main.dart.js_6", e: "endPart", h: h});
+})($__dart_deferred_initializers__, "ekFuEa6tY6Q3K/ZFk0FCITuIcg4=");
+;

@@ -1,308 +1,721 @@
-((a,b,c)=>{a[b]=a[b]||{}
-a[b][c]=a[b][c]||[]
-a[b][c].push({p:"main.dart.js_2",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A,C={
-bLc(d,e,f,g){var x,w,v=new C.aGg(g,null,e,f)
-if(d instanceof B.aa){x=$.am
-w=new B.aa(x,f.h("aa<0>"))
-if(x!==A.aT)v=x.E3(v,f.h("0/"),y.K,y.l)
-d.wy(new B.mL(w,2,null,v,d.$ti.h("@<1>").aG(f).h("mL<1,2>")))
-return w}return d.i0(0,new C.aGf(f),v,f)},
-aGg:function aGg(d,e,f,g){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g},
-aGf:function aGf(d){this.a=d},
-byt(d,e){return C.bPN(d,C.bJC(e.c,A.iz,new C.Jg(e.a),new C.aYD(d)))},
-aYD:function aYD(d){this.a=d},
-Z9:function Z9(d,e){this.a=d
-this.c=e},
-bJC(d,e,f,g){return new C.CJ(f,g,e,d)},
-CJ:function CJ(d,e,f,g){var _=this
-_.a=d
-_.b=e
-_.d=f
-_.e=g},
-aix:function aix(d,e){var _=this
-_.a=d
-_.b=e
-_.d=_.c=null},
-oq:function oq(d,e,f){this.a=d
-this.b=e
-this.c=f},
-YY:function YY(){},
-Jg:function Jg(d){this.a=d},
-awQ:function awQ(d,e,f,g){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g},
-awR:function awR(d){this.a=d},
-bId(d){return d.aP4("AssetManifest.bin.json",new C.awU(),y.i)},
-awU:function awU(){},
-AN:function AN(d,e){this.a=d
-this.b=e},
-b4_:function b4_(d){this.a=d},
-tX:function tX(d,e){this.a=d
-this.b=e},
-bPN(d,e){var x=null
-return new B.hI(new B.b_(x,e,x,x,x,x,x,A.C),A.cv,d,x)}},D
-J=c[1]
-B=c[0]
-A=c[2]
-C=a.updateHolder(c[8],C)
-D=c[12]
-C.Z9.prototype={}
-C.CJ.prototype={
-Cb(d){return new C.aix(this,d)},
-j(d,e){var x,w=this
-if(e==null)return!1
-if(w===e)return!0
-if(J.a8(e)!==B.C(w))return!1
-x=!1
-if(y.U.b(e))if(e.gf3(e).j(0,w.a)){e.gji()
-if(e.glA()===w.d)if(e.gfA().j(0,w.e)){e.gxz()
-if(e.gyR(e)===A.eU){e.gt3()
-if(e.giE(e)===1)if(e.gdt(e)===1){x=e.glz()===A.dY
-if(x){e.grY()
-e.goD()}}}}}return x},
-gl(d){return B.X(this.a,null,this.d,this.e,null,A.eU,!1,1,1,A.dY,!1,!1,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a)},
-k(d){var x=this,w=B.a([x.a.k(0)],y.s),v=!1
-v=x.d!==A.xm
-if(v)w.push(x.d.k(0))
-w.push(x.e.k(0))
-w.push("scale "+A.e.aI(1,1))
-w.push("opacity "+A.e.aI(1,1))
-w.push(A.dY.k(0))
-return"DecorationImage("+A.b.c8(w,", ")+")"},
-gf3(d){return this.a},
-gji(){return null},
-glA(){return this.d},
-gfA(){return this.e},
-gxz(){return null},
-gyR(){return A.eU},
-gt3(){return!1},
-giE(){return 1},
-gdt(){return 1},
-glz(){return A.dY},
-grY(){return!1},
-goD(){return!1}}
-C.aix.prototype={
-DK(d,e,f,g,h,i){var x,w,v,u,t=this,s=null,r=t.a,q=r.a.a4(g),p=q.a
-if(p==null)p=q
-x=t.c
-w=x==null
-if(w)v=s
-else{v=x.a
-if(v==null)v=x}if(p!==v){u=new B.h_(t.ga1j(),s,r.b)
-if(!w)x.O(0,u)
-t.c=q
-q.a1(0,u)}if(t.d==null)return
-p=f!=null
-if(p){d.ez(0)
-d.Iz(0,f)}x=t.d
-x=x.gf3(x)
-w=t.d.gk0()
-v=t.d
-B.bCI(r.e,i,d,s,s,w,A.dY,r.d,!1,x,!1,!1,h,e,A.eU,v.giE(v))
-if(p)d.dO(0)},
-vr(d,e,f,g){return this.DK(d,e,f,g,1,A.eI)},
-auG(d,e){var x,w=this
-if(J.i(w.d,d))return
-x=w.d
-if(x!=null&&x.D8(d)){d.n()
-return}x=w.d
-if(x!=null)x.n()
-w.d=d
-if(!e)w.b.$0()},
-n(){var x=this,w=x.c
-if(w!=null)w.O(0,new B.h_(x.ga1j(),null,x.a.b))
-w=x.d
-if(w!=null)w.n()
-x.d=null},
-k(d){return"DecorationImagePainter(stream: "+B.k(this.c)+", image: "+B.k(this.d)+") for "+this.a.k(0)}}
-C.oq.prototype={
-j(d,e){var x=this
-if(e==null)return!1
-if(J.a8(e)!==B.C(x))return!1
-return e instanceof C.oq&&e.a===x.a&&e.b===x.b&&e.c===x.c},
-gl(d){return B.X(this.a,this.b,this.c,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a)},
-k(d){return"AssetBundleImageKey(bundle: "+this.a.k(0)+', name: "'+this.b+'", scale: '+B.k(this.c)+")"}}
-C.YY.prototype={
-t1(d,e){return B.v1(null,this.j7(d,e),d.b,null,d.c)},
-vj(d,e){return B.v1(null,this.j7(d,e),d.b,null,d.c)},
-j7(d,e){return this.ay4(d,e)},
-ay4(d,e){var x=0,w=B.y(y.p),v,u=2,t=[],s,r,q,p
-var $async$j7=B.u(function(f,g){if(f===1){t.push(g)
-x=u}while(true)switch(x){case 0:q=null
-u=4
-x=7
-return B.n(d.a.K5(d.b),$async$j7)
-case 7:q=g
-u=2
-x=6
-break
-case 4:u=3
-p=t.pop()
-if(B.al(p) instanceof B.y4){r=$.h3.pX$
-r===$&&B.b()
-r.Th(d)
-throw p}else throw p
-x=6
-break
-case 3:x=2
-break
-case 6:v=e.$1(q)
-x=1
-break
-case 1:return B.w(v,w)
-case 2:return B.v(t.at(-1),w)}})
-return B.x($async$j7,w)}}
-C.Jg.prototype={
-gyt(){return this.a},
-t6(d){var x,w={},v=d.a
-if(v==null)v=$.Yy()
-w.a=w.b=null
-x=y.P
-C.bLc(C.bId(v).bJ(0,new C.awQ(w,this,d,v),x),new C.awR(w),x,y.K)
-x=w.a
-if(x!=null)return x
-x=new B.aa($.am,y.E)
-w.b=new B.b8(x,y.z)
-return x},
-apr(d,e,f){var x,w,v,u,t
-if(f==null||f.length===0||e.b==null)return new C.tX(null,d)
-x=B.QG(null,y.V,y.S)
-for(w=f.length,v=0;v<f.length;f.length===w||(0,B.P)(f),++v){u=f[v]
-t=u.a
-x.m(0,t==null?1:t,u)}w=e.b
-w.toString
-return this.arY(x,w)},
-arY(d,e){var x,w,v
-if(d.n_(e)!=null){x=d.i(0,e)
-x.toString
-return x}w=d.aOK(e)
-v=d.aM_(e)
-if(w==null){x=d.i(0,v)
-x.toString
-return x}if(v==null){x=d.i(0,w)
-x.toString
-return x}if(e<2||e>(w+v)/2){x=d.i(0,v)
-x.toString
-return x}else{x=d.i(0,w)
-x.toString
-return x}},
-j(d,e){var x
-if(e==null)return!1
-if(J.a8(e)!==B.C(this))return!1
-if(e instanceof C.Jg)x=e.gyt()===this.gyt()
-else x=!1
-return x},
-gl(d){return B.X(this.gyt(),null,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a,A.a)},
-k(d){return'AssetImage(bundle: null, name: "'+this.gyt()+'")'}}
-C.AN.prototype={
-af1(d){var x,w,v,u=this.b
-if(!u.a5(0,d)){x=this.a
-w=J.ae(x)
-if(w.i(x,d)==null)return null
-v=w.i(x,d)
-if(v==null)v=[]
-v=J.j_(y.J.a(v),y.F)
-u.m(0,d,v.dj(v,new C.b4_(d),y.S).d9(0))
-w.K(x,d)}u=u.i(0,d)
-u.toString
-return u},
-$iawT:1}
-C.tX.prototype={}
-var z=a.updateTypes(["~(hs,I)","bl(awT)","a7<AN>(h)","tX(at<H?,H?>)"])
-C.aGg.prototype={
-$2(d,e){if(!this.a.b(d))throw B.e(d)
-return this.c.$2(d,e)},
-$S(){return this.d.h("0/(H,dr)")}}
-C.aGf.prototype={
-$1(d){return d},
-$S(){return this.a.h("0(0)")}}
-C.aYD.prototype={
-$2(d,e){return this.a},
-$S:73}
-C.awQ.prototype={
-$1(d){var x,w,v=this,u=v.b,t=d.af1(u.gyt()),s=u.apr(u.gyt(),v.c,t)
-u=s.a
-if(u==null)u=1
-x=new C.oq(v.d,s.b,u)
-u=v.a
-w=u.b
-if(w!=null)w.ds(0,x)
-else u.a=new B.cx(x,y.f)},
-$S:z+1}
-C.awR.prototype={
-$2(d,e){this.a.b.ht(d,e)},
-$S:29}
-C.awU.prototype={
-$1(d){return this.aep(d)},
-aep(d){var x=0,w=B.y(y.j),v
-var $async$$1=B.u(function(e,f){if(e===1)return B.v(f,w)
-while(true)switch(x){case 0:v=new C.AN(y.F.a(A.bP.k5(B.bn2(A.dP.cs(B.be(A.bF.i8(0,d)))))),B.A(y.N,y.A))
-x=1
-break
-case 1:return B.w(v,w)}})
-return B.x($async$$1,w)},
-$S:z+2}
-C.b4_.prototype={
-$1(d){var x,w=J.ae(d),v=w.i(d,"asset")
-v.toString
-B.be(v)
-x=w.i(d,"dpr")
-w=w.i(d,"asset")
-w.toString
-B.be(w)
-return new C.tX(B.bq6(x),w)},
-$S:z+3};(function installTearOffs(){var x=a._instance_2u
-x(C.aix.prototype,"ga1j","auG",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(B.ql,[C.aGg,C.aYD,C.awR])
-x(B.l_,[C.aGf,C.awQ,C.awU,C.b4_])
-x(B.H,[C.Z9,C.CJ,C.aix,C.oq,C.AN,C.tX])
-w(C.YY,B.fy)
-w(C.Jg,C.YY)})()
-B.WF(b.typeUniverse,JSON.parse('{"YY":{"fy":["oq"]},"Jg":{"fy":["oq"],"fy.T":"oq"},"AN":{"awT":[]}}'))
-var y=(function rtii(){var x=B.a9
-return{i:x("awT"),S:x("tX"),p:x("hl"),U:x("CJ"),m:x("aV<q,p>"),J:x("m<H?>"),s:x("B<h>"),A:x("D<tX>"),F:x("at<H?,H?>"),P:x("bl"),K:x("H"),l:x("dr"),N:x("h"),f:x("cx<oq>"),j:x("AN"),z:x("b8<oq>"),E:x("aa<oq>"),V:x("K")}})();(function constants(){D.As=new B.p(1,0.9725490196078431,0.7333333333333333,0.8156862745098039,A.f)
-D.AW=new B.p(1,0.8823529411764706,0.7450980392156863,0.9058823529411765,A.f)
-D.B2=new B.p(1,1,0.8784313725490196,0.6980392156862745,A.f)
-D.av7=new B.p(1,0.9529411764705882,0.8980392156862745,0.9607843137254902,A.f)
-D.att=new B.p(1,0.807843137254902,0.5764705882352941,0.8470588235294118,A.f)
-D.aw4=new B.p(1,0.7294117647058823,0.40784313725490196,0.7843137254901961,A.f)
-D.aw1=new B.p(1,0.6705882352941176,0.2784313725490196,0.7372549019607844,A.f)
-D.avZ=new B.p(1,0.611764705882353,0.15294117647058825,0.6901960784313725,A.f)
-D.auZ=new B.p(1,0.5568627450980392,0.1411764705882353,0.6666666666666666,A.f)
-D.av8=new B.p(1,0.4823529411764706,0.12156862745098039,0.6352941176470588,A.f)
-D.awg=new B.p(1,0.41568627450980394,0.10588235294117647,0.6039215686274509,A.f)
-D.at1=new B.p(1,0.2901960784313726,0.0784313725490196,0.5490196078431373,A.f)
-D.aTw=new B.aV([50,D.av7,100,D.AW,200,D.att,300,D.aw4,400,D.aw1,500,D.avZ,600,D.auZ,700,D.av8,800,D.awg,900,D.at1],y.m)
-D.aTW=new B.lj(D.aTw,1,0.611764705882353,0.15294117647058825,0.6901960784313725,A.f)
-D.aqA=new B.p(1,0.9882352941176471,0.8941176470588236,0.9254901960784314,A.f)
-D.awi=new B.p(1,0.9568627450980393,0.5607843137254902,0.6941176470588235,A.f)
-D.atI=new B.p(1,0.9411764705882353,0.3843137254901961,0.5725490196078431,A.f)
-D.avV=new B.p(1,0.9254901960784314,0.25098039215686274,0.47843137254901963,A.f)
-D.atQ=new B.p(1,0.9137254901960784,0.11764705882352941,0.38823529411764707,A.f)
-D.auI=new B.p(1,0.8470588235294118,0.10588235294117647,0.3764705882352941,A.f)
-D.au4=new B.p(1,0.7607843137254902,0.09411764705882353,0.3568627450980392,A.f)
-D.auJ=new B.p(1,0.6784313725490196,0.0784313725490196,0.3411764705882353,A.f)
-D.auO=new B.p(1,0.5333333333333333,0.054901960784313725,0.30980392156862746,A.f)
-D.aTs=new B.aV([50,D.aqA,100,D.As,200,D.awi,300,D.atI,400,D.avV,500,D.atQ,600,D.auI,700,D.au4,800,D.auJ,900,D.auO],y.m)
-D.aTY=new B.lj(D.aTs,1,0.9137254901960784,0.11764705882352941,0.38823529411764707,A.f)
-D.au6=new B.p(1,1,0.9529411764705882,0.8784313725490196,A.f)
-D.awI=new B.p(1,1,0.8,0.5019607843137255,A.f)
-D.aqM=new B.p(1,1,0.7176470588235294,0.30196078431372547,A.f)
-D.auL=new B.p(1,1,0.6549019607843137,0.14901960784313725,A.f)
-D.avu=new B.p(1,1,0.596078431372549,0,A.f)
-D.avR=new B.p(1,0.984313725490196,0.5490196078431373,0,A.f)
-D.auv=new B.p(1,0.9607843137254902,0.48627450980392156,0,A.f)
-D.avM=new B.p(1,0.9372549019607843,0.4235294117647059,0,A.f)
-D.atj=new B.p(1,0.9019607843137255,0.3176470588235294,0,A.f)
-D.aTr=new B.aV([50,D.au6,100,D.B2,200,D.awI,300,D.aqM,400,D.auL,500,D.avu,600,D.avR,700,D.auv,800,D.avM,900,D.atj],y.m)
-D.Od=new B.lj(D.aTr,1,1,0.596078431372549,0,A.f)
-D.lU=new B.G(!0,null,null,null,null,null,18,A.bw,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()};
-((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"kb9Mn/3PNeavIbwEevzqdgo0Goc=");
+// Generated by dart2js (NullSafetyMode.sound, csp, intern-composite-values), the Dart to JavaScript compiler version: 3.7.2.
+((s, d, e) => {
+  s[d] = s[d] || {};
+  s[d][e] = s[d][e] || [];
+  s[d][e].push({p: "main.dart.js_2", e: "beginPart"});
+})(self, "$__dart_deferred_initializers__", "eventLog");
+$__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersList, $) {
+  var J, B, A,
+  C = {
+    FutureExtensions_onError(_this, handleError, $T, $E) {
+      var t2, result, onError,
+        t1 = new C.FutureExtensions_onError_onError($E, null, handleError, $T);
+      if (_this instanceof B._Future) {
+        $T._eval$1("_Future<0>")._as(_this);
+        $T._eval$1("0/(Object,StackTrace)")._as(t1);
+        B.assertHelper($T._eval$1("_Future<0>")._is(_this));
+        t2 = $.Zone__current;
+        result = new B._Future(t2, $T._eval$1("_Future<0>"));
+        onError = t2 !== A.C__RootZone ? t2.registerBinaryCallback$3$1(t1, $T._eval$1("0/"), type$.Object, type$.StackTrace) : t1;
+        _this._addListener$1(new B._FutureListener(result, 2, null, onError, _this.$ti._eval$1("@<1>")._bind$1($T)._eval$1("_FutureListener<1,2>")));
+        return result;
+      }
+      return _this.then$1$2$onError(0, new C.FutureExtensions_onError_closure($T), t1, $T);
+    },
+    FutureExtensions_onError_onError: function FutureExtensions_onError_onError(t0, t1, t2, t3) {
+      var _ = this;
+      _.E = t0;
+      _.test = t1;
+      _.handleError = t2;
+      _.T = t3;
+    },
+    FutureExtensions_onError_closure: function FutureExtensions_onError_closure(t0) {
+      this.T = t0;
+    },
+    StyledWidget_withBackground(_this, preset) {
+      return C.StyledWidget_backgroundImage(_this, C.DecorationImage$(preset.alignment, A.BoxFit_2, new C.AssetImage(preset.imagePath), new C.StyledWidget_withBackground_closure(_this)));
+    },
+    StyledWidget_withBackground_closure: function StyledWidget_withBackground_closure(t0) {
+      this._this = t0;
+    },
+    BackgroundPreset: function BackgroundPreset(t0, t1) {
+      this.imagePath = t0;
+      this.alignment = t1;
+    },
+    DecorationImage$(alignment, fit, image, onError) {
+      return new C.DecorationImage(image, onError, fit, alignment);
+    },
+    DecorationImage: function DecorationImage(t0, t1, t2, t3) {
+      var _ = this;
+      _.image = t0;
+      _.onError = t1;
+      _.fit = t2;
+      _.alignment = t3;
+    },
+    _DecorationImagePainter: function _DecorationImagePainter(t0, t1) {
+      var _ = this;
+      _._details = t0;
+      _._decoration_image$_onChanged = t1;
+      _._decoration_image$_image = _._decoration_image$_imageStream = null;
+    },
+    AssetBundleImageKey: function AssetBundleImageKey(t0, t1, t2) {
+      this.bundle = t0;
+      this.name = t1;
+      this.scale = t2;
+    },
+    AssetBundleImageProvider: function AssetBundleImageProvider() {
+    },
+    AssetBundleImageProvider_loadImage_closure: function AssetBundleImageProvider_loadImage_closure(t0, t1, t2) {
+      this._box_0 = t0;
+      this.$this = t1;
+      this.key = t2;
+    },
+    AssetBundleImageProvider_loadImage__closure: function AssetBundleImageProvider_loadImage__closure(t0, t1) {
+      this.$this = t0;
+      this.key = t1;
+    },
+    AssetBundleImageProvider_loadBuffer_closure: function AssetBundleImageProvider_loadBuffer_closure(t0, t1, t2) {
+      this._box_0 = t0;
+      this.$this = t1;
+      this.key = t2;
+    },
+    AssetBundleImageProvider_loadBuffer__closure: function AssetBundleImageProvider_loadBuffer__closure(t0, t1) {
+      this.$this = t0;
+      this.key = t1;
+    },
+    AssetImage: function AssetImage(t0) {
+      this.assetName = t0;
+    },
+    AssetImage_obtainKey_closure: function AssetImage_obtainKey_closure(t0, t1, t2, t3) {
+      var _ = this;
+      _._box_0 = t0;
+      _.$this = t1;
+      _.configuration = t2;
+      _.chosenBundle = t3;
+    },
+    AssetImage_obtainKey_closure0: function AssetImage_obtainKey_closure0(t0) {
+      this._box_0 = t0;
+    },
+    AssetManifest_loadFromAssetBundle(bundle) {
+      return bundle.loadStructuredData$1$2("AssetManifest.bin.json", new C.AssetManifest_loadFromAssetBundle_closure(), type$.AssetManifest);
+    },
+    AssetManifest_loadFromAssetBundle_closure: function AssetManifest_loadFromAssetBundle_closure() {
+    },
+    _AssetManifestBin: function _AssetManifestBin(t0, t1) {
+      this._asset_manifest$_data = t0;
+      this._typeCastedData = t1;
+    },
+    _AssetManifestBin_getAssetVariants_closure: function _AssetManifestBin_getAssetVariants_closure(t0) {
+      this.key = t0;
+    },
+    AssetMetadata: function AssetMetadata(t0, t1) {
+      this.targetDevicePixelRatio = t0;
+      this.key = t1;
+    },
+    StyledWidget_backgroundImage(_this, image) {
+      var _null = null,
+        t1 = B.BoxDecoration$(_null, _null, _null, _null, _null, _null, image, A.BoxShape_0);
+      return new B.DecoratedBox(t1, A.DecorationPosition_0, _this, _null);
+    }
+  },
+  D;
+  J = holdersList[1];
+  B = holdersList[0];
+  A = holdersList[2];
+  C = hunkHelpers.updateHolder(holdersList[8], C);
+  D = holdersList[12];
+  C.BackgroundPreset.prototype = {};
+  C.DecorationImage.prototype = {
+    createPainter$1(onChanged) {
+      var t1 = new C._DecorationImagePainter(this, type$.void_Function._as(onChanged));
+      $.$get$FlutterMemoryAllocations_instance().dispatchObjectCreated$3$className$library$object(D.Type__DecorationImagePainter_BXe.toString$0(0), "package:flutter/painting.dart", t1);
+      return t1;
+    },
+    $eq(_, other) {
+      var t1, _this = this;
+      if (other == null)
+        return false;
+      if (_this === other)
+        return true;
+      if (J.get$runtimeType$(other) !== B.getRuntimeTypeOfDartObject(_this))
+        return false;
+      t1 = false;
+      if (type$.DecorationImage._is(other))
+        if (other.get$image(other).$eq(0, _this.image)) {
+          other.get$colorFilter();
+          if (other.get$fit() === _this.fit)
+            if (other.get$alignment().$eq(0, _this.alignment)) {
+              other.get$centerSlice();
+              if (other.get$repeat(other) === A.ImageRepeat_3) {
+                other.get$matchTextDirection();
+                if (other.get$scale(other) === 1)
+                  if (other.get$opacity(other) === 1) {
+                    t1 = other.get$filterQuality() === A.FilterQuality_2;
+                    if (t1) {
+                      other.get$invertColors();
+                      other.get$isAntiAlias();
+                    }
+                  }
+              }
+            }
+        }
+      return t1;
+    },
+    get$hashCode(_) {
+      return B.Object_hash(this.image, null, this.fit, this.alignment, null, A.ImageRepeat_3, false, 1, 1, A.FilterQuality_2, false, false, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue);
+    },
+    toString$0(_) {
+      var _this = this,
+        t1 = B._setArrayType([_this.image.toString$0(0)], type$.JSArray_String),
+        t2 = false;
+      t2 = _this.fit !== A.BoxFit_6;
+      if (t2)
+        t1.push(_this.fit.toString$0(0));
+      t1.push(_this.alignment.toString$0(0));
+      t1.push("scale " + A.JSInt_methods.toStringAsFixed$1(1, 1));
+      t1.push("opacity " + A.JSInt_methods.toStringAsFixed$1(1, 1));
+      t1.push(A.FilterQuality_2.toString$0(0));
+      return B.objectRuntimeType(_this, "DecorationImage") + "(" + A.JSArray_methods.join$1(t1, ", ") + ")";
+    },
+    get$image(receiver) {
+      return this.image;
+    },
+    get$colorFilter() {
+      return null;
+    },
+    get$fit() {
+      return this.fit;
+    },
+    get$alignment() {
+      return this.alignment;
+    },
+    get$centerSlice() {
+      return null;
+    },
+    get$repeat() {
+      return A.ImageRepeat_3;
+    },
+    get$matchTextDirection() {
+      return false;
+    },
+    get$scale() {
+      return 1;
+    },
+    get$opacity() {
+      return 1;
+    },
+    get$filterQuality() {
+      return A.FilterQuality_2;
+    },
+    get$invertColors() {
+      return false;
+    },
+    get$isAntiAlias() {
+      return false;
+    }
+  };
+  C._DecorationImagePainter.prototype = {
+    paint$6$blend$blendMode(canvas, rect, clipPath, configuration, blend, blendMode) {
+      var t3, t4, t5, listener, _this = this, _null = null,
+        t1 = _this._details,
+        newImageStream = t1.image.resolve$1(configuration),
+        t2 = newImageStream._image_stream$_completer;
+      if (t2 == null)
+        t2 = newImageStream;
+      t3 = _this._decoration_image$_imageStream;
+      t4 = t3 == null;
+      if (t4)
+        t5 = _null;
+      else {
+        t5 = t3._image_stream$_completer;
+        if (t5 == null)
+          t5 = t3;
+      }
+      if (t2 !== t5) {
+        listener = new B.ImageStreamListener(_this.get$_handleImage(), _null, t1.onError);
+        if (!t4)
+          t3.removeListener$1(0, listener);
+        _this._decoration_image$_imageStream = newImageStream;
+        newImageStream.addListener$1(0, listener);
+      }
+      if (_this._decoration_image$_image == null)
+        return;
+      t2 = clipPath != null;
+      if (t2) {
+        canvas.save$0(0);
+        canvas.clipPath$1(0, clipPath);
+      }
+      t3 = _this._decoration_image$_image;
+      t3 = t3.get$image(t3);
+      t4 = _this._decoration_image$_image.get$debugLabel();
+      t5 = _this._decoration_image$_image;
+      B.paintImage(t1.alignment, blendMode, canvas, _null, _null, t4, A.FilterQuality_2, t1.fit, false, t3, false, false, blend, rect, A.ImageRepeat_3, t5.get$scale(t5));
+      if (t2)
+        canvas.restore$0(0);
+    },
+    paint$4(canvas, rect, clipPath, configuration) {
+      return this.paint$6$blend$blendMode(canvas, rect, clipPath, configuration, 1, A.BlendMode_3);
+    },
+    _handleImage$2(value, synchronousCall) {
+      var t1, _this = this;
+      type$.ImageInfo._as(value);
+      B._asBool(synchronousCall);
+      if (J.$eq$(_this._decoration_image$_image, value))
+        return;
+      t1 = _this._decoration_image$_image;
+      if (t1 != null && t1.isCloneOf$1(value)) {
+        value.dispose$0();
+        return;
+      }
+      t1 = _this._decoration_image$_image;
+      if (t1 != null)
+        t1.dispose$0();
+      _this._decoration_image$_image = value;
+      if (!synchronousCall)
+        _this._decoration_image$_onChanged.call$0();
+    },
+    dispose$0() {
+      var t1, _this = this;
+      $.$get$FlutterMemoryAllocations_instance().dispatchObjectDisposed$1$object(_this);
+      t1 = _this._decoration_image$_imageStream;
+      if (t1 != null)
+        t1.removeListener$1(0, new B.ImageStreamListener(_this.get$_handleImage(), null, _this._details.onError));
+      t1 = _this._decoration_image$_image;
+      if (t1 != null)
+        t1.dispose$0();
+      _this._decoration_image$_image = null;
+    },
+    toString$0(_) {
+      var _this = this;
+      return B.objectRuntimeType(_this, "DecorationImagePainter") + "(stream: " + B.S(_this._decoration_image$_imageStream) + ", image: " + B.S(_this._decoration_image$_image) + ") for " + _this._details.toString$0(0);
+    },
+    $isDecorationImagePainter: 1
+  };
+  C.AssetBundleImageKey.prototype = {
+    $eq(_, other) {
+      var _this = this;
+      if (other == null)
+        return false;
+      if (J.get$runtimeType$(other) !== B.getRuntimeTypeOfDartObject(_this))
+        return false;
+      return other instanceof C.AssetBundleImageKey && other.bundle === _this.bundle && other.name === _this.name && other.scale === _this.scale;
+    },
+    get$hashCode(_) {
+      return B.Object_hash(this.bundle, this.name, this.scale, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue);
+    },
+    toString$0(_) {
+      var _this = this;
+      return B.objectRuntimeType(_this, "AssetBundleImageKey") + "(bundle: " + _this.bundle.toString$0(0) + ', name: "' + _this.name + '", scale: ' + B.S(_this.scale) + ")";
+    }
+  };
+  C.AssetBundleImageProvider.prototype = {
+    loadImage$2(key, decode) {
+      var t1 = {};
+      type$.AssetBundleImageKey._as(key);
+      type$.Future_Codec_Function_ImmutableBuffer_$named_getTargetSize_nullable_TargetImageSize_Function_int_int._as(decode);
+      t1.collector = null;
+      B.assertHelper(new C.AssetBundleImageProvider_loadImage_closure(t1, this, key).call$0());
+      return B.MultiFrameImageStreamCompleter$(null, this._image_provider$_loadAsync$2$decode(key, decode), key.name, t1.collector, key.scale);
+    },
+    loadBuffer$2(key, decode) {
+      var t1 = {};
+      type$.AssetBundleImageKey._as(key);
+      type$.Future_Codec_Function_ImmutableBuffer_$named_allowUpscaling_bool_and_cacheHeight_nullable_int_and_cacheWidth_nullable_int._as(decode);
+      t1.collector = null;
+      B.assertHelper(new C.AssetBundleImageProvider_loadBuffer_closure(t1, this, key).call$0());
+      return B.MultiFrameImageStreamCompleter$(null, this._image_provider$_loadAsync$2$decode(key, decode), key.name, t1.collector, key.scale);
+    },
+    _image_provider$_loadAsync$2$decode(key, decode) {
+      return this._loadAsync$body$AssetBundleImageProvider(key, type$.Future_Codec_Function_ImmutableBuffer._as(decode));
+    },
+    _loadAsync$body$AssetBundleImageProvider(key, decode) {
+      var $async$goto = 0,
+        $async$completer = B._makeAsyncAwaitCompleter(type$.Codec),
+        $async$returnValue, $async$handler = 2, $async$errorStack = [], exception, t1, buffer, $async$exception;
+      var $async$_image_provider$_loadAsync$2$decode = B._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1) {
+          $async$errorStack.push($async$result);
+          $async$goto = $async$handler;
+        }
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              buffer = null;
+              $async$handler = 4;
+              $async$goto = 7;
+              return B._asyncAwait(key.bundle.loadBuffer$1(key.name), $async$_image_provider$_loadAsync$2$decode);
+            case 7:
+              // returning from await.
+              buffer = $async$result;
+              $async$handler = 2;
+              // goto after finally
+              $async$goto = 6;
+              break;
+            case 4:
+              // catch
+              $async$handler = 3;
+              $async$exception = $async$errorStack.pop();
+              if (B.unwrapException($async$exception) instanceof B.FlutterError) {
+                t1 = B.BindingBase_checkInstance($.PaintingBinding__instance, type$.PaintingBinding).PaintingBinding___PaintingBinding__imageCache_A;
+                t1 === $ && B.throwLateFieldNI("_imageCache");
+                t1.evict$1(key);
+                throw $async$exception;
+              } else
+                throw $async$exception;
+              // goto after finally
+              $async$goto = 6;
+              break;
+            case 3:
+              // uncaught
+              // goto rethrow
+              $async$goto = 2;
+              break;
+            case 6:
+              // after finally
+              $async$returnValue = decode.call$1(buffer);
+              // goto return
+              $async$goto = 1;
+              break;
+            case 1:
+              // return
+              return B._asyncReturn($async$returnValue, $async$completer);
+            case 2:
+              // rethrow
+              return B._asyncRethrow($async$errorStack.at(-1), $async$completer);
+          }
+      });
+      return B._asyncStartSync($async$_image_provider$_loadAsync$2$decode, $async$completer);
+    }
+  };
+  C.AssetImage.prototype = {
+    get$keyName() {
+      return this.assetName;
+    },
+    obtainKey$1(configuration) {
+      var t2, t1 = {},
+        chosenBundle = configuration.bundle;
+      if (chosenBundle == null)
+        chosenBundle = $.$get$rootBundle();
+      t1.result = t1.completer = null;
+      t2 = type$.Null;
+      C.FutureExtensions_onError(C.AssetManifest_loadFromAssetBundle(chosenBundle).then$1$1(0, new C.AssetImage_obtainKey_closure(t1, this, configuration, chosenBundle), t2), new C.AssetImage_obtainKey_closure0(t1), t2, type$.Object);
+      t2 = t1.result;
+      if (t2 != null)
+        return t2;
+      t2 = new B._Future($.Zone__current, type$._Future_AssetBundleImageKey);
+      t1.completer = new B._AsyncCompleter(t2, type$._AsyncCompleter_AssetBundleImageKey);
+      return t2;
+    },
+    _chooseVariant$3(mainAssetKey, config, candidateVariants) {
+      var candidatesByDevicePixelRatio, t1, _i, candidate, t2;
+      type$.nullable_Iterable_AssetMetadata._as(candidateVariants);
+      if (candidateVariants == null || candidateVariants.length === 0 || config.devicePixelRatio == null)
+        return new C.AssetMetadata(null, mainAssetKey);
+      candidatesByDevicePixelRatio = B.SplayTreeMap$(null, type$.double, type$.AssetMetadata);
+      for (t1 = candidateVariants.length, _i = 0; _i < candidateVariants.length; candidateVariants.length === t1 || (0, B.throwConcurrentModificationError)(candidateVariants), ++_i) {
+        candidate = candidateVariants[_i];
+        t2 = candidate.targetDevicePixelRatio;
+        candidatesByDevicePixelRatio.$indexSet(0, t2 == null ? 1 : t2, candidate);
+      }
+      t1 = config.devicePixelRatio;
+      t1.toString;
+      return this._findBestVariant$2(candidatesByDevicePixelRatio, t1);
+    },
+    _findBestVariant$2(candidatesByDpr, value) {
+      var t1, lower, upper;
+      type$.SplayTreeMap_double_AssetMetadata._as(candidatesByDpr);
+      if (candidatesByDpr._untypedLookup$1(value) != null) {
+        t1 = candidatesByDpr.$index(0, value);
+        t1.toString;
+        return t1;
+      }
+      lower = candidatesByDpr.lastKeyBefore$1(value);
+      upper = candidatesByDpr.firstKeyAfter$1(value);
+      if (lower == null) {
+        t1 = candidatesByDpr.$index(0, upper);
+        t1.toString;
+        return t1;
+      }
+      if (upper == null) {
+        t1 = candidatesByDpr.$index(0, lower);
+        t1.toString;
+        return t1;
+      }
+      if (value < 2 || value > (lower + upper) / 2) {
+        t1 = candidatesByDpr.$index(0, upper);
+        t1.toString;
+        return t1;
+      } else {
+        t1 = candidatesByDpr.$index(0, lower);
+        t1.toString;
+        return t1;
+      }
+    },
+    $eq(_, other) {
+      var t1;
+      if (other == null)
+        return false;
+      if (J.get$runtimeType$(other) !== B.getRuntimeTypeOfDartObject(this))
+        return false;
+      if (other instanceof C.AssetImage)
+        t1 = other.get$keyName() === this.get$keyName();
+      else
+        t1 = false;
+      return t1;
+    },
+    get$hashCode(_) {
+      return B.Object_hash(this.get$keyName(), null, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue, A.C_SentinelValue);
+    },
+    toString$0(_) {
+      return B.objectRuntimeType(this, "AssetImage") + '(bundle: null, name: "' + this.get$keyName() + '")';
+    }
+  };
+  C._AssetManifestBin.prototype = {
+    getAssetVariants$1(key) {
+      var t2, t3, t4,
+        t1 = this._typeCastedData;
+      if (!t1.containsKey$1(0, key)) {
+        t2 = this._asset_manifest$_data;
+        t3 = J.getInterceptor$asx(t2);
+        if (t3.$index(t2, key) == null)
+          return null;
+        t4 = t3.$index(t2, key);
+        if (t4 == null)
+          t4 = [];
+        t4 = J.cast$1$0$ax(type$.Iterable_nullable_Object._as(t4), type$.Map_of_nullable_Object_and_nullable_Object);
+        t1.$indexSet(0, key, t4.map$1$1(t4, new C._AssetManifestBin_getAssetVariants_closure(key), type$.AssetMetadata).toList$0(0));
+        t3.remove$1(t2, key);
+      }
+      t1 = t1.$index(0, key);
+      t1.toString;
+      return t1;
+    },
+    $isAssetManifest: 1
+  };
+  C.AssetMetadata.prototype = {};
+  var typesOffset = hunkHelpers.updateTypes(["~(ImageInfo,bool)", "Null(AssetManifest)", "Future<_AssetManifestBin>(String)", "AssetMetadata(Map<Object?,Object?>)"]);
+  C.FutureExtensions_onError_onError.prototype = {
+    call$2(error, stackTrace) {
+      type$.Object._as(error);
+      type$.StackTrace._as(stackTrace);
+      if (!this.E._is(error))
+        throw B.wrapException(error);
+      return this.handleError.call$2(error, stackTrace);
+    },
+    $signature() {
+      return this.T._eval$1("0/(Object,StackTrace)");
+    }
+  };
+  C.FutureExtensions_onError_closure.prototype = {
+    call$1(value) {
+      return this.T._as(value);
+    },
+    $signature() {
+      return this.T._eval$1("0(0)");
+    }
+  };
+  C.StyledWidget_withBackground_closure.prototype = {
+    call$2(__wc0_formal, __wc1_formal) {
+      type$.Object._as(__wc0_formal);
+      type$.nullable_StackTrace._as(__wc1_formal);
+      return this._this;
+    },
+    $signature: 81
+  };
+  C.AssetBundleImageProvider_loadImage_closure.prototype = {
+    call$0() {
+      this._box_0.collector = new C.AssetBundleImageProvider_loadImage__closure(this.$this, this.key);
+      return true;
+    },
+    $signature: 1
+  };
+  C.AssetBundleImageProvider_loadImage__closure.prototype = {
+    call$0() {
+      var _null = null;
+      return B._setArrayType([B.DiagnosticsProperty$("Image provider", this.$this, true, A.C__NoDefaultValue, _null, false, _null, _null, A.DiagnosticLevel_3, _null, false, true, true, A.DiagnosticsTreeStyle_8, _null, type$.ImageProvider_Object), B.DiagnosticsProperty$("Image key", this.key, true, A.C__NoDefaultValue, _null, false, _null, _null, A.DiagnosticLevel_3, _null, false, true, true, A.DiagnosticsTreeStyle_8, _null, type$.AssetBundleImageKey)], type$.JSArray_DiagnosticsNode);
+    },
+    $signature: 9
+  };
+  C.AssetBundleImageProvider_loadBuffer_closure.prototype = {
+    call$0() {
+      this._box_0.collector = new C.AssetBundleImageProvider_loadBuffer__closure(this.$this, this.key);
+      return true;
+    },
+    $signature: 1
+  };
+  C.AssetBundleImageProvider_loadBuffer__closure.prototype = {
+    call$0() {
+      var _null = null;
+      return B._setArrayType([B.DiagnosticsProperty$("Image provider", this.$this, true, A.C__NoDefaultValue, _null, false, _null, _null, A.DiagnosticLevel_3, _null, false, true, true, A.DiagnosticsTreeStyle_8, _null, type$.ImageProvider_Object), B.DiagnosticsProperty$("Image key", this.key, true, A.C__NoDefaultValue, _null, false, _null, _null, A.DiagnosticLevel_3, _null, false, true, true, A.DiagnosticsTreeStyle_8, _null, type$.AssetBundleImageKey)], type$.JSArray_DiagnosticsNode);
+    },
+    $signature: 9
+  };
+  C.AssetImage_obtainKey_closure.prototype = {
+    call$1(manifest) {
+      var key, t2, _this = this,
+        t1 = _this.$this,
+        candidateVariants = type$.AssetManifest._as(manifest).getAssetVariants$1(t1.get$keyName()),
+        chosenVariant = t1._chooseVariant$3(t1.get$keyName(), _this.configuration, candidateVariants);
+      t1 = chosenVariant.targetDevicePixelRatio;
+      if (t1 == null)
+        t1 = 1;
+      key = new C.AssetBundleImageKey(_this.chosenBundle, chosenVariant.key, t1);
+      t1 = _this._box_0;
+      t2 = t1.completer;
+      if (t2 != null)
+        t2.complete$1(0, key);
+      else
+        t1.result = new B.SynchronousFuture(key, type$.SynchronousFuture_AssetBundleImageKey);
+    },
+    $signature: typesOffset + 1
+  };
+  C.AssetImage_obtainKey_closure0.prototype = {
+    call$2(error, stack) {
+      var t1 = this._box_0;
+      B.assertHelper(t1.completer != null);
+      B.assertHelper(t1.result == null);
+      t1.completer.completeError$2(error, stack);
+    },
+    $signature: 33
+  };
+  C.AssetManifest_loadFromAssetBundle_closure.prototype = {
+    call$1(jsonData) {
+      return this.$call$body$AssetManifest_loadFromAssetBundle_closure(B._asString(jsonData));
+    },
+    $call$body$AssetManifest_loadFromAssetBundle_closure(jsonData) {
+      var $async$goto = 0,
+        $async$completer = B._makeAsyncAwaitCompleter(type$._AssetManifestBin),
+        $async$returnValue;
+      var $async$call$1 = B._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return B._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$returnValue = new C._AssetManifestBin(type$.Map_of_nullable_Object_and_nullable_Object._as(A.C_StandardMessageCodec.decodeMessage$1(B.ByteData_ByteData$sublistView(A.C_Base64Decoder.convert$1(B._asString(A.C_JsonCodec.decode$1(0, jsonData)))))), B.LinkedHashMap_LinkedHashMap$_empty(type$.String, type$.List_AssetMetadata));
+              // goto return
+              $async$goto = 1;
+              break;
+            case 1:
+              // return
+              return B._asyncReturn($async$returnValue, $async$completer);
+          }
+      });
+      return B._asyncStartSync($async$call$1, $async$completer);
+    },
+    $signature: typesOffset + 2
+  };
+  C._AssetManifestBin_getAssetVariants_closure.prototype = {
+    call$1(data) {
+      var t1, t2, dpr;
+      type$.Map_of_nullable_Object_and_nullable_Object._as(data);
+      t1 = J.getInterceptor$asx(data);
+      t2 = t1.$index(data, "asset");
+      t2.toString;
+      B._asString(t2);
+      dpr = t1.$index(data, "dpr");
+      t1 = t1.$index(data, "asset");
+      t1.toString;
+      B._asString(t1);
+      return new C.AssetMetadata(B._asDoubleQ(dpr), t1);
+    },
+    $signature: typesOffset + 3
+  };
+  (function installTearOffs() {
+    var _instance_2_u = hunkHelpers._instance_2u;
+    _instance_2_u(C._DecorationImagePainter.prototype, "get$_handleImage", "_handleImage$2", 0);
+  })();
+  (function inheritance() {
+    var _inheritMany = hunkHelpers.inheritMany,
+      _inherit = hunkHelpers.inherit;
+    _inheritMany(B.Closure2Args, [C.FutureExtensions_onError_onError, C.StyledWidget_withBackground_closure, C.AssetImage_obtainKey_closure0]);
+    _inheritMany(B.Closure, [C.FutureExtensions_onError_closure, C.AssetImage_obtainKey_closure, C.AssetManifest_loadFromAssetBundle_closure, C._AssetManifestBin_getAssetVariants_closure]);
+    _inheritMany(B.Object, [C.BackgroundPreset, C.DecorationImage, C._DecorationImagePainter, C.AssetBundleImageKey, C._AssetManifestBin, C.AssetMetadata]);
+    _inherit(C.AssetBundleImageProvider, B.ImageProvider);
+    _inheritMany(B.Closure0Args, [C.AssetBundleImageProvider_loadImage_closure, C.AssetBundleImageProvider_loadImage__closure, C.AssetBundleImageProvider_loadBuffer_closure, C.AssetBundleImageProvider_loadBuffer__closure]);
+    _inherit(C.AssetImage, C.AssetBundleImageProvider);
+  })();
+  B._Universe_addRules(init.typeUniverse, JSON.parse('{"_DecorationImagePainter":{"DecorationImagePainter":[]},"AssetBundleImageProvider":{"ImageProvider":["AssetBundleImageKey"]},"AssetImage":{"ImageProvider":["AssetBundleImageKey"],"ImageProvider.T":"AssetBundleImageKey"},"_AssetManifestBin":{"AssetManifest":[]}}'));
+  var type$ = (function rtii() {
+    var findType = B.findType;
+    return {
+      AssetBundleImageKey: findType("AssetBundleImageKey"),
+      AssetManifest: findType("AssetManifest"),
+      AssetMetadata: findType("AssetMetadata"),
+      Codec: findType("Codec0"),
+      DecorationImage: findType("DecorationImage"),
+      Future_Codec_Function_ImmutableBuffer: findType("Future<Codec0>(ImmutableBuffer)"),
+      Future_Codec_Function_ImmutableBuffer_$named_allowUpscaling_bool_and_cacheHeight_nullable_int_and_cacheWidth_nullable_int: findType("Future<Codec0>(ImmutableBuffer{allowUpscaling:bool,cacheHeight:int?,cacheWidth:int?})"),
+      Future_Codec_Function_ImmutableBuffer_$named_getTargetSize_nullable_TargetImageSize_Function_int_int: findType("Future<Codec0>(ImmutableBuffer{getTargetSize:TargetImageSize(int,int)?})"),
+      GeneralConstantMap_int_Color: findType("GeneralConstantMap<int,Color>"),
+      ImageInfo: findType("ImageInfo"),
+      ImageProvider_Object: findType("ImageProvider<Object>"),
+      Iterable_nullable_Object: findType("Iterable<Object?>"),
+      JSArray_DiagnosticsNode: findType("JSArray<DiagnosticsNode>"),
+      JSArray_String: findType("JSArray<String>"),
+      List_AssetMetadata: findType("List<AssetMetadata>"),
+      Map_of_nullable_Object_and_nullable_Object: findType("Map<Object?,Object?>"),
+      Null: findType("Null"),
+      Object: findType("Object"),
+      PaintingBinding: findType("PaintingBinding"),
+      SplayTreeMap_double_AssetMetadata: findType("SplayTreeMap<double,AssetMetadata>"),
+      StackTrace: findType("StackTrace"),
+      String: findType("String"),
+      SynchronousFuture_AssetBundleImageKey: findType("SynchronousFuture<AssetBundleImageKey>"),
+      _AssetManifestBin: findType("_AssetManifestBin"),
+      _AsyncCompleter_AssetBundleImageKey: findType("_AsyncCompleter<AssetBundleImageKey>"),
+      _Future_AssetBundleImageKey: findType("_Future<AssetBundleImageKey>"),
+      double: findType("double"),
+      nullable_Iterable_AssetMetadata: findType("Iterable<AssetMetadata>?"),
+      nullable_StackTrace: findType("StackTrace?"),
+      void_Function: findType("~()")
+    };
+  })();
+  (function constants() {
+    D.Color_JtR = new B.Color(1, 1, 0.9529411764705882, 0.8784313725490196, A.ColorSpace_0);
+    D.Color_ijv = new B.Color(1, 1, 0.8784313725490196, 0.6980392156862745, A.ColorSpace_0);
+    D.Color_zvT = new B.Color(1, 1, 0.8, 0.5019607843137255, A.ColorSpace_0);
+    D.Color_2oW = new B.Color(1, 1, 0.7176470588235294, 0.30196078431372547, A.ColorSpace_0);
+    D.Color_TW8 = new B.Color(1, 1, 0.6549019607843137, 0.14901960784313725, A.ColorSpace_0);
+    D.Color_mYD = new B.Color(1, 0.984313725490196, 0.5490196078431373, 0, A.ColorSpace_0);
+    D.Color_PAy = new B.Color(1, 0.9607843137254902, 0.48627450980392156, 0, A.ColorSpace_0);
+    D.Color_lPm = new B.Color(1, 0.9372549019607843, 0.4235294117647059, 0, A.ColorSpace_0);
+    D.Color_8yz = new B.Color(1, 0.9019607843137255, 0.3176470588235294, 0, A.ColorSpace_0);
+    D.Map_tF6No = new B.GeneralConstantMap([50, D.Color_JtR, 100, D.Color_ijv, 200, D.Color_zvT, 300, D.Color_2oW, 400, D.Color_TW8, 500, A.Color_fiK, 600, D.Color_mYD, 700, D.Color_PAy, 800, D.Color_lPm, 900, D.Color_8yz], type$.GeneralConstantMap_int_Color);
+    D.Color_0W1 = new B.Color(1, 0.9882352941176471, 0.8941176470588236, 0.9254901960784314, A.ColorSpace_0);
+    D.Color_6r4 = new B.Color(1, 0.9725490196078431, 0.7333333333333333, 0.8156862745098039, A.ColorSpace_0);
+    D.Color_vT2 = new B.Color(1, 0.9568627450980393, 0.5607843137254902, 0.6941176470588235, A.ColorSpace_0);
+    D.Color_EID = new B.Color(1, 0.9411764705882353, 0.3843137254901961, 0.5725490196078431, A.ColorSpace_0);
+    D.Color_ocI = new B.Color(1, 0.9254901960784314, 0.25098039215686274, 0.47843137254901963, A.ColorSpace_0);
+    D.Color_Fl1 = new B.Color(1, 0.9137254901960784, 0.11764705882352941, 0.38823529411764707, A.ColorSpace_0);
+    D.Color_SDO = new B.Color(1, 0.8470588235294118, 0.10588235294117647, 0.3764705882352941, A.ColorSpace_0);
+    D.Color_JPX = new B.Color(1, 0.7607843137254902, 0.09411764705882353, 0.3568627450980392, A.ColorSpace_0);
+    D.Color_Sux = new B.Color(1, 0.6784313725490196, 0.0784313725490196, 0.3411764705882353, A.ColorSpace_0);
+    D.Color_U9E = new B.Color(1, 0.5333333333333333, 0.054901960784313725, 0.30980392156862746, A.ColorSpace_0);
+    D.Map_tFGRR = new B.GeneralConstantMap([50, D.Color_0W1, 100, D.Color_6r4, 200, D.Color_vT2, 300, D.Color_EID, 400, D.Color_ocI, 500, D.Color_Fl1, 600, D.Color_SDO, 700, D.Color_JPX, 800, D.Color_Sux, 900, D.Color_U9E], type$.GeneralConstantMap_int_Color);
+    D.Color_YKA = new B.Color(1, 0.9529411764705882, 0.8980392156862745, 0.9607843137254902, A.ColorSpace_0);
+    D.Color_ZWs = new B.Color(1, 0.8823529411764706, 0.7450980392156863, 0.9058823529411765, A.ColorSpace_0);
+    D.Color_AwY = new B.Color(1, 0.807843137254902, 0.5764705882352941, 0.8470588235294118, A.ColorSpace_0);
+    D.Color_rbO = new B.Color(1, 0.7294117647058823, 0.40784313725490196, 0.7843137254901961, A.ColorSpace_0);
+    D.Color_qmj = new B.Color(1, 0.6705882352941176, 0.2784313725490196, 0.7372549019607844, A.ColorSpace_0);
+    D.Color_pEN = new B.Color(1, 0.611764705882353, 0.15294117647058825, 0.6901960784313725, A.ColorSpace_0);
+    D.Color_WoT = new B.Color(1, 0.5568627450980392, 0.1411764705882353, 0.6666666666666666, A.ColorSpace_0);
+    D.Color_Ygu = new B.Color(1, 0.4823529411764706, 0.12156862745098039, 0.6352941176470588, A.ColorSpace_0);
+    D.Color_vQD = new B.Color(1, 0.41568627450980394, 0.10588235294117647, 0.6039215686274509, A.ColorSpace_0);
+    D.Color_5E9 = new B.Color(1, 0.2901960784313726, 0.0784313725490196, 0.5490196078431373, A.ColorSpace_0);
+    D.Map_tFZAB = new B.GeneralConstantMap([50, D.Color_YKA, 100, D.Color_ZWs, 200, D.Color_AwY, 300, D.Color_rbO, 400, D.Color_qmj, 500, D.Color_pEN, 600, D.Color_WoT, 700, D.Color_Ygu, 800, D.Color_vQD, 900, D.Color_5E9], type$.GeneralConstantMap_int_Color);
+    D.MaterialColor_I62 = new B.MaterialColor(D.Map_tFZAB, 1, 0.611764705882353, 0.15294117647058825, 0.6901960784313725, A.ColorSpace_0);
+    D.MaterialColor_Ugb = new B.MaterialColor(D.Map_tFGRR, 1, 0.9137254901960784, 0.11764705882352941, 0.38823529411764707, A.ColorSpace_0);
+    D.MaterialColor_VpP = new B.MaterialColor(D.Map_tF6No, 1, 1, 0.596078431372549, 0, A.ColorSpace_0);
+    D.TextStyle_kMo = new B.TextStyle(true, null, null, null, null, null, 18, A.FontWeight_6_700, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+    D.Type__DecorationImagePainter_BXe = B.typeLiteral("_DecorationImagePainter");
+  })();
+};
+;
+((d, h) => {
+  d[h] = d.current;
+  d.eventLog.push({p: "main.dart.js_2", e: "endPart", h: h});
+})($__dart_deferred_initializers__, "LWVEHhSVfdBQq1ZoyjC9u63EBeY=");
+;
