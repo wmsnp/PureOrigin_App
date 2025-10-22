@@ -16472,182 +16472,146 @@ $__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersLis
     loadMessagesFromStorage$1(context) {
       var $async$goto = 0,
         $async$completer = C._makeAsyncAwaitCompleter(type$.void),
-        $async$returnValue, $async$handler = 2, $async$errorStack = [], $async$self = this, sessionId, serverMessages, newMessages, index, rmsg, msg, id, e, t1, t2, t3, t4, t5, t6, t7, t8, t9, exception, $async$exception;
+        $async$returnValue, $async$self = this, t3, serverMessages, newMessages, t4, t5, index, t6, t7, t8, id, t9, msg, t1, sessionId, t2;
       var $async$loadMessagesFromStorage$1 = C._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
-        if ($async$errorCode === 1) {
-          $async$errorStack.push($async$result);
-          $async$goto = $async$handler;
-        }
+        if ($async$errorCode === 1)
+          return C._asyncRethrow($async$result, $async$completer);
         while (true)
           $async$outer:
             switch ($async$goto) {
               case 0:
                 // Function start
-                $async$handler = 4;
                 t1 = $async$self.cSM;
                 sessionId = t1.currentSessionId.get$value(0);
                 t2 = $async$self._get_chat_controller$_storage;
-                $async$goto = 8;
+                $async$goto = 4;
                 return C._asyncAwait(t2.loadAll$1(sessionId), $async$loadMessagesFromStorage$1);
-              case 8:
+              case 4:
                 // returning from await.
-                $async$goto = 7;
+                $async$goto = 3;
                 return C._asyncAwait($async$self.setMessages$1($async$result), $async$loadMessagesFromStorage$1);
-              case 7:
+              case 3:
                 // returning from await.
                 t3 = $async$self.uSM;
-                $async$goto = 9;
+                $async$goto = 5;
                 return C._asyncAwait(t1.sessionConversation$2(sessionId, t3.get$currentToken()), $async$loadMessagesFromStorage$1);
-              case 9:
+              case 5:
                 // returning from await.
                 serverMessages = $async$result;
-                $async$goto = 10;
+                $async$goto = 6;
                 return C._asyncAwait(t2.clear$1(0, sessionId), $async$loadMessagesFromStorage$1);
-              case 10:
+              case 6:
                 // returning from await.
-                $async$goto = J.get$isEmpty$asx(serverMessages) ? 11 : 12;
+                t1 = J.getInterceptor$asx(serverMessages);
+                $async$goto = t1.get$isEmpty(serverMessages) ? 7 : 8;
                 break;
-              case 11:
+              case 7:
                 // then
-                $async$goto = 13;
+                $async$goto = 9;
                 return C._asyncAwait($async$self.setMessages$1(C._setArrayType([], type$.JSArray_Message)), $async$loadMessagesFromStorage$1);
-              case 13:
+              case 9:
                 // returning from await.
-                t1 = $async$result;
-                $async$returnValue = t1;
+                $async$returnValue = $async$result;
                 // goto return
                 $async$goto = 1;
                 break;
-              case 12:
+              case 8:
                 // join
                 newMessages = C._setArrayType([], type$.JSArray_Message);
-                index = 0;
-                t1 = J.get$iterator$ax(serverMessages), t4 = type$.nullable_Map_String_dynamic, t5 = $async$self.__GetChatController_dio_F, t3 = t3.session;
-              case 15:
+                t1 = t1.get$iterator(serverMessages), t4 = type$.nullable_Map_String_dynamic, t5 = $async$self.__GetChatController_dio_F, t3 = t3.session, index = 0;
+              case 11:
                 // for condition
                 if (!t1.moveNext$0()) {
                   // goto after for
-                  $async$goto = 16;
+                  $async$goto = 12;
                   break;
                 }
-                rmsg = t1.get$current(t1);
-                if (rmsg.text.length === 0) {
+                t6 = t1.get$current(t1);
+                t7 = t6.text;
+                t8 = t7.length;
+                if (t8 === 0) {
                   // goto for condition
-                  $async$goto = 15;
+                  $async$goto = 11;
                   break;
                 }
-                msg = null;
-                id = rmsg.id + "_" + C.S(index);
-                t6 = index;
-                if (typeof t6 !== "number") {
-                  $async$returnValue = t6.$add();
-                  // goto return
-                  $async$goto = 1;
-                  break;
-                }
-                index = t6 + 1;
-                switch (rmsg.messageType) {
+                id = t6.id + "_" + index;
+                ++index;
+                switch (t6.messageType) {
                   case "text":
-                    t6 = rmsg.authorId;
-                    t7 = rmsg.createdAt;
-                    t8 = rmsg.text;
-                    if (0 >= t8.length) {
-                      $async$returnValue = C.ioore(t8, 0);
+                    t9 = t6.authorId;
+                    t6 = t6.createdAt;
+                    if (0 >= t8) {
+                      $async$returnValue = C.ioore(t7, 0);
                       // goto return
                       $async$goto = 1;
                       break $async$outer;
                     }
-                    t8 = t8[0];
-                    msg = new C.TextMessage(id, t6, null, t7, null, null, null, null, null, null, null, null, null, null, null, t8, null, "text");
+                    t7 = t7[0];
+                    msg = new C.TextMessage(id, t9, null, t6, null, null, null, null, null, null, null, null, null, null, null, t7, null, "text");
                     break;
                   case "image":
-                    t6 = rmsg.createdAt;
+                    t6 = t6.createdAt;
                     t5 === $ && C.throwLateFieldNI("dio");
-                    t7 = t5.DioMixin___DioMixin_options_A;
-                    t7 === $ && C.throwLateFieldNI("options");
-                    t7 = t7.OptionsMixin___OptionsMixin__baseUrl_A;
-                    t7 === $ && C.throwLateFieldNI("_baseUrl");
-                    t8 = $.RxInterface_proxy;
-                    if (t8 != null)
-                      t8.addListener$1(0, t3.NotifyManager_subject);
-                    t8 = t3.RxObjectMixin___RxObjectMixin__value_A;
-                    t8 === $ && C.throwLateFieldNI("_value");
-                    t8 = t8 == null ? null : t8.userId;
-                    if (t8 == null)
-                      t8 = "";
-                    t9 = rmsg.text;
-                    if (0 >= t9.length) {
-                      $async$returnValue = C.ioore(t9, 0);
+                    t8 = t5.DioMixin___DioMixin_options_A;
+                    t8 === $ && C.throwLateFieldNI("options");
+                    t8 = t8.OptionsMixin___OptionsMixin__baseUrl_A;
+                    t8 === $ && C.throwLateFieldNI("_baseUrl");
+                    t9 = $.RxInterface_proxy;
+                    if (t9 != null)
+                      t9.addListener$1(0, t3.NotifyManager_subject);
+                    t9 = t3.RxObjectMixin___RxObjectMixin__value_A;
+                    t9 === $ && C.throwLateFieldNI("_value");
+                    t9 = t9 == null ? null : t9.userId;
+                    if (t9 == null)
+                      t9 = "";
+                    if (0 >= t7.length) {
+                      $async$returnValue = C.ioore(t7, 0);
                       // goto return
                       $async$goto = 1;
                       break $async$outer;
                     }
-                    t9 = t9[0];
-                    msg = new C.ImageMessage(id, "user", null, t6, null, null, null, null, null, null, null, null, null, null, t7 + "/chat/resources/image?filename=user_" + t8 + "/" + t9, null, null, null, null, null, null, null, "image");
+                    t7 = t7[0];
+                    msg = new C.ImageMessage(id, "user", null, t6, null, null, null, null, null, null, null, null, null, null, t8 + "/chat/resources/image?filename=user_" + t9 + "/" + t7, null, null, null, null, null, null, null, "image");
                     break;
                   case "custom":
                   case "artifact":
                   case "func":
                   case "error":
-                    t6 = rmsg.authorId;
-                    t7 = rmsg.createdAt;
-                    t8 = rmsg.text;
-                    if (0 >= t8.length) {
-                      $async$returnValue = C.ioore(t8, 0);
+                    t9 = t6.authorId;
+                    t6 = t6.createdAt;
+                    if (0 >= t8) {
+                      $async$returnValue = C.ioore(t7, 0);
                       // goto return
                       $async$goto = 1;
                       break $async$outer;
                     }
-                    t8 = t4._as(D.C_JsonCodec.decode$1(0, t8[0]));
-                    msg = new C.CustomMessage(id, t6, null, t7, null, null, null, null, null, null, null, null, t8, null, "custom");
+                    t7 = t4._as(D.C_JsonCodec.decode$1(0, t7[0]));
+                    msg = new C.CustomMessage(id, t9, null, t6, null, null, null, null, null, null, null, null, t7, null, "custom");
                     break;
                   default:
                     // goto for condition
-                    $async$goto = 15;
+                    $async$goto = 11;
                     break $async$outer;
                 }
-                J.add$1$ax(newMessages, msg);
-                $async$goto = 17;
+                D.JSArray_methods.add$1(newMessages, msg);
+                $async$goto = 13;
                 return C._asyncAwait(t2.insert$2(0, sessionId, msg), $async$loadMessagesFromStorage$1);
-              case 17:
+              case 13:
                 // returning from await.
                 // goto for condition
-                $async$goto = 15;
+                $async$goto = 11;
                 break;
-              case 16:
+              case 12:
                 // after for
-              case 14:
+              case 10:
                 // break $label0$0
-                $async$goto = 18;
+                $async$goto = 14;
                 return C._asyncAwait($async$self.setMessages$1(newMessages), $async$loadMessagesFromStorage$1);
-              case 18:
+              case 14:
                 // returning from await.
-                $async$handler = 2;
-                // goto after finally
-                $async$goto = 6;
-                break;
-              case 4:
-                // catch
-                $async$handler = 3;
-                $async$exception = $async$errorStack.pop();
-                e = C.unwrapException($async$exception);
-                C.showError(e);
-                // goto after finally
-                $async$goto = 6;
-                break;
-              case 3:
-                // uncaught
-                // goto rethrow
-                $async$goto = 2;
-                break;
-              case 6:
-                // after finally
               case 1:
                 // return
                 return C._asyncReturn($async$returnValue, $async$completer);
-              case 2:
-                // rethrow
-                return C._asyncRethrow($async$errorStack.at(-1), $async$completer);
             }
       });
       return C._asyncStartSync($async$loadMessagesFromStorage$1, $async$completer);
@@ -16678,12 +16642,10 @@ $__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersLis
     _chat_page$_initAsync$0() {
       var $async$goto = 0,
         $async$completer = C._makeAsyncAwaitCompleter(type$.void),
-        $async$handler = 1, $async$errorStack = [], $async$self = this, userSessionController, chatSessionController, e, t1, t2, t3, t4, exception, t5, t6, t7, todaySessions, $async$exception;
+        $async$self = this, t1, t2, userSessionController, t3, chatSessionController, t4, t5, t6, t7, todaySessions;
       var $async$_chat_page$_initAsync$0 = C._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
-        if ($async$errorCode === 1) {
-          $async$errorStack.push($async$result);
-          $async$goto = $async$handler;
-        }
+        if ($async$errorCode === 1)
+          return C._asyncRethrow($async$result, $async$completer);
         while (true)
           switch ($async$goto) {
             case 0:
@@ -16698,34 +16660,10 @@ $__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersLis
               t3 = type$.HealthDataController;
               t4 = $.GetInstance__getInstance;
               $async$self.___ChatPageState__hDM_A = t3._as((t4 == null ? $.GetInstance__getInstance = D.C_GetInstance : t4).find$1$1$tag(0, null, t3));
-              $async$handler = 3;
-              $async$goto = 6;
+              $async$goto = 2;
               return C._asyncAwait(chatSessionController.init$1(userSessionController.get$currentToken()), $async$_chat_page$_initAsync$0);
-            case 6:
-              // returning from await.
-              $async$handler = 1;
-              // goto after finally
-              $async$goto = 5;
-              break;
-            case 3:
-              // catch
-              $async$handler = 2;
-              $async$exception = $async$errorStack.pop();
-              e = C.unwrapException($async$exception);
-              $.$get$Get();
-              t3 = $.$get$GetNavigation__getxController()._key;
-              if (C.BindingBase_checkInstance($.WidgetsBinding__instance, type$.WidgetsBinding).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, t3) != null)
-                C.showError(e);
-              // goto after finally
-              $async$goto = 5;
-              break;
             case 2:
-              // uncaught
-              // goto rethrow
-              $async$goto = 1;
-              break;
-            case 5:
-              // after finally
+              // returning from await.
               t3 = $.GetInstance__getInstance;
               t2 = (t3 == null ? $.GetInstance__getInstance = D.C_GetInstance : t3).find$1$1$tag(0, null, t2);
               t3 = $.GetInstance__getInstance;
@@ -16742,19 +16680,19 @@ $__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersLis
               $async$self.___ChatPageState__cC_A = new A.GetChatController(t2, t1, t3, t4, t5, new A.HiveMessageStorage(), t6, t7, null, null, C.LinkedHashMap_LinkedHashMap$_empty(type$.String, type$.StreamController_double));
               t1 = $.$get$GetNavigation__getxController()._key;
               t2 = type$.WidgetsBinding;
-              $async$goto = C.BindingBase_checkInstance($.WidgetsBinding__instance, t2).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, t1) != null ? 7 : 8;
+              $async$goto = C.BindingBase_checkInstance($.WidgetsBinding__instance, t2).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, t1) != null ? 3 : 4;
               break;
-            case 7:
+            case 3:
               // then
               t1 = $async$self.___ChatPageState__cC_A;
               t3 = $.$get$GetNavigation__getxController()._key;
               t3 = C.BindingBase_checkInstance($.WidgetsBinding__instance, t2).WidgetsBinding__buildOwner._globalKeyRegistry.$index(0, t3);
               t3.toString;
-              $async$goto = 9;
+              $async$goto = 5;
               return C._asyncAwait(t1.loadMessagesFromStorage$1(t3), $async$_chat_page$_initAsync$0);
-            case 9:
+            case 5:
               // returning from await.
-            case 8:
+            case 4:
               // join
               t1 = $async$self.___ChatPageState__cC_A.cSM._localStorage.getAllSessionsSync$0();
               t2 = C._arrayInstanceType(t1);
@@ -16765,9 +16703,6 @@ $__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersLis
               $async$self.setState$1(new A._ChatPageState__initAsync_closure0($async$self));
               // implicit return
               return C._asyncReturn(null, $async$completer);
-            case 1:
-              // rethrow
-              return C._asyncRethrow($async$errorStack.at(-1), $async$completer);
           }
       });
       return C._asyncStartSync($async$_chat_page$_initAsync$0, $async$completer);
@@ -65856,5 +65791,5 @@ $__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersLis
 ((d, h) => {
   d[h] = d.current;
   d.eventLog.push({p: "main.dart.js_5", e: "endPart", h: h});
-})($__dart_deferred_initializers__, "Vv+ja/VzN6Z5Q/Ig4euSpT3sdm0=");
+})($__dart_deferred_initializers__, "hL2W3ZRy4EV1Xiet814EnqjyvGA=");
 ;
